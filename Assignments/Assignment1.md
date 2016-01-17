@@ -84,7 +84,7 @@ After adding the import statement, you'll want to replace the contents of the on
 	return rootView;
 </pre>
 
-These two lines will get the TextView from the layout and assign it to the the variable txt (super original I know...) We then make use of that TextView object and make use of the setText function to put text into the TextView field. Make sure you put the String "CSCI567 Hello World" into your textView as I'll be looking for this for grading purposes.
+These lines will get the TextView from the layout and assign it to the the variable txt (super original I know...) We then make use of that TextView object and make use of the setText function to put text into the TextView field. Make sure you put the String "CSCI567 Hello World" into your textView as I'll be looking for this for grading purposes.
 
 That should do it. You should now have a functional app that displays "CSCI567 Hello World" when you open it. You can test that it works by using the Android Virtual Device Emulator. To do that you need to first create a virtual device for the project to be run on. Go to your Android Studio menus and likely under the Tools tab you'll see the following options:
 
