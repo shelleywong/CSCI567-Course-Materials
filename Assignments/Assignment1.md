@@ -58,6 +58,7 @@ Once we have that file open you'll want to give the TextView already there an id
 		android:text="@string/hello_world" />
 </pre>
 
+
 Now that we have done that we open the MainActivity.java file found in the java files folder as shown here:
 
 ![MainActivityFragment](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/mainactivityfragment.png "MainActivityFragment")
