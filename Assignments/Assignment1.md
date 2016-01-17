@@ -44,11 +44,9 @@ So the following is going to be a walk through for accomplishing the requirement
 
 ![Customize Activity](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/NewProjectCustomize.png "Custom Activity Screen")
 
-* Once that's finished you'll have a new project added to your workspace in Android Studio.
+* Once that's finished you'll have a new project added to your workspace in Android Studio. The next step is to update the layout file. For this assignment what we'll be doing is programmatically putting a string into a TextView container. So you need to open up the layout xml file. This will be in the file "fragment_main.xml" by default. The following shows where the file is in the project directory:
 
-The next step is to update the layout file. For this assignment what we'll be doing is programmatically putting a string into a TextView container. So you need to open up the layout xml file. This will be in the file "fragment_main.xml" by default. The following shows where the file is in the project directory:
-
-
+![fragment_main](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/fragmentmain.png "fragment_main")
 
 Once we have that file open you'll want to give the TextView already there an id so we can reference it. I'm going to use textView1 for the moment, but in your future apps you will likely want to give it a more descriptive id value:
 
@@ -61,24 +59,31 @@ Once we have that file open you'll want to give the TextView already there an id
 
 Now that we have done that we open the MainActivity.java file found in the java files folder as shown here:
 
-
+![MainActivityFragment](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/mainactivityfragment.png "MainActivityFragment")
 
 We now need to import the TextView class into the MainActivity.java file, so at the top of the program where the other imports are (you may have to click on the plus symbol on the left to expand the imports) you need to add the following import:
 
+<pre>
 	import android.widget.TextView;
+</pre>
 
+After adding the import statement, you'll want to replace the contents of the onCreateView method with the following code:
 
-After adding the import statement, you'll want to add the following lines of code to the OnCreateView method after the rootView variable is instantiated:
-
+<pre>
+	//Instantiate View object
+	View rootView =  inflater.inflate(R.layout.fragment_main, container, false);
 	//Initialize TextView Object to the textview we provided in our layout xml referencing the id we gave it
 	TextView txt = (TextView) rootView.findViewById(R.id.textView1);
-    //Replace the text in the textView with the following text.
-    txt.setText("CSCI567 Hello World");
-
+	//Replace the text in the textView with the following text.
+	txt.setText("CSCI567 Hello World");
+	//Return View described by fragment_main.xml file
+	return rootView;
+</pre>
 
 These two lines will get the TextView from the layout and assign it to the the variable txt (super original I know...) We then make use of that TextView object and make use of the setText function to put text into the TextView field. Make sure you put the String "CSCI567 Hello World" into your textView as I'll be looking for this for grading purposes.
 
 That should do it. You should now have a functional app that displays "CSCI567 Hello World" when you open it. You can test that it works by using the Android Virtual Device Emulator. To do that you need to first create a virtual device for the project to be run on. Go to your Android Studio menus and likely under the Tools tab you'll see the following options:
+
 
 
 
