@@ -34,7 +34,7 @@ So the following is going to be a walk through for accomplishing the requirement
 
 
 
-* You should name your project Hello World <Your Name>, as you can see in the dialogue above I've done the same for my name. This will make it easier for us to grade. Next you want to choose the target minimum SDK, you'll want to use the same as show; however, we'll discuss what this means more later in the semester. Also do not enable any of the platforms other than Phone & Tablet:
+* You should name your project Hello World \<Your Name\>, as you can see in the dialogue above I've done the same for my name. This will make it easier for us to grade. Next you want to choose the target minimum SDK, you'll want to use the same as show; however, we'll discuss what this means more later in the semester. Also do not enable any of the platforms other than Phone & Tablet:
 
 
 
