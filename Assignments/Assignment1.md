@@ -31,21 +31,20 @@ So the following is going to be a walk through for accomplishing the requirement
 
 ![New Project Screen 1](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/NewProject1.png "New Project Screen 1 for Android Studio")
 
+* You should name your project Hello World \<Your Name\>, as you can see in the dialogue above I've done the same for my name. This will make it easier for us to grade. Next you want to choose the target minimum SDK, you'll want to use the same as shown; however, we'll discuss what this means more later in the semester. Also do not enable any of the platforms other than Phone & Tablet:
+
+![New Project Screen 2](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/NewProject2.png "New Project Screen 2 for Android Studio")
 
 
+* Next you'll want to create a blank activity:
 
-* You should name your project Hello World \<Your Name\>, as you can see in the dialogue above I've done the same for my name. This will make it easier for us to grade. Next you want to choose the target minimum SDK, you'll want to use the same as show; however, we'll discuss what this means more later in the semester. Also do not enable any of the platforms other than Phone & Tablet:
+![Select Activity Type](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/NewProject3.png "New Project Screen 3 for Android Studio")
 
+* Next, customize your blank activity with the following:
 
+![Customize Activity](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/NewProjectCustomize.png "Custom Activity Screen")
 
-    Next you'll want to create a blank fragment activity, as we'll want to go ahead and get used to using fragments as this is how Android recommends we handle UI and gives us more power:
-
-
-
-    Now just choose the defaults for the rest.
-
-
-At this point you'll have a new project added to your workspace in Android Studio.
+* Once that's finished you'll have a new project added to your workspace in Android Studio.
 
 The next step is to update the layout file. For this assignment what we'll be doing is programmatically putting a string into a TextView container. So you need to open up the layout xml file. This will be in the file "fragment_main.xml" by default. The following shows where the file is in the project directory:
 
