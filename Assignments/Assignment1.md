@@ -50,13 +50,13 @@ Once that's finished you'll have a new project added to your workspace in Androi
 
 Once we have that file open you'll want to give the TextView already there an id so we can reference it. I'm going to use textView1 for the moment, but in your future apps you will likely want to give it a more descriptive id value:
 
-<pre>
+
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:id="@+id/textView1"
 		android:text="@string/hello_world" />
-</pre>
+
 
 
 Now that we have done that we open the MainActivity.java file found in the java files folder as shown here:
