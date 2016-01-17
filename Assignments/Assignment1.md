@@ -25,7 +25,7 @@ To get the build environment on your computer you should go to the Android SDK D
 
 So the following is going to be a walk through for accomplishing the requirements for this assignment's app. This is the only assignment where I'll be giving details beyond the requirements that I have for your app to accomplish. The benefit of this app is it'll hopefully give you the confidence and information to know how to get started on any future app you build for this class or in the future.
 
-<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/StartScreen.png" alt="Start Screen for Android Studio" width="100")/>
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/StartScreen.png" alt="Start Screen for Android Studio" width="250")/>
 
 * First step is to create a new project, which will open up this dialogue:
 
