@@ -87,7 +87,7 @@ These two lines will get the TextView from the layout and assign it to the the v
 
 That should do it. You should now have a functional app that displays "CSCI567 Hello World" when you open it. You can test that it works by using the Android Virtual Device Emulator. To do that you need to first create a virtual device for the project to be run on. Go to your Android Studio menus and likely under the Tools tab you'll see the following options:
 
-<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/SelectAVDmanager.png" alt="SelectAVDmanager" width="250")/>
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/SelectAVDmanager.png" alt="SelectAVDmanager" width="300")/>
 
 
 This'll launch the Android Virtual Device Manager. You'll want to select the option to create a new device, if you don't already have one. This'll launch the dialogue to create a new Android Virtual Device (AVD). In the select hardware dialogue select the Nexus 6P as this is the current generation Nexus device and would be the ideal phone to target:
@@ -102,23 +102,23 @@ As you get to later assignments or your project you may want to insure your app 
 
 Now the final step is you need to export an APK to submit for grading. To start go to the menu bar under Build to find the generate signed APK option:
 
-![Select APK Export](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_menugenerate.png "Generate Signed APK")
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_menugenerate.png" alt="Generate Signed APK" width="400")/>
 
 You won't want to change anything on the first page of this dialogue so just click Next. On the next page you'll get the keystore creation/selection page. As you likely don't have an existing keystore you'll need to create one.
 
-![Blank APK Wizard](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_blankAPKwizard.png "Blank APK Wizard")
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_blankAPKwizard.png" alt="Blank APK Wizard" width="400")/>
 
 So click the "Create New..." option. This'll launch a dialogue to create a new keystore:
 
-![Create Keystore](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_newkeystore.png "Create Keystore")
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_newkeystore.png" alt="Create Keystore" width="400")/>
 
 Make sure you choose a location you can remember and don't lose your keystore as this is how you sign your application package. It's also how the phone identifies an app of the same name as the same app to replace. If you change keystores it'll be like its a new app. You can name your keystore whatever you want. Also, choose a good password for your keystore and you should use the same organizational details except replacing my name with yours. Now that you have a keystore and key certificate when we return to the "Generate Signed APK Wizard" it'll have the details filled in for us. You should only need to remember your password to use this keystore/key going forward:
 
-![Generate Signed APK Wizard](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_keystoreAPKwizard.png "Generate Signed APK")
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_keystoreAPKwizard.png" alt="Generate Signed APK" width="400")/>
 
 The next page will ask where you want to save your resultant APK file.
 
-![APK Export](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_apkexport.png "Export Signed APK")
+<img src="https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/as_apkexport.png" alt="Export Signed APK" width="400")/>
 
 This is the file we will be using for grading. This is also a signed Android package, which can be installed on a phone if you allow "Unknown Sources" to be installed on your phone. This signed package is also what you push onto the Android App stores like Google Play or Amazon's Appstore.
 
@@ -135,4 +135,4 @@ When you have your APK move it to a "Submissions" folder in the root directory o
     ......(Rest of Hello World App Files)
 </pre>
 
-You should also name all your submissions as shown, replacing \<your name\> with your actual name. 
+You should also name all your submissions as shown, replacing \<your name\> with your actual name.
