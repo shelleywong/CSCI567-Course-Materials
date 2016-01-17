@@ -59,11 +59,11 @@ Once we have that file open you'll want to give the TextView already there an id
 
 
 
-Now that we have done that we open the MainActivity.java file found in the java files folder as shown here:
+Now that we have done that we open the MainActivityFragment.java file found in the java files folder as shown here:
 
 ![MainActivityFragment](https://raw.githubusercontent.com/CSUChico-CSCI567/CSCI567-Course-Materials/master/Assignments/Images/mainactivityfragment.png "MainActivityFragment")
 
-We now need to import the TextView class into the MainActivity.java file, so at the top of the program where the other imports are (you may have to click on the plus symbol on the left to expand the imports) you need to add the following import:
+We now need to import the TextView class into the MainActivityFragment.java file, so at the top of the program where the other imports are (you may have to click on the plus symbol on the left to expand the imports) you need to add the following import:
 
 <pre>
 	import android.widget.TextView;
