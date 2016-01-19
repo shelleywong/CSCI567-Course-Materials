@@ -1,13 +1,18 @@
-#Assignment 4 - Simple Event Receiver
+#Assignment 5 - Simple DB App
 
 ##In this assignment your app needs to do the following:
 
-* Receive an event, which can be easily caused during grading.
-* Throw a notification on the Event
-* Indicate in the app activity/UI what Event your app throws a notification on
+* Have a simple UI
+	* TextView
+    * EditText
+    * Button to Get Text
+    * Button to Add Text
+* Put text into DB
+	* Need to insure duplicate text won't be added
+* Read contents of a DB
 
 
-As long as your app does those tasks you will get credit for this assignment.
+Your UI should allow us via the EditText to add new text to the database, but prevent duplicate entries in the database. And then with the "Get Text" button read out the text from the database into the textview.
 
 ##Getting Graded
 
@@ -16,10 +21,10 @@ When you have your APK move it to a "Submissions" folder in the root directory o
 <pre>
     /
     ...Submissions/
-    ......eventreceiver_<your name>.apk
-    ...EventReceiver/
+    ......simpledb_<your name>.apk
+    ...SimpleDB/
     ......app/
-    ......(Rest of EventReceiver App Files)
+    ......(Rest of SimpleDB App Files)
 </pre>
 
-You should also name your project Event Receiver \<Your Name\>, replacing \<Your Name\> with your actual name.
+ You should also name your project Simple DB \<Your Name\>, replacing \<Your Name\> with your actual name.
