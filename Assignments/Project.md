@@ -3,13 +3,12 @@
 ##Details for this project:
 
 * [Project Overview](#overview)
-* Project Options
-* Project Proposal
-* Project Submission
-* Project Presentation
-* Project Grading
-* Project Feedback
-
+* [Project Options](#options)
+* [Project Proposal](#proposal)
+* [Project Submission](#submission)
+* [Project Presentation](#presentation)
+* [Project Grading](#grading)
+* [Project Feedback](#feedback)
 
 This project will occupy most of your time this semester. The early assignments and lectures will hopefully give you the rudimentary tools you need to get started creating an Android Application for this project.
 
@@ -19,26 +18,23 @@ The primary purpose of this project is to give you the opportunity to create a w
 
 Also, if you need web and/or database backends for your project I have Amazon AWS credits for every student that can go towards hosting on Amazon's AWS services. Once I've approved your project I'll include the codes for the students on each team in my email to the group with the codes.
 
-Project Options
+##<a name="options">Project Options</a>
 
 For this project there are three different options of projects you can pursue. If you have general questions about any of these project options please ask on the Piazza Q&A Discussion Board.
 
-    New Project
+* New Project
+	* This option you will create and work on a project you/your group come up with. With this you'll want to make sure you both are doing enough for it to be a good project, but at the same time make sure you don't try to do too much. This is where the project proposal will be extremely important and helpful. If you chose this option you should try to get me your project proposal before its due so I can work with you to insure the project has a good scope of work.
 
-    This option you will create and work on a project you/your group come up with. With this you'll want to make sure you both are doing enough for it to be a good project, but at the same time make sure you don't try to do too much. This is where the project proposal will be extremely important and helpful. If you chose this option you should try to get me your project proposal before its due so I can work with you to insure the project has a good scope of work.
+* Open Source Project
+	* This option would require you to find an existing open source project that your group will contribute to. Your project proposal will need to make sure that it indicates what contributions you will be making. For this project you'll also want to clone the open source project into a private repo for your group to use for the project and if you chose to push your revisions up after the semester you can. I would recommend selecting and working out your contributions early for this one too so I can make sure your deliverables would actually be a significant contribution to the open source project. You would need to contribute significantly to the open source project to be successful on this kind of project.
 
-    Open Source Project
-
-    This option would require you to find an existing open source project that your group will contribute to. Your project proposal will need to make sure that it indicates what contributions you will be making. For this project you'll also want to clone the open source project into a private repo for your group to use for the project and if you chose to push your revisions up after the semester you can. I would recommend selecting and working out your contributions early for this one too so I can make sure your deliverables would actually be a significant contribution to the open source project. You would need to contribute significantly to the open source project to be successful on this kind of project.
-
-    My Project Ideas (2 groups)
-
-    I have two projects in mind, one is a new project and the other is a significant contribution to a project I use for my research. If you are interested in either of these your group should come see me in office hours or schedule a time to meet outside of class.
+* My Project Ideas (2 groups)
+	* I have two projects in mind, one is a new project and the other is a significant contribution to a project I use for my research. If you are interested in either of these your group should come see me in office hours or schedule a time to meet outside of class.
 
 
 Once you've decided on which kind of project you will be doing you should begin brainstorming what you expect to get done this semester and then move onto putting together the project proposal.
 
-Project Proposal
+##<a name="proposal">Project Proposal</a>
 
 Your project proposal is both what your project is, but also what you expect to have done at the end of the semester to turn in. As such your proposal should have the following sections:
 
