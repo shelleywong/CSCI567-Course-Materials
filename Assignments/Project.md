@@ -3,12 +3,12 @@
 ##Details for this project:
 
 * [Project Overview](#overview)
-    Project Options
-    Project Proposal
-    Project Submission
-    Project Presentation
-    Project Grading
-    Project Feedback
+* Project Options
+* Project Proposal
+* Project Submission
+* Project Presentation
+* Project Grading
+* Project Feedback
 
 
 This project will occupy most of your time this semester. The early assignments and lectures will hopefully give you the rudimentary tools you need to get started creating an Android Application for this project.
