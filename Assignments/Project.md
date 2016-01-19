@@ -79,15 +79,26 @@ The project presentations will be 10 minute presentations by each group where yo
 
 Your grading for the Project will break down into the following components:
 
-* Project Proposal - This will be worth about 10% of the overall project grade. The grades for this component will be determined both by how clear the details in the proposal are presented and the amount of thought/detail included (deliverables, group organization, etc). I'm really looking for the fact you have thought through your project and have clearly organized/indicated that you've thought out the details.
+* Project Proposal
+	- This will be worth about 10% of the overall project grade. The grades for this component will be determined both by how clear the details in the proposal are presented and the amount of thought/detail included (deliverables, group organization, etc). I'm really looking for the fact you have thought through your project and have clearly organized/indicated that you've thought out the details.
 
-* Project Presentation - This will be worth about 10% of the overall project grade. Your grade on this will be determined by if you give the presentation, and if the presentation gives a clear understanding of what your project is, how it works, and technical hurdles you tackled to get it working.
+* Project Presentation
+	- This will be worth about 10% of the overall project grade. Your grade on this will be determined by if you give the presentation, and if the presentation gives a clear understanding of what your project is, how it works, and technical hurdles you tackled to get it working.
 
-* Group Evals - This will be worth about 10% of the overall project grade. Basically will ask for your group members to evaluate how well the group worked together and how much you felt your teammates contributed.
+* Group Evals
+	- This will be worth about 10% of the overall project grade. Basically will ask for your group members to evaluate how well the group worked together and how much you felt your teammates contributed.
 
-* Project Midpoint Eval - This will be worth about 20% of the overall project grade. This portion of the grade will come midway through the time allocated for you to work on your project. This is used to check in on how much progress your group has been making.
+* Project Midpoint Eval
+	- This will be worth about 20% of the overall project grade. This portion of the grade will come midway through the time allocated for you to work on your project. This is used to check in on how much progress your group has been making.
 
-* Final Project - This will be worth about 50% of the overall project grade. This portion of the grade will come from if you met your expected deliverables or potentially some hopeful deliverables if I felt you needed more than your expected deliverables from your proposal. This is one reason to make sure your proposal is very clear in what your deliverables are and that you respond to feedback on your proposal with either an updated deliverable list or expect to do more than your expected deliverables if I indicate your expected deliverables aren't enough for the project. Warning: I won't be able to give full credit for your app even if it is amazing if it force closes during execution
+* Final Project
+	* This will be worth about 50% of the overall project grade.
+	* Your grade for this comes from the following:
+		* Meeting delieverables: This is why making sure you have a good grasp on what your project is and what you expect to be able to turn in at the end of the semester is important. Also, why your delieverables should be very detailed. I also weight the difficulty of your deliverables, based on your survey at the end of the semester, my experience with aspects of your app, and the difficulty of your app overall. I try to insure you expand your deliverables during the proposal stage; however, I have had students turn in such rudimentary projects at the end that I had to lower the weight of their end product.  
+		* Quality of App: I will use your app to test the delieverables. The ease of use of your app as well as how it looks will play into this aspect of your grade. I'll mention it in lecture, but this is one reason you should make sure to spend some significant time planning your UIs for the proposal as it'll make this aspect of your app better. Additionally, you need to focus on materials design and themes as done in modern Android development to insure your UI is usable.
+		* Crashes: I won't be able to give full credit for your app even if it is amazing if it force closes during execution.
+		* Fails to work for Android 5.0+: I'll be testing your apps likely on Google Nexus devices; however, might get an older phone running Lollipop out to insure it works for Android 5 & 6. But students code that fails to install or work correctly on Android 5/6 will lose points here. This will be especially problematic if you don't handle permissions correctly with the new Android 6.0 Marshmallow approach to permissions. 
+
 
 
 ##<a name="feedback">Project and Group Feedback</a>
