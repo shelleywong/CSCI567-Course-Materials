@@ -1,6 +1,6 @@
-#Assignment 3 - Persistent Data on Phone
+# Assignment 3 - Persistent Data on Phone
 
-##In this assignment your app needs to do the following:
+## In this assignment your app needs to do the following:
 
 * Have a Form
 * Store a Persistent state in the SQLite DB on the phone
