@@ -1,6 +1,6 @@
-#Assignment 5 - Camera or Location
+# Assignment 5 - Camera or Location
 
-##In this assignment your app needs to do the following:
+## In this assignment your app needs to do the following:
 
 * Have a simple UI
 * Do one of the following:
