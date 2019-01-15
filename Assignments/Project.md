@@ -59,7 +59,7 @@ Your project proposal is both what your project is, but also what you expect to 
 
 * Project Organization
   * This section breaks down how you expect to organize and manage the development of the project among your team. Be it component assignments, general plan, etc. This would be good to figure out so that everyone knows what their job will be while working on the project.
-  * I highly recommend
+  * I highly recommend thinking through the responsibilities for each team member at this stage. Depending on your project and if you have a team of 3, it would also potentially be worthwhile to have someone focus on test completeness/soundness for all the functionality of your app, which would make the usefulness of tying your project into a CI/CD framework we'll discuss in class more beneficial. 
 
 
 You will need to write this and submit it as a **PDF** document to me via email with the title *CSCI567 Project Proposal* with all of your team members CC'd. If you want faster feedback you can email your project proposal to me, before the submission deadline. Submitting it significantly before the deadline, will allow me to give you feedback without any grade penalty.
