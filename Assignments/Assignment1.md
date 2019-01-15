@@ -37,7 +37,7 @@ Select that you want to create a Flutter Application, and then fill in the confi
 
 ![flutter config](https://github.com/CSUChico-CSCI567/CSCI567-Course-Materials/raw/master/Assignments/Images/new_flutter_config.png)
 
-From here edit your main.dart to have a TextWidget that says "CSCI567 Hello World". The following would work; however, for the *home* component of *MaterialApp* I would highly recommend you wrap the TextWidget in a *Scaffold/Column* so that the TextWidget is centered and easier to see with your required text.
+From here edit your main.dart to have a TextWidget that says "CSCI567 Hello World". The following would work; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the TextWidget in a *Scaffold/Column* so that the TextWidget is centered and easier to see with your required text.
 
 ```Dart
 import 'package:flutter/material.dart';
