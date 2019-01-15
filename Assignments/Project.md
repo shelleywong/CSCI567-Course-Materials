@@ -1,6 +1,6 @@
-#Final Project - Overview
+# Final Project - Overview
 
-##Details for this project:
+## Details for this project:
 
 * [Project Overview](#overview)
 * [Project Options](#options)
@@ -12,13 +12,13 @@
 
 This project will occupy most of your time this semester. The early assignments and lectures will hopefully give you the rudimentary tools you need to get started creating an Android Application for this project.
 
-##<a name="overview">Project Overview</a>
+## <a name="overview">Project Overview</a>
 
 The primary purpose of this project is to give you the opportunity to create a working Android Application. Additionally, give you a reason to make use of some of the software development tools discussed in this course (GIT, Issue Tracking, etc). There are a few different classifications of projects, which will be discussed in a later section, that hopefully will allow you all the flexibility to pursue something you or a member of your group have an interest in be it a new app idea or contributing to an open source project. I am hopeful that you all will find this project fun and exciting and can't wait to see what results from this semester.
 
 Also, if you need web and/or database backends for your project I have Amazon AWS credits for every student that can go towards hosting on Amazon's AWS services. Once I've approved your project I'll include the codes for the students on each team in my email to the group with the codes.
 
-##<a name="options">Project Options</a>
+## <a name="options">Project Options</a>
 
 For this project there are three different options of projects you can pursue. If you have general questions about any of these project options please ask on the Piazza Q&A Discussion Board.
 
@@ -34,7 +34,7 @@ For this project there are three different options of projects you can pursue. I
 
 Once you've decided on which kind of project you will be doing you should begin brainstorming what you expect to get done this semester and then move onto putting together the project proposal.
 
-##<a name="proposal">Project Proposal</a>
+## <a name="proposal">Project Proposal</a>
 
 Your project proposal is both what your project is, but also what you expect to have done at the end of the semester to turn in. As such your proposal should have the following sections:
 
@@ -59,13 +59,13 @@ Your project proposal is both what your project is, but also what you expect to 
 
 You will need to write this as either a Word or LaTeX (compiled pdf is fine) document and compress it into a tar.gz archive. You'll submit this archive to [Tyson's Turnin System](https://turnin.ecst.csuchico.edu/). If you want faster feedback you can email your project proposal to me, you should make sure in your email you have the subject "CSCI567: Project Proposal" and include the proposal as an attachment. All members of the group need to submit the proposal to turnin regardless.
 
-##<a name="submission">Project Submission</a>
+## <a name="submission">Project Submission</a>
 
 I will create a private repo on GitHub for your group named whatever you title your project that all of you will have access to. You should use this repo for development of your project, and its where your project submission will be taken from on the due date. Make sure for the final submission you put the compiled apk file into the root path of your git repo so I can easily install and test your project.
 
 Failure to use the repo for code collaboration will not result in any direct grading impact; however, if there is a group work dispute I will use the commits to gain insight into who contributed what.
 
-##<a name="presentation">Project Presentation</a>
+## <a name="presentation">Project Presentation</a>
 
 The project presentations will be 10 minute presentations by each group where you will discuss the following:
 
@@ -75,7 +75,7 @@ The project presentations will be 10 minute presentations by each group where yo
 * What you found cool/exciting about your project
 
 
-##<a name="grading">Project Grading</a>
+## <a name="grading">Project Grading</a>
 
 Your grading for the Project will break down into the following components:
 
@@ -97,10 +97,10 @@ Your grading for the Project will break down into the following components:
 		* Meeting delieverables: This is why making sure you have a good grasp on what your project is and what you expect to be able to turn in at the end of the semester is important. Also, why your delieverables should be very detailed. I also weight the difficulty of your deliverables, based on your survey at the end of the semester, my experience with aspects of your app, and the difficulty of your app overall. I try to insure you expand your deliverables during the proposal stage; however, I have had students turn in such rudimentary projects at the end that I had to lower the weight of their end product.  
 		* Quality of App: I will use your app to test the delieverables. The ease of use of your app as well as how it looks will play into this aspect of your grade. I'll mention it in lecture, but this is one reason you should make sure to spend some significant time planning your UIs for the proposal as it'll make this aspect of your app better. Additionally, you need to focus on materials design and themes as done in modern Android development to insure your UI is usable.
 		* Crashes: I won't be able to give full credit for your app even if it is amazing if it force closes during execution.
-		* Fails to work for Android 5.0+: I'll be testing your apps likely on Google Nexus devices; however, might get an older phone running Lollipop out to insure it works for Android 5 & 6. But students code that fails to install or work correctly on Android 5/6 will lose points here. This will be especially problematic if you don't handle permissions correctly with the new Android 6.0 Marshmallow approach to permissions. 
+		* Fails to work for Android 5.0+: I'll be testing your apps likely on Google Nexus devices; however, might get an older phone running Lollipop out to insure it works for Android 5 & 6. But students code that fails to install or work correctly on Android 5/6 will lose points here. This will be especially problematic if you don't handle permissions correctly with the new Android 6.0 Marshmallow approach to permissions.
 
 
 
-##<a name="feedback">Project and Group Feedback</a>
+## <a name="feedback">Project and Group Feedback</a>
 
 At the end of the semester you will be given a Google form link that you'll be required to evaluate your group members and give feedback on your experience in the course and with the project. This includes expanding on why some delieverables didn't get completed and what was learned in trying to get them to work. Failure to do this survey will result in the loss of the group evaluation credit and potentially loss of the final project grade.  
