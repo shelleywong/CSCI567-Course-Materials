@@ -62,7 +62,7 @@ Your project proposal is both what your project is, but also what you expect to 
   * I highly recommend
 
 
-You will need to write this and submit it as a **PDF** document to me via email with the title *CSCI567 Project Proposal** with all of your team members CC'd. If you want faster feedback you can email your project proposal to me, before the submission deadline. Submitting it significantly before the deadline, will allow me to give you feedback without any grade penalty.
+You will need to write this and submit it as a **PDF** document to me via email with the title *CSCI567 Project Proposal* with all of your team members CC'd. If you want faster feedback you can email your project proposal to me, before the submission deadline. Submitting it significantly before the deadline, will allow me to give you feedback without any grade penalty.
 
 ## <a name="submission">Project Submission</a>
 
@@ -95,7 +95,7 @@ Your grading for the Project will break down into the following components:
 
 * Project Midpoint Eval
   - This will be worth about 20% of the overall project grade. This portion of the grade will come midway through the time allocated for you to work on your project. This is used to check in on how much progress your group has been making.
-  - We will accomplish this either via class lab time, where I will check in with each group during a class period or each group will demo where their project is partway through the semester. 
+  - We will accomplish this either via class lab time, where I will check in with each group during a class period or each group will demo where their project is partway through the semester.
 
 * Final Project
   * This will be worth about 50% of the overall project grade.
