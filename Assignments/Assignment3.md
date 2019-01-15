@@ -1,26 +1,38 @@
-#Assignment 3 - Materials Design
+#Assignment 3 - Persistent Data on Phone
 
 ##In this assignment your app needs to do the following:
 
-* Have Three Buttons
-* Have textViews
-* Have action bar
-* Have a custom material palette
-* Apply Materials successfully to the different view elements
+* Have a Form
+* Store a Persistent state in the SQLite DB on the phone
+* Form updates the state
+* View updates based on the changed state
 
 As long as your app does those tasks you will get credit for this assignment.
 
-##Getting Graded
+## Getting Graded
 
-When you have your APK move it to a "Submissions" folder in the root directory of your GIT repo that you were given to turn in assignments for this class. You'll be putting all of the APK files for this class in this folder. The source code should be in a directory named the same as your app in the root directory. I recommend creating your projects in the git repo. Do not use Android Studio to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
+When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
-<pre>
+```
     /
-    ...Submissions/
-    ......materials_<your name>.apk
-    ...Materials/
-    ......app/
-    ......(Rest of Materials Design App Files)
-</pre>
+    ...persistence_<your_name>.apk
+    ...Assignment3/
+    ......android/
+    ......ios/
+    ......lib/
+    ......pubspec.yaml
+    ......(Rest of persistence App Files)
+```
 
-You should also name your project Materials \<Your Name\>, replacing \<Your Name\> with your actual name.
+You should also name all your submissions as shown, replacing \<your name\> with your actual name.
+
+Now submit your code to the **assignment3** branch:
+
+```
+git checkout -b assignment3 #create branch and switch to it
+git add -A #add all
+git commit -m "Assignment 3 Submission" #Commit changes to branch
+git push --set-upstream origin assignment3 #Push code up to assignment3 branch on remote
+```
+
+Make sure your branch is exactly named assignment2 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
