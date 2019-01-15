@@ -6,7 +6,6 @@
 * Create your first app
 * Create your first APK (Android Install Package)
   * Flutter supports iOS development but I'll only be requiring Android results in the class, since iOS development requires having an Apple computer still.
-* Getting Graded
 
 
 For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CSCI567 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
