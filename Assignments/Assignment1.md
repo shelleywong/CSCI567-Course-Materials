@@ -67,16 +67,16 @@ Flutter automatically creates an APK as you can see in the screenshot below:
 
 Once you find it move it to the root directory of your GIT repo that you created to turn in assignments for this class. If you don't have one go use the form on my website to request one. As we'll submit all the assignments for this class to separate branches.
 
-<pre>
+```
     /
-    ...helloworld_<your name>.apk
+    ...helloworld_<your_name>.apk
     ...Assignment1/
     ......android/
     ......ios/
     ......lib/
     ......pubspec.yaml
     ......(Rest of Hello World App Files)
-</pre>
+```
 
 You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
@@ -89,4 +89,4 @@ git commit -m "Assignment 1 Submission" #Commit changes to branch
 git push --set-upstream origin assignment1 #Push code up to assignment1 branch on remote
 ```
 
-Make sure your branch is exactly named assignment1 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly. 
+Make sure your branch is exactly named assignment1 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
