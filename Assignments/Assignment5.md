@@ -1,30 +1,42 @@
-#Assignment 5 - Simple DB App
+#Assignment 5 - Camera or Location
 
 ##In this assignment your app needs to do the following:
 
 * Have a simple UI
-	* TextView
-    * EditText
-    * Button to Get Text
-    * Button to Add Text
-* Put text into DB
-	* Need to insure duplicate text won't be added
-* Read contents of a DB
+* Do one of the following:
+  * Launch the camera to get a photo
+    * Photo should then be added to the simple UI
+    * There is no need to store more than one instance of an image, but it would be recommended that you render a list of all the images taken in your UI.
+  * Use location services on the device
+    * Current location should be updated in the simple UI as it changes. Can be kept as a string representation of the location.
+    * It isn't required to put the location on a map, but if you plan to use location in your project this would be a good stretch goal to attempt here.
 
+As long as your app does those tasks you will get credit for this assignment.
 
-Your UI should allow us via the EditText to add new text to the database, but prevent duplicate entries in the database. And then with the "Get Text" button read out the text from the database into the textview.
+## Getting Graded
 
-##Getting Graded
+When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
-When you have your APK move it to a "Submissions" folder in the root directory of your GIT repo that you were given to turn in assignments for this class. You'll be putting all of the APK files for this class in this folder. The source code should be in a directory named the same as your app in the root directory. I recommend creating your projects in the git repo. Do not use Android Studio to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
-
-<pre>
+```
     /
-    ...Submissions/
-    ......simpledb_<your name>.apk
-    ...SimpleDB/
-    ......app/
-    ......(Rest of SimpleDB App Files)
-</pre>
+    ...features_<your_name>.apk
+    ...Assignment5/
+    ......android/
+    ......ios/
+    ......lib/
+    ......pubspec.yaml
+    ......(Rest of features App Files)
+```
 
- You should also name your project Simple DB \<Your Name\>, replacing \<Your Name\> with your actual name.
+You should also name all your submissions as shown, replacing \<your name\> with your actual name.
+
+Now submit your code to the **assignment5** branch:
+
+```
+git checkout -b assignment5 #create branch and switch to it
+git add -A #add all
+git commit -m "Assignment 5 Submission" #Commit changes to branch
+git push --set-upstream origin assignment5 #Push code up to assignment5 branch on remote
+```
+
+Make sure your branch is exactly named assignment5 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
