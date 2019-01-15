@@ -1,6 +1,6 @@
-#Assignment 4 - Firebase
+# Assignment 4 - Firebase
 
-##In this assignment your app needs to do the following:
+## In this assignment your app needs to do the following:
 
 * Have a Form
 * Store a Persistent state on Firebase
