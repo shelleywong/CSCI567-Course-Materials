@@ -5,7 +5,7 @@
 * Have Three Buttons
 * Have two Text widgets
 * Update a Text widget contents based on which button was pressed.
-* Project name of "Simple UI <your name>", where you put your actual name in for <your name>
+* Project name of "Simple UI &lt;your name&gt;", where you put your actual name in for &lt;your name&gt;
 
 As long as your app does those tasks you will get credit for this assignment.
 
