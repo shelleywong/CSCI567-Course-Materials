@@ -6,6 +6,8 @@
 
 * [GitHub](https://github.com) - Version Control & Open Source Code Repository
 
+* [GitLab](https://gitlab.com) - Version Control Alternative to GitHub
+
 * [BitBucket](https://bitbucket.org/) - Version Control Host for GIT or MERCURIAL (Education Accounts are Free)
 
 * [Ubuntu](http://www.ubuntu.com/) - Distro of Linux I'll personally be using.
