@@ -3,7 +3,7 @@
 ## In this assignment your app needs to do the following:
 
 * Have a Form
-* Store a Persistent state in the SQLite DB on the phone
+* Store a Persistent state in the SQLite DB or SharedPreferences on the phone
 * Form updates the state
 * View updates based on the changed state
 
