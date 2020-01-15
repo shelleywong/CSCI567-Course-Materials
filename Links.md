@@ -1,8 +1,10 @@
 # CSCI567 links
 
-* [Google Drive Shared Folder](https://drive.google.com/drive/folders/10S7hWz4RQtQ4e0OBqjydd_ifGSEROm9H?usp=sharing) - Shared folder of lecture slides, and other materials.
+* [Google Drive Shared Folder](https://drive.google.com/drive/folders/1DOaO0WmvPAUiCigURscX1eEtXijYjmV8?usp=sharing) - Shared folder of lecture slides, and other materials.
 
 * [Android](https://developer.android.com) - Android developer page
+
+* [Flutter](https://flutter.dev/) - Flutter developer page
 
 * [GitHub](https://github.com) - Version Control & Open Source Code Repository
 
@@ -20,7 +22,7 @@
 
 
 ## [Moodle](https://moodle.csuchico.edu)
-I'll be using a Moodle page for this course this semester. Moodle will provide a mechanism for occasional quiz questions related to the material in the course. It will also be used to hold the grades for the assignments. A link to Piazza is on the class Moodle page.
+I'll be using a Moodle page for this course this semester. It will be used to hold the grades for the assignments, if you fail to register for the course early enough you will not see grades posted here so register as soon as possible. A link to Piazza is on the class Moodle page.
 
 ### Piazza Discussion Board
 We will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates and myself. Rather than emailing questions directly to me, I encourage you to post your general questions on Piazza. Any questions that could violate the cheating policy if asked should be emailed directly to me. If you have any problems or feedback for the developers, email team@piazza.com.
