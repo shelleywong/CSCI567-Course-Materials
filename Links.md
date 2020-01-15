@@ -1,5 +1,3 @@
-# CSCI567 links
-
 * [Google Drive Shared Folder](https://drive.google.com/drive/folders/1DOaO0WmvPAUiCigURscX1eEtXijYjmV8?usp=sharing) - Shared folder of lecture slides, and other materials.
 
 * [Android](https://developer.android.com) - Android developer page
