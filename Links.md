@@ -4,6 +4,10 @@
 
 * [Flutter](https://flutter.dev/) - Flutter developer page
 
+* [Git Basics Video](https://www.youtube.com/watch?v=0JgyAJMvZlY&feature=youtu.be) - Basic tutorial on using git for version control I recorded Spring 2020 
+
+* [Learn Git Branching](https://learngitbranching.js.org/) - Excellent web tutorial working through a variety of use cases for git including using branches. 
+
 * [GitHub](https://github.com) - Version Control & Open Source Code Repository
 
 * [GitLab](https://gitlab.com) - Version Control Alternative to GitHub
