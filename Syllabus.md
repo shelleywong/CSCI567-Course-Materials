@@ -6,7 +6,7 @@ Bryan Dixon
 
 ## Prerequisite
 
-Grade of C- or better in CSCI 311. (or approved equivalent, check with your advisor)
+CINS 370 with a grade of C or higher, or CSCI 211 and MINS 335, or MINS 325 and MINS 335. (or approved equivalents, check with your advisor)
 
 Students who take this class without completing the prerequisite class will be given a failing grade.
 
