@@ -94,11 +94,11 @@ Your grading for the Project will break down into the following components:
 	- This will be worth about 10% of the overall project grade. Basically will ask for your group members to evaluate how well the group worked together and how much you felt your teammates contributed.
 
 * Project Midpoint Eval
-  - This will be worth about 20% of the overall project grade. This portion of the grade will come midway through the time allocated for you to work on your project. This is used to check in on how much progress your group has been making.
+  - This will be worth about 10% of the overall project grade. This portion of the grade will come midway through the time allocated for you to work on your project. This is used to check in on how much progress your group has been making.
   - We will accomplish this either via class lab time, where I will check in with each group during a class period or each group will demo where their project is partway through the semester.
 
 * Final Project
-  * This will be worth about 50% of the overall project grade.
+  * This will be worth about 60% of the overall project grade.
   * Your grade for this comes from the following:
     * Meeting delieverables: This is why making sure you have a good grasp on what your project is and what you expect to be able to turn in at the end of the semester is important. Also, why your delieverables should be very detailed. I also weight the difficulty of your deliverables, based on your survey at the end of the semester, my experience with aspects of your app, and the difficulty of your app overall. I try to insure you expand your deliverables during the proposal stage; however, I have had students turn in such rudimentary projects at the end that I had to lower the weight of their end product.  
     * Quality of App: I will use your app to test the delieverables. The ease of use of your app as well as how it looks will play into this aspect of your grade. I'll mention it in lecture, but this is one reason you should make sure to spend some significant time planning your UIs for the proposal as it'll make this aspect of your app better. Additionally, you need to focus on materials design and themes as done in modern Android development to insure your UI is usable.
