@@ -1,4 +1,4 @@
-# CSCI567 Syllabus
+# CINS467 Syllabus
 
 ## Instructor
 
@@ -61,13 +61,13 @@ As this is a upper division course you'll likely want to make use of my office h
 
 We will be using Piazza for a class discussion board. You should automatically be enrolled when you enrolled in this course on Moodle. You should post any general questions here first as this will allow more students to benefit from the answer vs me potentially answering the same questions numerous times.
 
-Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI567'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
+Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CINS467'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
 
 I'll be making it a habit to respond immediately to emails received between 9am-5pm, except when I'll otherwise be in a meeting, lecture, etc. Any emails outside of those times will be answered as I can or potentially the next morning at 9am, so try to make sure to email me prior to 5pm.
 
 I will routinely communicate with the class via announcements on the Piazza board. Make sure your email on Moodle that is integrated into Piazza is one you check regularly so that you don't miss any of these communications.
 
-Make sure you have a Moodle account and that you can access Piazza from the class page, you will not receive the class e-mails and may miss important information about the class if your account wasn't created.
+Make sure you have a Moodle account and that you can access Piazza from the class page, you will not receive the class e-mails and may miss important information about the class if your account wasn't created. Moodle is only used for grading feedback and scheduling presentations. Moodle is not the gradebook and if you fail to create an account before grading feedback is given you will never show a grade on Moodle. Moodle is never updated after grading feedback is initially posted. If you are unsure what your grades are you can always email me or ask me in office hours. 
 
 If you drop the class, you should be able to un-enroll from Moodle/Piazza to stop receiving messages. Let me know if you drop the class and still get e-mail.
 
