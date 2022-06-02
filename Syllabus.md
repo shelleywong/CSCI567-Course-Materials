@@ -36,7 +36,7 @@ If you regularly skip class I will not answer questions on the material you miss
 
 Grades for this course will be relative. The students that do the best work will get an A, the students that don't do as well get a B, and so on. I will likely not be following at traditional percentage grades of 90% for an A, 80% for a B, etc., and I don't like to grade on a curve as if I applied blindly could result in grades actually being lowered if everyone is doing very well in the course.
 
-I will routinely post the grading spreadsheet (Link to come). If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
+If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
 
 
 ### Grade Category Percentages:
