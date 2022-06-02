@@ -1,2 +1,2 @@
-# CSCI567-Course-Materials
-Repo used to hold course materials for CSCI567
+# CINS467-Course-Materials
+Repo used to hold course materials for CINS467
