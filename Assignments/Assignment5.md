@@ -49,4 +49,4 @@ git commit -m "Assignment 5 Submission" #Commit changes to branch
 git push --set-upstream origin assignment5 #Push code up to assignment4 branch on remote
 ```
 
-Make sure your branch is exactly named assignment4 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named **assignment5** matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
