@@ -20,7 +20,7 @@ When you have your APK move it to the root directory of your GIT repo that you w
 ```
     /
     ...features_<your_name>.apk
-    ...Assignment5/
+    ...Assignment6/
     ......android/
     ......ios/
     ......lib/
@@ -30,13 +30,13 @@ When you have your APK move it to the root directory of your GIT repo that you w
 
 You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
-Now submit your code to the **assignment5** branch:
+Now submit your code to the **assignment6** branch:
 
 ```
-git checkout -b assignment5 #create branch and switch to it
+git checkout -b assignment6 #create branch and switch to it
 git add -A #add all
-git commit -m "Assignment 5 Submission" #Commit changes to branch
-git push --set-upstream origin assignment5 #Push code up to assignment5 branch on remote
+git commit -m "Assignment 6 Submission" #Commit changes to branch
+git push --set-upstream origin assignment6 #Push code up to assignment5 branch on remote
 ```
 
-Make sure your branch is exactly named assignment5 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named **assignment6** matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
