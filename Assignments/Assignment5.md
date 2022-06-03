@@ -1,4 +1,4 @@
-# Assignment 4 - Firebase
+# Assignment 5 - Firebase
 
 ## In this assignment your app needs to do the following:
 
@@ -16,7 +16,7 @@ When you have your APK move it to the root directory of your GIT repo that you w
 ```
     /
     ...firebase_<your_name>.apk
-    ...Assignment4/
+    ...Assignment5/
     ......android/
     ......ios/
     ......lib/
@@ -26,13 +26,27 @@ When you have your APK move it to the root directory of your GIT repo that you w
 
 You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
-Now submit your code to the **assignment4** branch:
+### Alternatively
 
 ```
-git checkout -b assignment4 #create branch and switch to it
+    /
+    ...web.md
+    ...Assignment5/
+    ......android/
+    ......ios/
+    ......lib/
+    ......pubspec.yaml
+    ......(Rest of firebase App Files)
+```
+In your web.md file you should have a web URL for your assignment hosted online. 
+
+### Now submit your code to the **assignment4** branch:
+
+```
+git checkout -b assignment5 #create branch and switch to it
 git add -A #add all
-git commit -m "Assignment 4 Submission" #Commit changes to branch
-git push --set-upstream origin assignment4 #Push code up to assignment4 branch on remote
+git commit -m "Assignment 5 Submission" #Commit changes to branch
+git push --set-upstream origin assignment5 #Push code up to assignment4 branch on remote
 ```
 
 Make sure your branch is exactly named assignment4 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
