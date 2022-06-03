@@ -1,4 +1,4 @@
-# Assignment 5 - Camera or Location
+# Assignment 6 - Camera or Location
 
 ## In this assignment your app needs to do the following:
 
