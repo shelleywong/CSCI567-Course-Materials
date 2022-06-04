@@ -26,7 +26,21 @@ When you have your APK move it to the root directory of your GIT repo that you w
 
 You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
-Now submit your code to the **assignment3** branch:
+### Alternatively
+
+```
+    /
+    ...web.md
+    ...Assignment3/
+    ......android/
+    ......ios/
+    ......lib/
+    ......pubspec.yaml
+    ......(Rest of firebase App Files)
+```
+In your web.md file you should have a web URL for your assignment hosted online. 
+
+### Now submit your code to the **assignment3** branch:
 
 ```
 git checkout -b assignment3 #create branch and switch to it
