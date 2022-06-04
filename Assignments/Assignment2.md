@@ -1,4 +1,4 @@
-# Assignment 2 - Simple UI
+# Assignment 3 - Simple UI
 
 ## In this assignment your app needs to do the following:
 
@@ -16,7 +16,7 @@ When you have your APK move it to the root directory of your GIT repo that you w
 ```
     /
     ...simple_UI_<your_name>.apk
-    ...Assignment2/
+    ...Assignment3/
     ......android/
     ......ios/
     ......lib/
@@ -26,13 +26,13 @@ When you have your APK move it to the root directory of your GIT repo that you w
 
 You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
-Now submit your code to the **assignment2** branch:
+Now submit your code to the **assignment3** branch:
 
 ```
-git checkout -b assignment2 #create branch and switch to it
+git checkout -b assignment3 #create branch and switch to it
 git add -A #add all
-git commit -m "Assignment 2 Submission" #Commit changes to branch
-git push --set-upstream origin assignment2 #Push code up to assignment2 branch on remote
+git commit -m "Assignment 3 Submission" #Commit changes to branch
+git push --set-upstream origin assignment3 #Push code up to assignment2 branch on remote
 ```
 
-Make sure your branch is exactly named assignment2 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named **assignment3** matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
