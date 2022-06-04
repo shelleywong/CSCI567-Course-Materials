@@ -1,9 +1,10 @@
-# Assignment 4 - Persistent Data on Phone
+# Assignment 4 - Persistent Data on Client
 
 ## In this assignment your app needs to do the following:
 
 * Have a Form
-* Store a Persistent state in the SQLite DB or SharedPreferences on the phone
+    * Just needs to be some way for the user to give input does not need to be a formal form for this. 
+* Store a Persistent state in the SQLite DB or SharedPreferences on the phone or web
 * Form updates the state
 * View updates based on the changed state
 
