@@ -40,7 +40,7 @@ You should also name all your submissions as shown, replacing \<your name\> with
 ```
 In your web.md file you should have a web URL for your assignment hosted online. 
 
-### Now submit your code to the **assignment4** branch:
+### Now submit your code to the **assignment5** branch:
 
 ```
 git checkout -b assignment5 #create branch and switch to it
