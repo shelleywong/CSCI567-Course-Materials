@@ -1,4 +1,4 @@
-* [Google Drive Shared Folder](https://drive.google.com/drive/folders/13RRU856Lyvg1rq4RubEou9kL07waox8X?usp=sharing) - Shared folder of lecture slides, and other materials.
+* [Google Drive Shared Folder](https://drive.google.com/drive/folders/1iNOcujTM9hXP1oREuL4nFumQ0tPWOQPD?usp=sharing) - Shared folder of lecture slides, and other materials.
 
 * [Android](https://developer.android.com) - Android developer page
 
@@ -23,7 +23,7 @@
 * [Atom Editor](https://atom.io/) - Free "hackable" text editor from GitHub. Should be installed on the lab machines as well.
 
 * [Moodle](https://moodle.csuchico.edu)
-I'll be using a Moodle page for this course this semester. It will be used to hold the grades for the assignments, if you fail to register for the course early enough you will not see grades posted here so register as soon as possible. A link to Piazza is on the class Moodle page.
+I'll be using a Moodle page for this course this semester. It will be used to hold the grades for the assignments, if you fail to register for the course early enough you will not see grades posted here so register as soon as possible. Grades are never updated on Moodle after originally being posted, as it is not the grade book. 
 
 * [Piazza Discussion Board](https://piazza.com/)
 We will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates and myself. Rather than emailing questions directly to me, I encourage you to post your general questions on Piazza. Any questions that could violate the cheating policy if asked should be emailed directly to me. If you have any problems or feedback for the developers, email team@piazza.com.
