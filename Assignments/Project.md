@@ -48,6 +48,7 @@ Your project proposal is both what your project is, but also what you expect to 
   * You're required to work in teams of 2-3 for the project unless otherwise approved.
 * Project Description
   * This should be the first section where you will describe what your project is and what you expect it to accomplish.
+  * You should also indicate if you are building for Android or Web at this point. You are not required to do both but you are welcome to target more than one platform. 
 * Project UIs
   * This is a section of the document where you briefly describe or even show prototype sketches of what the expected UI for your app will look like at the end of the semester. This would be for all of the Views/Widgets you create. If you end up with more or less views at the end that isn't an issue as you may discover when you actually have a working prototype that you could improve the UI or that radically changing it would make it better.
 * Diagram Screen Relationships
