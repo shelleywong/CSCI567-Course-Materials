@@ -3,7 +3,7 @@
 ## In this assignment your app needs to do the following:
 
 * Be hosted as a github pages
-* Your app should display " CSCI567 Hello World"
+* Your app should display "CINS467 Hello World"
 
 As long as your app does those tasks you will get credit for this assignment.
 
