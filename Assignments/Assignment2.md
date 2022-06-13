@@ -19,11 +19,11 @@ When you have your project finished submit it in the following format
     ......ios/
     ......lib/
     ......pubspec.yaml
-    ......(Rest of firebase App Files)
+    ......(Rest of your App Files)
 ```
 In your web.md file you should have a web URL for your assignment hosted online. You can do a web hosted submission for all the subsequent assignments as long as they continue to do the functionality of the earlier assignments. So the **web.md** file will remain the same for all these submissions. You also can continue to use the same project code as long as it is submitted to the correct branch. 
 
-### Now submit your code to the **assignment3** branch:
+### Now submit your code to the **assignment2** branch:
 
 ```
 git checkout -b assignment2 #create branch and switch to it
