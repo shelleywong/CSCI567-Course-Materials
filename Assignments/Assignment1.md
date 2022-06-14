@@ -8,7 +8,7 @@
   * Flutter supports iOS development but I'll only be requiring Android results in the class, since iOS development requires having an Apple computer still.
 
 
-For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CSCI567 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
+For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CINS467 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
 
 ## Getting Build Environment Setup
 
