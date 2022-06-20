@@ -22,7 +22,7 @@ I highly recommend you work with Firebase as your backend, on their free tier fo
 
 ## <a name="options">Project Options</a>
 
-For this project there are three different options of projects you can pursue. If you have general questions about any of these project options please ask on the Piazza Q&A Discussion Board.
+For this project there are three different options of projects you can pursue. If you have general questions about any of these project options please ask on the Piazza Q&A Discussion Board. Project needs to leverage the fact it is on a device with access to internet, location or camera.
 
 * New Project
   * This option you will create and work on a project you/your group come up with. With this you'll want to make sure you both are doing enough for it to be a good project, but at the same time make sure you don't try to do too much. This is where the project proposal will be extremely important and helpful. If you chose this option you should try to get me your project proposal before it is due so I can work with you to insure the project has a good scope of work.
