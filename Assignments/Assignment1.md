@@ -24,7 +24,7 @@ Use *flutter doctor -v* to make sure your setup is configured correctly.
 
 ### Requirements:
 
-* Your app should display " CSCI567 Hello World"
+* Your app should display "CINS467 Hello World"
 
 ### Walk-through
 
