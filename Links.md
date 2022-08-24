@@ -1,4 +1,4 @@
-* [Google Drive Shared Folder](https://drive.google.com/drive/folders/1iNOcujTM9hXP1oREuL4nFumQ0tPWOQPD?usp=sharing) - Shared folder of lecture slides, and other materials.
+* [Google Drive Shared Folder](https://drive.google.com/drive/folders/17wkdIiwigWwixrt9uU-LinQiCI-icx8N?usp=sharing) - Shared folder of lecture slides, and other materials.
 
 * [Android](https://developer.android.com) - Android developer page
 
