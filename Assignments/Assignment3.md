@@ -33,6 +33,7 @@ When you have your APK move it to the root directory of your GIT repo that you w
     ......android/
     ......ios/
     ......lib/
+    ......web/
     ......pubspec.yaml
     ......(Rest of firebase App Files)
 ```
