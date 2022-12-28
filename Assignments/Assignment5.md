@@ -11,30 +11,30 @@ As long as your app does those tasks you will get credit for this assignment.
 
 ## Getting Graded
 
-When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
+When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio or VScode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
 ```
     /
-    ...firebase_<your_name>.apk
-    ...Assignment5/
+    ...app-release.apk
+    ...AssignmentProject/
     ......android/
     ......ios/
+    ......web/
     ......lib/
     ......pubspec.yaml
-    ......(Rest of firebase App Files)
+    ......(Rest of App Files)
 ```
-
-You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
 ### Alternatively
 
 ```
     /
     ...web.md
-    ...Assignment5/
+    ...AssignmentProject/
     ......android/
     ......ios/
     ......lib/
+    ......web/
     ......pubspec.yaml
     ......(Rest of firebase App Files)
 ```
