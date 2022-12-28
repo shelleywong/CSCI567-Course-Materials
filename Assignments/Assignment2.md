@@ -14,10 +14,11 @@ When you have your project finished submit it in the following format
 ```
     /
     ...web.md
-    ...Assignment2/
+    ...AssignmentProject/
     ......android/
     ......ios/
     ......lib/
+    ......web/
     ......pubspec.yaml
     ......(Rest of your App Files)
 ```
