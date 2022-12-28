@@ -49,14 +49,13 @@ The project concept submission is an early general project concept submission. T
   * You should make sure that you identify who all the members of the project team right below the project title.
   * You're required to work in teams of 2-3 for the project unless otherwise approved.
 * Project Description
-  * This should be the first section where you will describe what your project is and what you expect it to accomplish.
-  * You should also indicate if you are building for Android or Web at this point. You are not required to do both but you are welcome to target more than one platform. 
+  * This should describe what your project is and what you expect it to accomplish. I would also highlight how you expect your app to use internet connectivity along with either location or the camera.
 
 You will need to write this and submit it as a **PDF** document to me via email with the subject line *CINS467 Project Concept* with all of your team members CC'd.
 
 ## <a name="proposal">Project Proposal</a>
 
-Your project proposal is both what your project is, but also what you expect to have done at the end of the semester to turn in. As such your proposal should have the following sections:
+Your project proposal is both what your project is, but also what you expect to have done at the end of the semester to turn in. This does not need to match what you submitted for the *Project Concept*, but if your concept got good feedback it may be recommended. As such your proposal should have the following sections:
 
 * Project Title
   * Your project proposal should be titled with what you expect to call your app.
