@@ -4,7 +4,7 @@
 
 * [Project Overview](#overview)
 * [Project Options](#options)
-* [Project Idea](#idea)
+* [Project Concept](#idea)
 * [Project Proposal](#proposal)
 * [Project Submission](#submission)
 * [Project Presentation](#presentation)
