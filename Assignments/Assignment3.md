@@ -5,33 +5,31 @@
 * Have Three Buttons
 * Have two Text widgets
 * Update a Text widget contents based on which button was pressed.
-* Project name of "Simple UI &lt;your name&gt;", where you put your actual name in for &lt;your name&gt;
 
 As long as your app does those tasks you will get credit for this assignment.
 
 ## Getting Graded
 
-When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
+When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio or VScode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
 ```
     /
-    ...simple_UI_<your_name>.apk
-    ...Assignment3/
+    ...app-release.apk
+    ...AssignmentProject/
     ......android/
     ......ios/
+    ......web/
     ......lib/
     ......pubspec.yaml
-    ......(Rest of Simple UI App Files)
+    ......(Rest of App Files)
 ```
-
-You should also name all your submissions as shown, replacing \<your name\> with your actual name.
 
 ### Alternatively
 
 ```
     /
     ...web.md
-    ...Assignment3/
+    ...AssignmentProject/
     ......android/
     ......ios/
     ......lib/
