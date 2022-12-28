@@ -4,6 +4,7 @@
 
 * [Project Overview](#overview)
 * [Project Options](#options)
+* [Project Idea](#idea)
 * [Project Proposal](#proposal)
 * [Project Submission](#submission)
 * [Project Presentation](#presentation)
@@ -35,7 +36,23 @@ For this project there are three different options of projects you can pursue. I
   * I have two projects in mind, both are new projects. If you are interested in either of these your group should come see me in office hours or schedule a time to meet outside of class.
 
 
-Once you've decided on which kind of project you will be doing you should begin brainstorming what you expect to get done this semester and then move onto putting together the project proposal.
+Once you've decided on which kind of project you will be doing you should begin brainstorming what you expect to get done this semester and then move onto putting together the project concept and proposal submissions.
+
+
+## <a name="idea">Project Concept</a>
+
+The project concept submission is an early general project concept submission. The goal is that you can begin thinking about the project sooner, and get feedback earlier on if the basic concept is feasible as a project. The concept should include the initial parts from the proposal of:
+
+* Project Title
+  * Your project proposal should be titled with what you expect to call your app.
+* Project Members
+  * You should make sure that you identify who all the members of the project team right below the project title.
+  * You're required to work in teams of 2-3 for the project unless otherwise approved.
+* Project Description
+  * This should be the first section where you will describe what your project is and what you expect it to accomplish.
+  * You should also indicate if you are building for Android or Web at this point. You are not required to do both but you are welcome to target more than one platform. 
+
+You will need to write this and submit it as a **PDF** document to me via email with the subject line *CINS467 Project Concept* with all of your team members CC'd.
 
 ## <a name="proposal">Project Proposal</a>
 
