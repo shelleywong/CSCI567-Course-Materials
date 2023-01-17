@@ -2,21 +2,42 @@
 
 ## In this assignment you will:
 
-* Get your Flutter build environment setup
-* Create your first app
-* Create your first APK (Android Install Package)
-  * Flutter supports iOS development but I'll only be requiring Android results in the class, since iOS development requires having an Apple computer still.
+* [Get Your Flutter Build Environment Setup](#get-your-flutter-build-environment-setup)
+* [Create your first app](#create-your-first-app)
+* [Create your first APK (Android Install Package)](#getting-graded)
+
+> Note: Flutter supports development for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web; however, I will only be requiring Android and web results in this class (iOS development requires having an Apple computer).
 
 
 For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CINS467 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
 
-## Getting Build Environment Setup
+## Get Your Flutter Build Environment Setup
 
-To get the build environment on your computer you should go to the [Flutter](https://flutter.io/docs/get-started/install) Download page and follow the directions there.
+To get the build environment on your computer you should go to the [Flutter](https://flutter.io/docs/get-started/install) Download page and follow the directions there for your operating system.
 
-I recommend you develop using the [VScode](https://flutter.io/docs/get-started/editor) with Flutter and Dart plugins, which will be how I'll be developing in class. I still prefer using [Android Studio](https://flutter.io/docs/get-started/editor), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together. You'll also need to add the plugins for Flutter/Dart to Android Studio as directed in that getting started with Android Studio for Flutter link. But easier to demo the code on the projector with VScode, but both are equally good. I do recommend relying on the Flutter commandline directly for building your flutter exports as is more consistent than the built-in plugins for generating your submissions.
+Make sure you:
+* Confirm your system requirements meet the minimum requirements
+* Get the Flutter SDK
+* Update your path
+* Run `flutter doctor`
+  * I recommend running this command with the -v tag for verbose output
 
-Use *flutter doctor -v* to make sure your setup is configured correctly. An example of flutter doctor running successfully on my computer is as follows:
+After you run `flutter doctor -v`, you should see a report displayed to the terminal. Check the output carefully for other software you might need to install or further tasks to perform. The instructions provided in this report should address the other tasks that need to be completed; alternatively, you can go back to the installation instructions in the documentation and complete the following.
+
+* Can develop for Android
+  * You may use your own Android device or the Android emulator (or both)
+  * If you want to use the Android emulator: Download and install Android Studio (this is the easiest way I know of to work with the Android Virtual Device (AVD) Manager)
+* Can develop for web (this should be setup by default)
+
+Ideally, you will be able to run `flutter doctor -v` and have the report say, "No issues found!" However, remember that XCode (iOS and macOS) is NOT required for this class, so it is ok if there are "issues" there.
+
+### Code Editing
+
+I recommend you develop using the [VS Code](https://flutter.io/docs/get-started/editor) editor with Flutter and Dart plugins, as this is how I'll be developing during class. [Android Studio](https://flutter.io/docs/get-started/editor), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together, is also a good option for development. For Android Studio, you'll also need to add the plugins for Flutter/Dart as directed in that getting started with Android Studio for Flutter link. It is easier for me to demo the code on the projector with VS Code, but both are equally good. I do recommend relying on the Flutter command line directly for building your flutter exports, as it is more consistent than the built-in plugins for generating your submissions.
+
+### flutter doctor
+
+Remember to use `flutter doctor -v` to make sure your setup is configured correctly. An example of flutter doctor running successfully on my computer is as follows:
 
 ```bash
 ~/$ flutter doctor -v                                               ✔
@@ -70,7 +91,7 @@ Use *flutter doctor -v* to make sure your setup is configured correctly. An exam
 • No issues found!
 ```
 
-## Creating Your First App
+## Create Your First App
 
 **Disclaimer:** *You should go through the steps yourself to create the Hello World app and not just import an existing Hello World app as you'll miss out on going through the steps of creating a new app.*
 
@@ -112,6 +133,8 @@ class MyApp extends StatelessWidget {
 ```
 ## Getting Graded
 
+> APK stands for Android Package Kit - it is the file format that Android uses to distribute and install apps.
+
 Remove the build folder and then explicitly build a new apk:
 
 ```bash
@@ -119,9 +142,9 @@ Remove the build folder and then explicitly build a new apk:
 ~/repos/CINS467-repo/AssignmentProject$ flutter build apk
 ```
 
-Once you find it move it to the root directory of your GIT repo that you created to turn in assignments for this class. The file should be in the build folder path here: *build/app/outputs/flutter-apk/app-release.apk*
+Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/flutter-apk/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
 
-If you don't have one go use the form on my website to request one. As we'll submit all the assignments for this class to separate branches. You can keep building on the same app for the future submissions as well, just adding the required new features to it.
+If you don't have one, go use the Generate GitHub Repo form on www.bryancdixon.com to request one. You will submit all the assignments for this class to separate branches. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
 
 ```
     /
@@ -144,4 +167,4 @@ git commit -m "Assignment 1 Submission" #Commit changes to branch
 git push --set-upstream origin assignment1 #Push code up to assignment1 branch on remote
 ```
 
-Make sure your branch is exactly named assignment1 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named `assignment1` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
