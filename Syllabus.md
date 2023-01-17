@@ -2,7 +2,7 @@
 
 ## Instructor
 
-Bryan Dixon
+Shelley Wong
 
 ## Prerequisite
 
@@ -12,39 +12,49 @@ Students who take this class without completing the prerequisite class will be g
 
 ## Course Accounts
 
-You need an account on the Moodle system.
-
-Go to [https://moodle.csuchico.edu](https://moodle.csuchico.edu "Moodle"), login, and enroll in the CSCI567 account.
-
-You will use this system to get your grades. I'll also be enrolling you in a Piazza discussion board for use in this course.
+* Canvas
+  * [Chico State Canvas](https://canvas.csuchico.edu/) - This class is being taught using Canvas this semester. Make sure you are able to access my section of CINS 467.
+* PollEverywhere
+  * [Login/Create Account](https://www.polleverywhere.com/auth/saml/csuchico) - If you have not already done so, create an account and login to PollEverywhere. PollEverywhere will be used during lectures for feedback and to track participation. There is a campus license for PollEverywhere and for your participation to be registered, your account must be tied to your csuchico email.
+  * [pollev.com/techturtle](https://pollev.com/techturtle) - This is the PollEv link that will be used during lectures throughout the semester.
 
 ## Textbook
 
-There is no required book for this course.
+There is no required textbook for this course. 
+
+Instead, throughout the semester, we will reference official documentation and other resources that are readily available online. See the [CINS 467 Useful Links](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Links.md) provided in my GitHub repo, and look for links provided during class as we work through each module.
 
 ## Attendance
 
-Attendance of lectures is not required, but it can help your grade and is highly recommended.
+Attendance is highly recommended. A portion of the final exam grade is based on lecture attendance (tracked through PollEverywhere questions) and lab help session attendance (tracked through a sign-in sheet). You need to attend 80% of lectures and lab help sessions to receive full credit for this portion of the grade.
 
-Attendance may improve your grade. For example, if your grade is a high B+ and you have attended most/all the lectures I may raise your grade to a A-.
-
-Missing class can make the projects and exams especially difficult. If I verbally change the requirements of a project during lecture, you are responsible for meeting the new requirements. If you miss a class make sure you get notes from another student.
+Missing class can make the projects and exams especially difficult. If I verbally change the requirements of a project during lecture, you are responsible for meeting the new requirements. If you miss a class, make sure you review the lecture recordings and/or get notes from another student.
 
 If you regularly skip class I will not answer questions on the material you missed.
 
+I understand that things happen. If you need to miss an occasional class for any reason, you should send me an email ASAP with an explanation of your situation (ideally BEFORE the class you need to miss, but letting me know afterwards is better than not letting me know at all). Depending on the circumstances, you may be excused for the absence.
+
 ## Grading
 
-Grades for this course will be relative. The students that do the best work will get an A, the students that don't do as well get a B, and so on. I will likely not be following at traditional percentage grades of 90% for an A, 80% for a B, etc., and I don't like to grade on a curve as if I applied blindly could result in grades actually being lowered if everyone is doing very well in the course.
+Grades for this course will be relative. The students that do the best work will get an A in the course. B grades indicate very good work, C grades indicate adequate work, and so on. I will likely not be following at traditional percentage grades of 90% for an A, 80% for a B, etc., and I don't like to grade on a curve as if I applied blindly could result in grades actually being lowered if everyone is doing very well in the course.
 
-If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
+I will post grades to Canvas. If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
 
 
 ### Grade Category Percentages:
 
-+ Final Project 60% of course grade
+* Final Project 60% of course grade
+> The final project grade includes:
+> - the Final Project itself,
+> - the Project Proposal,
+> - Project Progress Updates,
+> - the Final Project Presentation,
+> - Lecture and Lab Help Session Attendance,
+> - Presentation Feedback Forms, and
+> - The Final Project Feedback Form
 
-+ Individual Programming Projects 40% of course grade
-
+* Individual Programming Projects 40% of course grade
+> Assignments will be posted in Canvas (with due dates and links if applicable)
 
 ### Grading Meetings
 
@@ -57,19 +67,13 @@ Assignments will NOT be accepted more that 24 hours after the due date.
 
 ## Getting Help/E-mail
 
-As this is a upper division course you'll likely want to make use of my office hours for help as it is unlikely there are tutors or other such resources.
+Feel free to make use of my office hours or send me a message if you have any questions. You may also get help from tutors or other students on the unofficial student-run Chico State CS Discord; however, remember that this is an upper division course centered on a unique final project. While this provides an excellent opportunity for you to get experience working on a large-ish project (larger than most classroom projects) and that could potentially be put on a resume, be aware that you may run into problems that no one else has run into before.
 
-We will be using Piazza for a class discussion board. You should automatically be enrolled when you enrolled in this course on Moodle. You should post any general questions here first as this will allow more students to benefit from the answer vs me potentially answering the same questions numerous times.
+Since Discord acts as a discussion board, accessible to me and many other students and instructors, you may get a response more quickly if you post there. HOWEVER, there are many cases when posting code to a discussion board (or any public place) may be considered cheating. If your question is related to your code, and your question requires that you show another person your code, send me an email (or potentially see if someone can help you individually, without you posting code in a public place). If you are sending me an email, make sure you put 'CINS467' in the subject so it will be filtered correctly; otherwise, I may not open your message or respond to it.
 
-Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CINS467'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
+I try to respond as soon as possible to emails. If I have not responded within 24 hours, you may try sending a follow up email if you are still running into issues.
 
-I'll be making it a habit to respond immediately to emails received between 9am-5pm, except when I'll otherwise be in a meeting, lecture, etc. Any emails outside of those times will be answered as I can or potentially the next morning at 9am, so try to make sure to email me prior to 5pm.
-
-I will routinely communicate with the class via announcements on the Piazza board. Make sure your email on Moodle that is integrated into Piazza is one you check regularly so that you don't miss any of these communications.
-
-Make sure you have a Moodle account and that you can access Piazza from the class page, you will not receive the class e-mails and may miss important information about the class if your account wasn't created. Moodle is only used for grading feedback and scheduling presentations. Moodle is not the gradebook and if you fail to create an account before grading feedback is given you will never show a grade on Moodle. Moodle is never updated after grading feedback is initially posted. If you are unsure what your grades are you can always email me or ask me in office hours. 
-
-If you drop the class, you should be able to un-enroll from Moodle/Piazza to stop receiving messages. Let me know if you drop the class and still get e-mail.
+I will routinely communicate with the class via announcements on Canvas. You should receive notifications of all announcements soon after they are posted. It is your responsibility to check these messages regularly so that you do not miss important information about the class.
 
 ## Responsibilities
 
