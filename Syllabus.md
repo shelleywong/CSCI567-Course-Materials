@@ -60,10 +60,13 @@ I will post grades to Canvas. If you are not happy with a grade, talk to me imme
 
 We are going to investigate all the projects you turn in to look for code plagiarism via a number of different methods. Any students whose code isn't uniquely yours will need to schedule a grading meeting with the grader to answer detailed questions concerning how your code works. This meeting will make up 60% of your project grade and 40% will come from your ability to solve the project. If you didn't write your project you will likely fail the grading meeting and get a failing grade on the project. Seeking out fellow students for advice on how to get started is perfectly acceptable; however, do your own work and make sure you have a firm understanding of how your code works.
 
+## Programming Assignments and Final Project:
+
+At the beginning of the semester, there will be several assignments due at approximately 1 week intervals. There will also be one larger web or mobile project that will require you to create a plan and make progress on your own on a regular/weekly basis. At the end of the semester, you will present your project. Plan on being in attendance for all project presentations.
+
 ### Late Assignments:
 
-Assignments turned in 1-24 hours after the due date will lose 15%
-Assignments will NOT be accepted more that 24 hours after the due date.
+Programming assignments turned in up to 1 week after the due date will lose 15%. Assignments will NOT be accepted more than 1 week after the due date. The Final Project and all components of the project MUST be completed and submitted by the end of finals week.
 
 ## Getting Help/E-mail
 
