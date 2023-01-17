@@ -41,7 +41,7 @@ Grades for this course will be relative. The students that do the best work will
 I will post grades to Canvas. If you are not happy with a grade, talk to me immediately. If you do not talk to me within a week of the posting of a grade, I will assume you think the grade is fair and accurate, and you will lose your right to dispute the grade.
 
 
-### Grade Category Percentages:
+### Grade Category Percentages
 
 * Final Project 60% of course grade
 > The final project grade includes:
@@ -60,11 +60,11 @@ I will post grades to Canvas. If you are not happy with a grade, talk to me imme
 
 We are going to investigate all the projects you turn in to look for code plagiarism via a number of different methods. Any students whose code isn't uniquely yours will need to schedule a grading meeting with the grader to answer detailed questions concerning how your code works. This meeting will make up 60% of your project grade and 40% will come from your ability to solve the project. If you didn't write your project you will likely fail the grading meeting and get a failing grade on the project. Seeking out fellow students for advice on how to get started is perfectly acceptable; however, do your own work and make sure you have a firm understanding of how your code works.
 
-## Programming Assignments and Final Project:
+### Programming Assignments and Final Project
 
 At the beginning of the semester, there will be several assignments due at approximately 1 week intervals. There will also be one larger web or mobile project that will require you to create a plan and make progress on your own on a regular/weekly basis. At the end of the semester, you will present your project. Plan on being in attendance for all project presentations.
 
-### Late Assignments:
+### Late Assignments
 
 Programming assignments turned in up to 1 week after the due date will lose 15%. Assignments will NOT be accepted more than 1 week after the due date. The Final Project and all components of the project MUST be completed and submitted by the end of finals week.
 
@@ -147,3 +147,21 @@ I am part of the Safe Zone Ally community network of trained Chico State faculty
 ## LGBTQ Equality Statement
 
 I am firmly committed to diversity and equality in all areas of campus life, including specifically members of the LGBTQ community. In this class I will work to promote an anti-discriminatory environment where everyone feels safe and welcome. I recognize that discrimination can be direct or indirect and take place at both institutional and personal levels. I believe that such discrimination is unacceptable and I am committed to providing equality of opportunity for all by eliminating any and all discrimination, harassment, bullying, or victimization. The success of this policy relies on the support and understanding of everyone in this class. We all have a responsibility not to be offensive to each other, or to participate in, or condone harassment or discrimination of any kind.
+
+## Chico State Basic Needs Project
+
+The Hungry Wildcat Food Pantry provides supplemental food, fresh produce, CalFresh application assistance and basic needs referral services for students experiencing food and housing insecurity.
+
+All students are welcomed to visit the Pantry located in the Student Service Center 196, open Monday-Friday, 11am-4pm or call 530-898-4098. Please visit the [Chico State Basic Needs website](http://www.csuchico.edu/basic-needs) for more information
+
+## Reminder
+
+Per [CSU policy](https://calstate.policystat.com/policy/11030468/latest/), vaccinations and booster shots against COVID-19 are required for students, faculty, and staff to access campus facilities and participate in in-person learning and activities. All students are required to complete their COVID-19 Vaccination Self-Certification by 8/15/2022. For additional information regarding this requirement, please visit the [Student Vaccination Certification Process](https://www.csuchico.edu/coronavirus/vaccine-certification-student.shtml) page.
+
+Chico State may at any time require the use of an approved face covering which covers the nose and mouth in all indoor campus spaces and in order to participate in this course when in person. When face coverings are optional, they are always welcome on campus. You will be notified if face coverings are required.
+
+Policies and requirements regarding COVID-19 are subject to change pursuant to campus, local, state and/or federal guidelines. Dishonesty relating to the vaccination policy and/or your failure to comply with any COVID-19 related safety policy or mandate may result in disciplinary action against you through the office of Student Conduct, Rights and Responsibilities, which can include suspension or expulsion from the California State University system.
+
+It is very important for students to contact the COVID-19 hotline if they become symptomatic, believe they have been exposed, or have tested positive for COVID-19. The hotline is (530) 898-2222 or covidhotline@csuchico.edu.
+
+For more information, refer to [Chico State’s COVID-19 News & Information page](https://www.csuchico.edu/coronavirus/).
