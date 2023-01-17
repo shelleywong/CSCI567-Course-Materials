@@ -29,6 +29,8 @@
 
 ## Development Environment
 
+> Note: Flutter can be installed on Windows, macOS, Linux, and Chrome -- use whichever operating system you have available and are most comfortable with.
+
 * [VS Code](https://code.visualstudio.com/) - Visual Studio Code is free a source-code editor made by Microsoft that runs on Windows, Linux, and macOS. It provides many helpful features (like syntax highlighting and autocomplete) and includes many helpful extensions (including extensions for Flutter and Dart).
 
 * [Android Studio](https://developer.android.com/studio) - The official integrated development environment (IDE) for Android app development. Useful if you want to use an Android emulator.
