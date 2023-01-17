@@ -24,6 +24,7 @@ Make sure you:
 
 After you run `flutter doctor -v`, you should see a report displayed to the terminal. Check the output carefully for other software you might need to install or further tasks to perform. The instructions provided in this report should address the other tasks that need to be completed; alternatively, you can go back to the installation instructions in the documentation and complete the following.
 
+Make sure you:
 * Can develop for Android
   * You may use your own Android device or the Android emulator (or both)
   * If you want to use the Android emulator: Download and install Android Studio (this is the easiest way I know of to work with the Android Virtual Device (AVD) Manager)
@@ -33,7 +34,7 @@ Ideally, you will be able to run `flutter doctor -v` and have the report say, "N
 
 ### Code Editing
 
-I recommend you develop using the [VS Code](https://flutter.io/docs/get-started/editor) editor with Flutter and Dart plugins, as this is how I'll be developing during class. [Android Studio](https://flutter.io/docs/get-started/editor), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together, is also a good option for development. For Android Studio, you'll also need to add the plugins for Flutter/Dart as directed in that getting started with Android Studio for Flutter link. It is easier for me to demo the code on the projector with VS Code, but both are equally good. I do recommend relying on the Flutter command line directly for building your flutter exports, as it is more consistent than the built-in plugins for generating your submissions.
+I recommend you develop using the [VS Code](https://docs.flutter.dev/get-started/editor?tab=vscode) editor with Flutter and Dart plugins, as this is how I'll be developing during class. [Android Studio](https://docs.flutter.dev/get-started/editor?tab=androidstudio), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together, is also a good option for development. For Android Studio, you'll also need to add the plugins for Flutter/Dart as directed in that getting started with Android Studio for Flutter link. It is easier for me to demo the code on the projector with VS Code, but both are equally good. I do recommend relying on the Flutter command line directly for building your flutter exports, as it is more consistent than the built-in plugins for generating your submissions.
 
 ### flutter doctor
 
@@ -144,7 +145,9 @@ Remove the build folder and then explicitly build a new apk:
 
 Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/flutter-apk/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
 
-If you don't have one, go use the Generate GitHub Repo form on www.bryancdixon.com to request one. You will submit all the assignments for this class to separate branches. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
+If you don't have a CINS467 GitHub repo, go use the Generate GitHub Repo form on www.bryancdixon.com to request one.
+
+You will submit all the assignments for this class to separate branches. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
 
 ```
     /
