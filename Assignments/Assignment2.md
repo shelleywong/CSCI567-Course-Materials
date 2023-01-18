@@ -23,7 +23,7 @@ Remember that you will need to run the `flutter build web` command to generate a
 
 ## Getting Graded
 
-Create a file called `web.md`. In your `web.md` file you should have a web URL for your assignment hosted online. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments. The **web.md** file should remain the same for all these submissions. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+Create a file called `web.md`. In your `web.md` file you should have a web URL for your assignment hosted online. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments. The `web.md` file should remain the same for all these submissions. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
 
 When you have your project finished, submit it in the following format:
 
@@ -50,4 +50,4 @@ git commit -m "Assignment 2 Submission" #Commit changes to branch
 git push --set-upstream origin assignment2 #Push code up to assignment2 branch on remote
 ```
 
-Make sure your branch is exactly named **assignment2** matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named `assignment2` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
