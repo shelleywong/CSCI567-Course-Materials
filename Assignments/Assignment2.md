@@ -2,14 +2,30 @@
 
 ## In this assignment your app needs to do the following:
 
-* Be hosted as a github pages
-* Your app should display "CINS467 Hello World"
+* [Be hosted as a GitHub Pages](#github-pages)
+* [Your web app should display "CINS467 Hello World"](#web-app)
 
-As long as your app does those tasks you will get credit for this assignment.
+As long as your app does these tasks, you will get credit for this assignment.
+
+The goal of Assignment 2 is for you to create a simple web application using Flutter, and to give you experience developing a multi-platform application from a single codebase. For future assignments, you will have the option to submit using either an Android APK or a web URL.
+
+## GitHub Pages
+
+[GitHub Pages](https://pages.github.com/) is a simple way for you to host a website directly from your GitHub repository.
+
+Make sure your CINS 467 GitHub repository settings are set up correctly for GitHub pages (from your repo, look for Settings => Pages).
+
+## Web App
+
+It is alright if your code for this assignment looks very similar to your code for Assignment 1. Just make sure that you are able to visit your GitHub Pages web app and your app displays the message, "CINS467 Hello World".
+
+Remember that you will need to run the `flutter build web` command to generate a release build and update the base href (since you are deploying to a non-root URL). The `flutter build web` command populates a `build/web` directory with built files -- you will need to move the `build/web` files and folders into the root of your CINS 467 directory.
 
 ## Getting Graded
 
-When you have your project finished submit it in the following format
+Create a file called `web.md`. In your `web.md` file you should have a web URL for your assignment hosted online. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments. The **web.md** file should remain the same for all these submissions. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+
+When you have your project finished, submit it in the following format:
 
 ```
     /
@@ -22,7 +38,8 @@ When you have your project finished submit it in the following format
     ......pubspec.yaml
     ......(Rest of your App Files)
 ```
-In your web.md file you should have a web URL for your assignment hosted online. You can do a web hosted submission for all the subsequent assignments as long as they continue to do the functionality of the earlier assignments. So the **web.md** file will remain the same for all these submissions. You also can continue to use the same project code as long as it is submitted to the correct branch. 
+
+All flutter build/web files and folders should also be in the same directory as `web.md`.
 
 ### Now submit your code to the **assignment2** branch:
 
