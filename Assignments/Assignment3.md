@@ -5,9 +5,9 @@
 * **Have Three Buttons**
   * The buttons must not all look the same - try using different types of buttons and updating the style (color, font, size, etc). By default, Flutter adds some style to the buttons, but you must specify at least three button properties in each of your buttons.
   * Each button should also have a handler (e.g. onPressed), so that when you click the button, it changes what you see in your app.
-* **Have two Text widgets**
+* **Have Two Text Widgets**
   * Each Text widget must contain data (the text to display) and use at least two additional properties to style the text (something other than the default).
-* **Make updates when each button is pressed**
+* **Make Updates When Each Button Is Pressed**
   * In at least one case, the contents of a Text widget must update when a button is pressed. The other buttons may update a Text widget or another aspect of your web app.
   * The buttons should give some indication of what they do when pressed (i.e. through text and/or icons)
 
@@ -59,4 +59,4 @@ git commit -m "Assignment 3 Submission" #Commit changes to branch
 git push --set-upstream origin assignment3 #Push code up to assignment2 branch on remote
 ```
 
-Make sure your branch is exactly named **assignment3** matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named `assignment3` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
