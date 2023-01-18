@@ -136,14 +136,20 @@ class MyApp extends StatelessWidget {
 
 > APK stands for Android Package Kit - it is the file format that Android uses to distribute and install apps.
 
-Remove the build folder and then explicitly build a new apk:
+You will need to run the `flutter build apk` command to create a new APK. The command should overwrite any files that are currently in the `build/` directory; however, if you want to be sure you are creating a fresh APK, you can remove the build folder using either `flutter clean` or `rm` (you should not need to run both commands):
 
 ```bash
+~/repos/CINS467-repo/AssignmentProject$ flutter clean
 ~/repos/CINS467-repo/AssignmentProject$ rm -rf build
+```
+
+Then explicitly build a new APK:
+
+```bash
 ~/repos/CINS467-repo/AssignmentProject$ flutter build apk
 ```
 
-Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/flutter-apk/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
+Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/apk/release/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
 
 If you don't have a CINS467 GitHub repo, go use the Generate GitHub Repo form on www.bryancdixon.com to request one.
 
