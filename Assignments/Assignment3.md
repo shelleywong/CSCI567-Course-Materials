@@ -17,13 +17,13 @@ The goal of Assignment 3 is to give you experience creating a simple UI (user in
 
 ## Getting Graded
 
-> After completing Option 1 or Option 2, remember to your code to the `assignment3` branch!
+> After completing Option 1 or Option 2, remember to submit your code to the `assignment3` branch!
 
 ### Option 1 - Android APK
 
 Create a new APK for this assignment. If you do not remember how to create an APK, refer back to the instructions in [Assignment 1](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Assignments/Assignment1.md#getting-graded).
 
-When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. You must only have **one** APK in your root directory (remember, each assignment should be submitted to a unique branch, so you can overwrite any previous APKs). Do not use Android Studio or VSCode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
+When you have your APK, move it to the root directory of your GIT repo that you were given to turn in assignments for this class. You must only have **one** APK in your root directory (remember, each assignment should be submitted to a unique branch, so you can overwrite any previous APKs). Do not use Android Studio or VSCode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
 ```
     /
