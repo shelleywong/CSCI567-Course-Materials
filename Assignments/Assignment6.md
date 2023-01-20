@@ -18,6 +18,8 @@ As long as your app does those tasks you will get credit for this assignment.
 
 The goal of Assignment 6 is to give you experience working with the camera or location services on a device. There are special installation and usage instructions for working with these features on a device (such as adding permissions). Your Final Project needs to leverage the fact it is on a device with access to internet, camera, or location services, so this assignment will help you prepare for the Final Project.
 
+> Note: Currently, you are not able to use the **camera** on web (you may open up files on the web, but you cannot use the camera, which is required for this assignment)
+
 ## Getting Graded
 
 > After completing Option 1 or Option 2, remember to submit your code to the `assignment6` branch!
