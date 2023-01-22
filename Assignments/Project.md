@@ -23,7 +23,11 @@ I highly recommend you work with Firebase on their free tier as the backend for 
 
 ## <a name="options">Final Project Options</a>
 
-For this project there are two different options for the type of project you can pursue. If you have general questions about either of these project options please ask. Remember that in any case, your project needs to leverage the fact it is on a device with access to internet, camera, or location services.
+For this project there are two different options for the type of project you can pursue. If you have general questions about either of these project options please ask. Remember that in any case, your project needs to both:
+* Leverage the fact it is on a device with internet connectivity
+  * You must send and/or receive data from an internet-based source such as the Firebase database (Cloud Firestore) or an API.
+* Use the camera and/or location services on the device
+  * If you are planning on using the camera, remember that the gallery or the ability to access files is not the same as using the camera.
 
 * **New Project**
   * With this option, you will create and work on a project you/your partner come up with. If working with a partner, you will want to make sure you both are doing enough for it to be a good project, while at the same time making sure you are not trying to do too much. This is where the project proposal will be extremely important and helpful.
