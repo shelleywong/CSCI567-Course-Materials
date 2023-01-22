@@ -13,7 +13,7 @@ For this first assignment you are getting grade on if you succeed in turning in 
 
 ## Get Your Flutter Build Environment Setup
 
-To get the build environment on your computer you should go to the [Flutter](https://flutter.io/docs/get-started/install) Download page and follow the directions there for your operating system.
+To get the build environment on your computer you should go to the [Flutter Download](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system.
 
 Make sure you:
 * Confirm your system requirements meet the minimum requirements
