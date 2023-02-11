@@ -39,7 +39,7 @@ When you have your project finished, submit it in the following format:
     ......(Rest of your App Files)
 ```
 
-All flutter build/web files and folders should also be in the same directory as `web.md`.
+All flutter `build/web` files and folders should also be in the same directory as `web.md`.
 
 ### Now submit your code to the **assignment2** branch:
 
