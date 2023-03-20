@@ -134,12 +134,12 @@ Your grading for the Project will break down into the following components:
 * Project Presentation
 	- This will be worth about 10% of the overall project grade. Your grade on this will be determined by whether or not you give a presentation. I will also look to see that the presentation gives a clear understanding of what your project is, how it works, and any technical hurdles you tackled to get it working.
 
-* Project Midpoint Evaluation - Project Progress Updates
+* Project Progress Updates and Lab Help Session Attendance
   - These will be worth about 10% of the overall project grade. After you have submitted all other assignments and the project proposal, there will be some time set aside for lab help sessions. You are expected to make progress on your project every week, and these evaluations/updates will be a way for you to show me that you are making progress.
-  - We will accomplish this either via class lab time, where I will check in with each group during a class period or each group will demo where their project is partway through the semester, or via Google forms that you submit to describe your progress.
+  - We will accomplish this via class lab time attendance (attend at least 80% of the lab help sessions) and Google forms that you submit to describe your progress (submit at least 6 updates, roughly 1 per week until the end of the semester).
 
-* Lecture and Lab Help Session Attendance, Presentation Feedback Forms
-  - These will together be worth about 10% of the overall project grade. You will need to fill out feedback forms for at least 80% of the presentations and attend at least 80% of lectures and lab help sessions to receive full credit for this portion of the grade.
+* Lecture Attendance, Presentation Feedback Forms
+  - These will together be worth about 10% of the overall project grade. You will need to fill out feedback forms for at least 80% of the presentations and attend at least 80% of lectures to receive full credit for this portion of the grade.
 
 
 * Final Project
