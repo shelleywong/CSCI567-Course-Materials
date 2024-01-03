@@ -8,8 +8,8 @@
 * [Final Project Full Proposal](#proposal)
 * [Final Project Submission](#submission)
 * [Final Project Presentation](#presentation)
-* [Final Project Grading](#grading)
 * [Final Project and Group Feedback](#feedback)
+* [Final Project Grading](#grading)
 
 This project will occupy several weeks of your time this semester. You should plan on spending significantly more time on this project compared to the other assignments in the course. The early assignments and lectures will hopefully give you the rudimentary tools you need to get started creating a Flutter Application for this project.
 
@@ -135,7 +135,7 @@ In addition to showing us your app and how it can be used, you should plan on di
   - Explain what you still have to get working
 * Discuss what you found cool/exciting/interesting about your project :grinning:
 
-## <a name="feedback">Final Project Submission/Feedback</a>
+## <a name="feedback">Final Project and Group Feedback</a>
 
 At the end of the semester, you will be given access to a Final Project Submission/Feedback Form. Completing this form will give me important information about the project, including details about where your project is hosted and/or where your code (and APK) is stored. The survey will also ask for feedback regarding your experience in the course and working on the project. This includes discussing the challenges you faced, expanding on why some deliverables did not get completed, exploring what you learned along the way, and providing some insight that could help future CINS 467 students. If you worked in a group, you will also be asked to evaluate how well the group worked together and how much you felt each teammate contributed.
 
