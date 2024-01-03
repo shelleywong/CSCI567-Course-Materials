@@ -6,7 +6,7 @@
 * [Create your first app](#create-your-first-app)
 * [Create your first APK (Android Install Package)](#getting-graded)
 
-> Note: Flutter supports development for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web; however, I will only be requiring Android and web results in this class (iOS development requires having an Apple computer).
+> Note: I will only be requiring Android and web results in this class. Flutter supports development for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web, so while we will not focus on developing iPhone apps in this class (since iOS development requires macOS), it should be relatively simple to create an iOS app from your existing Flutter app if you choose to do so in the future.
 
 
 For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CINS467 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
@@ -19,10 +19,10 @@ Make sure you:
 * Confirm your system requirements meet the minimum requirements
 * Get the Flutter SDK
 * Update your path
-* Run `flutter doctor`
+* Run `flutter doctor` to check your environment and display a report
   * I recommend running this command with the -v tag for verbose output
 
-After you run `flutter doctor -v`, you should see a report displayed to the terminal. Check the output carefully for other software you might need to install or further tasks to perform. The instructions provided in this report should address the other tasks that need to be completed; alternatively, you can go back to the installation instructions in the documentation and complete the following.
+After you run `flutter doctor -v`, you should see a report displayed to the terminal. Check the output carefully to determine if there is any additional software you need to install or tasks you need to perform. The instructions provided in this report should address your unique environment and the specific tasks that you need to complete; alternatively, you can go back to the installation instructions in the documentation and complete the following.
 
 Make sure you:
 * Can develop for Android
@@ -30,11 +30,13 @@ Make sure you:
   * If you want to use the Android emulator: Download and install Android Studio (this is the easiest way I know of to work with the Android Virtual Device (AVD) Manager)
 * Can develop for web (this should be setup by default)
 
-Ideally, you will be able to run `flutter doctor -v` and have the report say, "No issues found!" However, remember that XCode (iOS and macOS) is NOT required for this class, so it is ok if there are "issues" there.
+Ideally, you will be able to run `flutter doctor -v` and have the report say, "No issues found!" However, there are some cases where having unresolved issues is fine for this class -- remember that XCode (iOS and macOS) is NOT required in CINS 467.
 
 ### Code Editing
 
-I recommend you develop using the [VS Code](https://docs.flutter.dev/get-started/editor?tab=vscode) editor with Flutter and Dart plugins, as this is how I'll be developing during class. [Android Studio](https://docs.flutter.dev/get-started/editor?tab=androidstudio), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together, is also a good option for development. For Android Studio, you'll also need to add the plugins for Flutter/Dart as directed in that getting started with Android Studio for Flutter link. It is easier for me to demo the code on the projector with VS Code, but both are equally good. I do recommend relying on the Flutter command line directly for building your flutter exports, as it is more consistent than the built-in plugins for generating your submissions.
+I recommend you develop using the [VS Code](https://docs.flutter.dev/get-started/editor?tab=vscode) editor with Flutter and Dart plugins, as this is how I'll be developing during class. [Android Studio](https://docs.flutter.dev/get-started/editor?tab=androidstudio), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together, is also a good option for development. For Android Studio, you'll also need to add the plugins for Flutter/Dart as directed in that getting started with Android Studio for Flutter link. It is easier for me to demo the code on the projector with VS Code, but both are equally good.
+
+I do recommend relying on the Flutter command line directly for building your flutter exports, as it is more consistent than the built-in plugins for generating your submissions.
 
 ### flutter doctor
 
@@ -102,13 +104,13 @@ Remember to use `flutter doctor -v` to make sure your setup is configured correc
 
 ### Walk-through
 
-So to start create a "New Flutter Project", which you could do via the VScode or Android studio plugins; however, I would do it in the commandline where you want to host your project code. I would run this in the folder where the repo you'll be submitting to is cloned.
+Start by creating a "New Flutter Project". You can do this via the VScode or Android studio plugins; however, I would do it through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned).
 
 ```bash
 ~/repos/CINS467-repo/$ flutter create AssignmentProject
 ```
 
-You can name your project whatever you wish, and can use the same project for all of the assignment submissions. I opted to name it *AssignmentProject* for my example.
+You can name your project whatever you wish, and you can use the same project for all of the assignment submissions. I opted to name it *AssignmentProject* for my example.
 
 From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following would work; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
 
@@ -153,7 +155,7 @@ Look for the `app-release.apk` file - it should be located in the build folder p
 
 If you don't have a CINS467 GitHub repo, go use the Generate GitHub Repo form on www.bryancdixon.com to request one.
 
-You will submit all the assignments for this class to separate branches. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
+You will submit all the assignments for this class to separate branches on your CINS467 repo. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
 
 ```
     /
