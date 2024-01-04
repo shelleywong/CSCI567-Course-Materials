@@ -26,8 +26,10 @@ I highly recommend you work with Firebase on their free tier as the backend for 
 Your project needs to:
 * Leverage the fact it is on a device with internet connectivity
   * You must send and/or receive data from an internet-based source such as the Firebase database (Cloud Firestore) or an API.
+  * Completing this requirement shows that your client-side code is successfully communicating with a web server to retrieve and/or send data, interacting with a database to provide services to your users.
 * Use the camera and/or location services on the device
   * If you are planning on using the camera, remember that the gallery or the ability to access files is not the same as using the camera.
+  * Completing this requirement shows that your app is successfully interacting with the device hardware. Recall that interacting with sensitive hardware components generally requires privacy and security measures -- if your app includes these features, the user is usually prompted for permission to grant access.
 * Be interesting or useful
   * Does not have to be a completely original idea, but should be unique in some way.
   * If you use any tutorials (particularly anything that is not an official Flutter tutorial), you must include a reference (at minimum, include a link). You should also go beyond the tutorial or include changes that make sense for your app. Your final project should not match something I can find on the internet. Please refer to the academic honesty policy in the syllabus or ask me if you have questions about this.
