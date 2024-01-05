@@ -120,7 +120,7 @@ git push --set-upstream origin main
   * Note: you only need to include `--set-upstream` the first time you push to a branch -- the next time you push to the `main` branch, you can simply use `git push` or `git push origin main`
 12. Now go to your CINS467 repo on GitLab, reload the page, and confirm that you have added a README.md that contains the details specified above. It should look something like this:
 
-![README example](/Assignments/images/README_example.png)
+![README example](/Assignments/Images/README_example.png)
 
   * If your code is one big block of text, look at  the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) instructions more carefully, or ask the instructor about fixing your README.
   * If the README looks good, then you are done with Assignment 0! (Your submission is the README.md file in your private CINS467 repo, in the CSUC-CINS467 group)
