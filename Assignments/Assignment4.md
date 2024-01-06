@@ -25,7 +25,7 @@ The goal of Assignment 4 is to give you experience working with user input, deal
 
 ### Option 1 - Android APK
 
-Create a new APK for this assignment. If you do not remember how to create an APK, refer back to the instructions in [Assignment 1](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Assignments/Assignment1.md#getting-graded).
+Create a new APK for this assignment by running the `flutter clean` command, and then running the `flutter build apk` command. For more detailed instructions on creating and locating an APK, refer back to the instructions in [Assignment 1](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Assignments/Assignment1.md#getting-graded).
 
 When you have your APK, move it to the root directory of your GIT repo that you were given to turn in assignments for this class. You must only have **one** APK in your root directory (remember, each assignment should be submitted to a unique branch, so you can overwrite any previous APKs). Do not use Android Studio or VSCode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
@@ -58,11 +58,20 @@ In your web.md file you should have a web URL for your assignment hosted online.
 
 ### Now submit your code to the **assignment4** branch:
 
-```
-git checkout -b assignment4 #create branch and switch to it
-git add -A #add all
-git commit -m "Assignment 4 Submission" #Commit changes to branch
-git push --set-upstream origin assignment4 #Push code up to assignment3 branch on remote
+```bash
+git checkout -b assignment4  #create branch and switch to it
+git add -A  #add all
+git commit -m "Assignment 4 Submission"  #Commit changes to branch
+git push origin assignment4  #Push code up to assignment4 branch on remote
 ```
 
 Make sure your branch is exactly named `assignment4` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+
+If you plan on making multiple updates to the code on this branch, you can include the `--set-upstream` option when you push the code (i.e. `git push --set-upstream origin assignment4`) -- this adds an upstream (tracking) reference so that, any time you push or pull from this branch in the future, you can simply use `git push` or `git pull`, without specifying the remote and branch.
+
+If you would like to merge your `assignment4` branch with your `main` branch, you can run the following commands:
+```bash
+git checkout main  #switch to the main branch
+git merge assignment4  #join the development history from the assignment4 branch with the current (main) branch
+git push origin main  #push the assignment4 history up to the main branch on the remote
+```
