@@ -16,9 +16,12 @@ For this first assignment you are getting grade on if you succeed in turning in 
 To get the build environment on your computer you should go to the [Flutter Install](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system.
 
 Make sure you:
+* Choose Mobile (Windows) or Android (Mac) for your first type of app
 * Confirm your system requirements meet the minimum requirements
-* Get the Flutter SDK
-* Update your path
+* Configure a text editor (the Flutter team recommends using Visual Studio Code and the Flutter extension for VS Code)
+* Install the Flutter SDK
+  * Windows users: Make sure you do NOT install Flutter to a directory or path that contains special characters or spaces, or that requires elevated privileges
+* Make sure the SDK has been added to PATH
 * Run `flutter doctor` to check your environment and display a report
   * I recommend running this command with the -v tag for verbose output
 
@@ -43,7 +46,7 @@ I do recommend relying on the Flutter command line directly for building your fl
 Remember to use `flutter doctor -v` to make sure your setup is configured correctly. An example of flutter doctor running successfully on my computer is as follows:
 
 ```bash
-~/$ flutter doctor -v                                               ✔
+~/$ flutter doctor -v
 [✓] Flutter (Channel stable, 3.3.10, on macOS 11.7 20G817 darwin-x64, locale
     en-US)
     • Flutter version 3.3.10 on channel stable at
@@ -98,9 +101,15 @@ Remember to use `flutter doctor -v` to make sure your setup is configured correc
 
 **Disclaimer:** *You should go through the steps yourself to create the Hello World app and not just import an existing Hello World app as you'll miss out on going through the steps of creating a new app.*
 
+Remember, the final submission for Assignment 1 may seem simple, but before you can complete the assignment, you will need to do a lot of setup for Flutter and Android. Give yourself time to get everything set up!
+
 ### Requirements:
 
-* Your app should display "CINS467 Hello World"
+* Create an app that displays "CINS467 Hello World" in a Text widget
+* Create an APK for your app
+* Submit the assignment correctly
+  * Use a branch called `assignment1`
+  * Submit to your CINS467 GitLab repo
 
 ### Walk-through
 
@@ -112,23 +121,26 @@ Start by creating a "New Flutter Project". You can do this via the VScode or And
 
 You can name your project whatever you wish, and you can use the same project for all of the assignment submissions. I opted to name it *AssignmentProject* for my example.
 
-From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following would work; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
+From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following works if you update the Text widget; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
 
 ```Dart
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Hello World App',
+      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
       ),
-      home: Text("Hello World"),
+      home: const Text('Hello World'),
     );
   }
 }
@@ -153,7 +165,7 @@ Then explicitly build a new APK:
 
 Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/apk/release/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
 
-If you don't have a CINS467 GitHub repo, go use the Generate GitHub Repo form on www.bryancdixon.com to request one.
+If you don't have a CINS467 GitLab repo, go to Canvas to see the instructions for generating a Git Repo for this class.
 
 You will submit all the assignments for this class to separate branches on your CINS467 repo. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
 
@@ -171,11 +183,20 @@ You will submit all the assignments for this class to separate branches on your 
 
 Now submit your code to the **assignment1** branch:
 
-```
+```bash
 git checkout -b assignment1 #create branch and switch to it
 git add -A #add all
 git commit -m "Assignment 1 Submission" #Commit changes to branch
-git push --set-upstream origin assignment1 #Push code up to assignment1 branch on remote
+git push origin assignment1 #Push code up to assignment1 branch on remote
 ```
 
 Make sure your branch is exactly named `assignment1` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+
+If you plan on making multiple updates to the code on this branch, you can include the `--set-upstream` option when you push the code (i.e. `git push --set-upstream origin assignment1`) -- this adds an upstream (tracking) reference so that, any time you push or pull from this branch in the future, you can simply use `git push` or `git pull`, without specifying the remote and branch.
+
+If you would like to merge your `assignment1` branch with your `main` branch, you can run the following commands:
+```bash
+git checkout main  #switch to the main branch
+git merge assignment1  #join the development history from the assignment1 branch with the current (main) branch
+git push origin main  #push the assignment1 history up to the main branch on the remote
+```
