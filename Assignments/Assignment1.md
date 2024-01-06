@@ -20,8 +20,10 @@ Make sure you:
 * Confirm your system requirements meet the minimum requirements
 * Configure a text editor (the Flutter team recommends using Visual Studio Code and the Flutter extension for VS Code)
 * Install the Flutter SDK
-  * Windows users: Make sure you do NOT install Flutter to a directory or path that contains special characters or spaces, or that requires elevated privileges
-* Make sure the SDK has been added to PATH
+  * Windows users:
+    * Make sure you do NOT install Flutter to a directory or path that contains special characters or spaces, or that requires elevated privileges
+    * Make sure the SDK has been added to PATH
+  * Flutter now provides instructions to use VS Code to install OR to download a provided installation bundle to get the latest stable release of the Flutter SDK
 * Run `flutter doctor` to check your environment and display a report
   * I recommend running this command with the -v tag for verbose output
 
@@ -184,10 +186,10 @@ You will submit all the assignments for this class to separate branches on your 
 Now submit your code to the **assignment1** branch:
 
 ```bash
-git checkout -b assignment1 #create branch and switch to it
-git add -A #add all
-git commit -m "Assignment 1 Submission" #Commit changes to branch
-git push origin assignment1 #Push code up to assignment1 branch on remote
+git checkout -b assignment1  #create branch and switch to it
+git add -A  #add all
+git commit -m "Assignment 1 Submission"  #Commit changes to branch
+git push origin assignment1  #Push code up to assignment1 branch on remote
 ```
 
 Make sure your branch is exactly named `assignment1` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
