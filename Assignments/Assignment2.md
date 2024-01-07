@@ -1,29 +1,37 @@
 # Assignment 2 - Web Hello World
 
-## In this assignment your app needs to do the following:
+## In this assignment your app needs to:
 
-* [Be hosted as a GitHub Pages](#github-pages)
-* [Your web app should display "CINS467 Hello World"](#web-app)
+* [Be a static web app, hosted using GitLab Pages](#gitlab-pages)
+* [Display "CINS467 Hello World" in a Text widget](#web-app)
 
-As long as your app does these tasks, you will get credit for this assignment.
+Also make sure that you:
+* Submit the assignment correctly
+  * Use a branch called `assignment2`
+  * Submit to your CINS467 GitLab repo
+
+As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
 
 The goal of Assignment 2 is for you to create a simple web application using Flutter, and to give you experience developing a multi-platform application from a single codebase. For future assignments, you will have the option to submit using either an Android APK or a web URL.
 
-## GitHub Pages
+## GitLab Pages
 
-[GitHub Pages](https://pages.github.com/) is a simple way for you to host a website directly from your GitHub repository.
+[GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) is a simple way for you to host a website directly from your GitLab repository. GitLab Pages is similar to [GitHub Pages](https://pages.github.com/), with a slightly different setup -- among other things, GitLab Pages use pipelines to publish static websites, so you need a CI/CD pipeline setup in order to create a GitLab Pages website. Look for the lecture outline that provides a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline (deploy stage only).
 
-Make sure your CINS 467 GitHub repository settings are set up correctly for GitHub pages (from your repo, look for Settings => Pages).
+From your CINS467 GitLab repository, you should be able to see the pipeline running and access your GitLab Pages website:
+* To see the pipeline for your project, go to the left sidebar and select `Build` > `Pipelines`
+* To see your website, go to the left sidebar and select `Deploy` > `Pages`
+  * Then click on the link provided under **Access pages** (it should include your repo name and end with `gitlab.io`)
 
 ## Web App
 
-It is alright if your code for this assignment looks very similar to your code for Assignment 1. Just make sure that you are able to visit your GitHub Pages web app and your app displays the message, "CINS467 Hello World".
+It is alright if your code for this assignment looks very similar to your code for Assignment 1. Just make sure that you are able to visit your GitLab Pages web app and your app displays the message, "CINS467 Hello World".
 
-Remember that you will need to run the `flutter build web` command to generate a release build and update the base href (since you are deploying to a non-root URL). The `flutter build web` command populates a `build/web` directory with built files -- you will need to move the `build/web` files and folders into the root of your CINS 467 directory.
+Note that if you set up the `.gitlab-ci.yml` file correctly, it will run the `flutter build web` command to generate a release build and complete the other commands necessary to upload your program to use with GitLab Pages.
 
 ## Getting Graded
 
-Create a file called `web.md`. In your `web.md` file you should have a web URL for your assignment hosted online. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments. The `web.md` file should remain the same for all these submissions. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+Create a file called `web.md`. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments. The `web.md` file should remain the same for all these submissions. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
 
 When you have your project finished, submit it in the following format:
 
@@ -39,7 +47,7 @@ When you have your project finished, submit it in the following format:
     ......(Rest of your App Files)
 ```
 
-All flutter `build/web` files and folders should also be in the same directory as `web.md`.
+If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch.
 
 ### Now submit your code to the **assignment2** branch:
 
