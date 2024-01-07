@@ -1,19 +1,39 @@
 # Assignment 3 - Simple UI
 
-## In this assignment your app needs to do the following:
+## In this assignment your app needs to:
 
-* **Have Three Buttons**
-  * The buttons must not all look the same - try using different types of buttons and updating the style (color, font, size, etc). By default, Flutter adds some style to the buttons, but you must specify at least three button properties in each of your buttons.
-  * Each button should also have a handler (e.g. onPressed), so that when you click the button, it changes what you see in your app.
-* **Have Two Text Widgets**
-  * Each Text widget must contain data (the text to display) and use at least two additional properties to style the text (something other than the default).
+* **Have At Least Three Buttons**
+  * Each button widget must include at least 3 properties:
+    * child (the button's label - often an Icon or Text widget)
+    * onPressed or other callback (something should happen when the button is tapped or otherwise activated)
+      * Each button should have its own unique action.
+      * The label for each button should provide an indication of what the button does when pressed.
+    * style (an instance of the ButtonStyle class that is used to customize the button's appearance)
+      * The buttons must not all look the same.
+      * By default, Flutter adds some style to the buttons, but for this assignment, you need to update at least one aspect of the appearance of each button (e.g. background or foreground color, size or padding, shape, font, etc).
+    * You are encouraged to play around with other button properties in addition to the ones specified above!
+* **Have At Least Two Text Widgets**
+  * Each Text widget must contain at least 2 properties:
+    * data (the text to display)
+    * style (an instance of the TextStyle class that is used to style the text)
+      * by default, all text has some style, but for this assignment, you need to stylize the text in some way other than the default.
+      * The text in each Text widget should have its own unique style.
+      * The TextStyle class is used to format and paint text. **Use at least 2 TextStyle properties** to style the Text widget (notice that you can make changes to color, font, decoration, size, spacing, and more)
 * **Make Updates When Each Button Is Pressed**
-  * In at least one case, the contents of a Text widget must update when a button is pressed. The other buttons may update a Text widget or another aspect of your web app.
-  * The buttons should give some indication of what they do when pressed (i.e. through text and/or icons)
+  * When each button is tapped, it should make a change that is visible in the app.
+  * In at least one case, the contents of a Text widget must be updated when a button is pressed. The other buttons may update a Text widget or another aspect of your web app.
+  * Remember that the label of each button (e.g. text or icon) should give some indication of what the button does when pressed
 
-As long as your app does those tasks you will get credit for this assignment.
+Also make sure that you:
+* Submit the assignment correctly
+  * Use a branch called `assignment3`
+  * Submit to your CINS467 GitLab repo
 
-The goal of Assignment 3 is to give you experience creating a simple UI (user interface) with Flutter. Have fun! This is a great time to start thinking about how you want your final project to look, or just play around and learn what different Flutter features can do.
+As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
+
+> Note: some aspects of style and layout can be deceptively tricky. Make sure to give yourself time to try out and test various features! Look for code examples and short videos in the official Flutter docs to help with understanding Flutter classes, properties, and methods.
+
+The goal of Assignment 3 is to give you experience creating a simple UI (user interface) with Flutter. Have fun! This is a great time to start thinking about how you want your final project to look, or to just play around, learn about different Flutter features, and figure out how you can customize an app and make it look unique.
 
 ## Getting Graded
 
