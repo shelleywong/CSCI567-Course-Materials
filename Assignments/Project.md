@@ -13,6 +13,9 @@
 
 This project will occupy several weeks of your time this semester. You should plan on spending significantly more time on this project compared to the other assignments in the course. The early assignments and lectures will hopefully give you the rudimentary tools you need to get started creating a Flutter Application for this project.
 
+> Important Note: Do NOT use your CINS467 project as a submission for another class. Do NOT submit a project from another class as your final project for CINS467. In certain cases, students are allowed to start from an existing project from another class and expand on it; however, you must make clear which components were completed for which class and get approval from any instructors involved. Without explicit permission, submitting the same work for credit in more than one course is a violation of academic integrity.
+
+
 ## <a name="overview">Final Project Overview</a>
 
 The primary purpose of this project is to give you the opportunity to create a working Flutter Application. An additional goal is to give you a reason to make use of some of the software development tools discussed in this course (GIT, Issue Tracking, CI/CD, testing, etc). There are a few different classifications of projects (which will be discussed in a later section) -- this will hopefully provide you with flexibility and freedom to pursue something you or your partner has an interest in, whether it be a new app idea or contributing to an open source project. I am hopeful that you all will find this project fun and exciting, and I look forward to seeing your results at the end of this semester!<br>
