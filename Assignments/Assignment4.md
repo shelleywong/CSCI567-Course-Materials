@@ -1,23 +1,31 @@
 # Assignment 4 - Persistent Data on Client
 
-## In this assignment your app needs to do the following:
+## In this assignment your app needs to:
 
 * **Use a Form**
-  * Needs to be some way for the user to give input.
-  * This can be implemented with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) with a TextField.
+  * Needs to be some way for the user to provide text input and submit their input.
+  * Need to have at least two separate fields where users can enter input.
+  * This can be implemented with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field (such as [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)) or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) using the [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html), which wraps TextField in a FormField.
 * **Store a Persistent State in the SQLite DB, local filesystem, or platform-specific persistent storage on the phone or web**
+  * You must store at least two different data types (e.g. String, int, bool, double, List)
   * You must successfully use one of the following plugins:
-    * [sqflite](https://pub.dev/packages/sqflite)
-    * [path_provider](https://pub.dev/packages/path_provider)
     * [shared_preferences](https://pub.dev/packages/shared_preferences)
+    * [path_provider](https://pub.dev/packages/path_provider)
+    * [sqflite](https://pub.dev/packages/sqflite)
 * **Have the Form update the state**
   * When the form receives user input, it must update data that is stored in a persistent state.
-* **View updates based on the changed state**
-  * When the data in storage changes, the view that the user sees must also update to reflect that change.
+* **Have the View update based on the changed state**
+  * When the data in storage changes, the corresponding user interface (view that the user sees) must also update to reflect that change.
+  * The updates to the state and view should be tested with at least two different types of inputs (you will likely need to use operations to convert the data, e.g. from the form to storage, and/or from storage to what is displayed to the user).
 
-As long as your app does those tasks you will get credit for this assignment.
+Also make sure that you:
+  * Submit the assignment correctly
+    * Use a branch called `assignment4`
+    * Submit to your CINS467 GitLab repo
 
-The goal of Assignment 4 is to give you experience working with user input, dealing with persistent storage, and handling interactions with the data so that any changes in storage are also reflected in the view that the user sees. Understanding how these components interact is important any time you are developing a dynamic web or mobile application, regardless of the framework.
+As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
+
+The goal of Assignment 4 is to give you experience working with user input, dealing with persistent storage, and handling interactions with the data so that any changes in storage are also reflected in the view that the user sees. Understanding how these components interact is important any time you are developing a responsive and dynamic web or mobile application. Regardless of the framework, it is important to be able to display information that aligns with the current state of the application's data.
 
 ## Getting Graded
 
