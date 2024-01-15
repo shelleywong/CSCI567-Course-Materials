@@ -183,7 +183,11 @@ You will submit all the assignments for this class to separate branches on your 
     ......(Rest of App Files)
 ```
 
-Now submit your code to the **assignment1** branch:
+### Submitting to your remote CINS467 git repo
+
+I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you use git commands in a terminal.
+
+### Now submit your code to the **assignment1** branch:
 
 ```bash
 git checkout -b assignment1  #create branch and switch to it

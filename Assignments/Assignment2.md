@@ -49,6 +49,10 @@ When you have your project finished, submit it in the following format:
 
 If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch.
 
+### Submitting to your remote CINS467 git repo
+
+I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you use git commands in a terminal.
+
 ### Now submit your code to the **assignment2** branch:
 
 ```bash
