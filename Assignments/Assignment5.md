@@ -1,21 +1,29 @@
-# Assignment 5 - Firebase
+# Assignment 5 - REST API
 
-## In this assignment your app needs to do the following:
+## In this assignment your app needs to:
 
-* **Use a Form**
-  * Needs to be some way for the user to give input.
-  * This can be implemented with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) with a TextField.
-* **Store a Persistent state on Firebase**
-  * You must set up a project on [Firebase](https://firebase.google.com/)
-  * You will need to use the [cloud_firestore](https://pub.dev/packages/cloud_firestore) and [firebase_core](https://pub.dev/packages/firebase_core) plugins
-* **Form updates Firebase**
-  * When the form receives user input, it must update data that is stored in the Firestore database.
-* **View updates based on the changed state**
-  * When the data in your Firestore Database changes, the view that the user sees in your app must also update to reflect that change.
+* **Have a simple UI**
+  * Your UI should be user-friendly. Every feature should have a purpose, and it should be clear to users how they can interact with each feature.
+* **Retrieve data from a REST API**
+  * You must successfully make at least one HTTP GET request using the [Dart http package](https://pub.dev/packages/http) to fetch data.
+    * The data returned by your chosen REST API should contain at least one object that is composed of at least three fields that can be effectively displayed or used.
+  * To receive full credit for this assignment, use a different REST API from the one demonstrated in class.
+    * Feel free to use a free and public API (you do not need to use an API Key for this assignment).
+* **Display data received from a REST API in the View**
+  * Present the data received from the REST API in a clear and user-friendly manner within the view (so that users can see a representation of the state of the resource in the user interface).
+    * You are not required to display the entire response, but you must showcase at least one object and at least three different fields from the object, utilizing widgets to effectively display the values (e.g. using Text, ListTile, or Card) or using the values in a meaningful way (e.g. launching a URL with a GestureDetector or button)
+    * The data should not be presented in its raw transferred state (e.g. if you receive JSON data, the data should not be displayed in JSON format). Instead, use appropriate widgets to provide a clear and visually appealing representation.
 
-As long as your app does those tasks you will get credit for this assignment.
+Also make sure that you:
+  * Submit the assignment correctly
+    * Use a branch called `assignment5`
+    * Submit to your CINS467 GitLab repo
 
-The goal of Assignment 5 is similar to the goal of Assignment 4, but this assignment is specifically aimed at giving you experience working with Firebase Cloud Storage. Cloud Storage is more reliable and more scalable than other persistent storage options, and it expands the capabilities of your app, allowing for features like in-app collaboration and syncing across multiple devices.
+As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
+
+The goal of Assignment 5 is to give you experience working with a [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api). REST is one of the most widely used approaches for building web-based APIs, and it is useful for you to be familiar with how to interact with a REST API from the client side. Sending and/or receiving data from an internet-baseds source (such as a REST API) is one option for meeting the Final Project requirement that your project needs to leverage the fact it is on a device with internet connectivity.
+
+> Note: Some APIs will not work on web by default (they require CORS support to be enabled). For this assignment, you may want to submit with an Android APK (which does not run into the CORS support issue) or find an API that works on web without additional configurations necessary.
 
 ## Getting Graded
 

@@ -1,24 +1,29 @@
-# Assignment 6 - Camera or Location
+# Assignment 6 - Firebase
 
 ## In this assignment your app needs to do the following:
 
-* **Have a simple UI**
-  * Your UI should be user-friendly. Every feature should have a purpose, and it should be clear to users how they can interact with each feature.
-* **Do one of the following:**
-  * Launch the **camera** to get a photo
-    * Photo should then be added to the simple UI
-    * There is no need to store more than one instance of an image, but it is recommended that you render a list of all the images taken in your UI.
-    * If you choose this option, the [image_picker](https://pub.dev/packages/image_picker) plugin will be useful.
-  * Use **location services** on the device
-    * Current location should be updated in the simple UI as it changes. This can be kept as a string representation of the location.
-    * It isn't required to put the location on a map, but if you plan to use location in your project, this would be a good stretch goal to attempt here.
-    * If you choose this option, the [geolocator](https://pub.dev/packages/geolocator) plugin will be useful.
+* **Use a Form**
+  * Needs to be some way for the user to provide text input and submit their input.
+  * Need to have at least two separate fields where users can enter input.
+  * This can be implemented with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field (such as [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)) or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) using the [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html), which wraps TextField in a FormField.
+* **Store a Persistent state on Firebase**
+  * You must store at least two different data types (e.g. string, number, boolean, map, array)
+  * You must set up a project on [Firebase](https://firebase.google.com/)
+  * You will need to use the [cloud_firestore](https://pub.dev/packages/cloud_firestore) and [firebase_core](https://pub.dev/packages/firebase_core) plugins
+* **Form updates Firebase**
+  * When the form receives user input, it must update data that is stored in the Firestore database.
+* **View updates based on the changed state**
+  * When the data in your Firestore Database changes, the view that the user sees in your app must also update to reflect that change.
+  * The updates to the state and view should be tested with at least two different types of inputs (you will likely need to use operations to convert the data, e.g. from the form to storage, and/or from storage to what is displayed to the user).
 
-As long as your app does those tasks you will get credit for this assignment.
+Also make sure that you:
+  * Submit the assignment correctly
+    * Use a branch called `assignment6`
+    * Submit to your CINS467 GitLab repo
 
-The goal of Assignment 6 is to give you experience working with the camera or location services on a device. There are special installation and usage instructions for working with these features on a device (such as adding permissions). Your Final Project needs to leverage the fact it is on a device with access to internet, camera, or location services, so this assignment will help you prepare for the Final Project.
+As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
 
-> Note: Currently, you are not able to use the **camera** on web (you may open up files on the web, but you cannot use the camera, which is required for this assignment)
+The goal of Assignment 6 is similar to the goal of Assignment 4, but this assignment is specifically aimed at giving you experience working with Firebase Cloud Storage. Cloud Storage is more reliable and more scalable than other persistent storage options, and it expands the capabilities of your app, allowing for features like in-app collaboration and syncing across multiple devices.
 
 ## Getting Graded
 
