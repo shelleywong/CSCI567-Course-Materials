@@ -63,7 +63,7 @@ $ git config --global user.email johndoe@example.com
 
 For this course, you will complete all programming assignments (with the possible exception of your final project) in your private GitLab repo that is part of the CSUChico/CINS467 group. The group is private -- you will only be able to access it after you have generated a CINS467 repo and joined the group.
 
-1. Go to the Repo Generation Page and select your course (CINS 467)
+1. Go to the [Repo Generator](https://repo.bryandixon.phd/) page and select your course (CINS 467)
 2. Fill out the form with your First Name, Last Name, GitLab username, and the Course Token (provided during lecture).
   * If you are retaking CINS 467, you may receive an error that you have already generated a repo. Email or talk to the instructor about getting your repo updated for the current semester (you will not submit the form again in this case).
   * Make sure you enter everything correctly -- if you enter a valid, existing GitLab username but it is not your GitLab username, a different person will receive the invite.
