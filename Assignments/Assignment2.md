@@ -16,7 +16,7 @@ The goal of Assignment 2 is for you to create a simple web application using Flu
 
 ## GitLab Pages
 
-[GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) is a simple way for you to host a website directly from your GitLab repository. GitLab Pages is similar to [GitHub Pages](https://pages.github.com/), with a slightly different setup -- among other things, GitLab Pages use pipelines to publish static websites, so you need a CI/CD pipeline setup in order to create a GitLab Pages website. Look for the lecture outline that provides a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline (deploy stage only).
+[GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) is a simple way for you to host a website directly from your GitLab repository. GitLab Pages is similar to [GitHub Pages](https://pages.github.com/), with a slightly different setup -- among other things, GitLab Pages use pipelines to publish static websites, so you need a CI/CD pipeline setup in order to create a GitLab Pages website. Look for the lecture materials that provide a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline (deploy stage only).
 
 From your CINS467 GitLab repository, you should be able to see the pipeline running and access your GitLab Pages website:
 * To see the pipeline for your project, go to the left sidebar and select `Build` > `Pipelines`
