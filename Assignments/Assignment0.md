@@ -34,6 +34,7 @@ $ git config --global user.email johndoe@example.com
   * You can confirm that your name and email have been set by running the `git config --list` command again.
 4. Check for an existing SSH key
   * Note: you need to generate an SSH key for your local machine -- if you have previously generated an SSH key in WSL2, a Linux Virtual Machine, or ecc-linux, you will need to generate another one locally.
+  * Note: If you already have an existing SSH key on your local machine, it is safe to reuse your existing SSH key, just make sure that no one is able to steal your private key. If you already have a key, continue to step 6.
   * Open a terminal and enter the following command to see if existing SSH keys are present:
     * `ls -al ~/.ssh`
   * Examples of public ssh keys include `id_rsa.pub`, `id_ecdsa.pub`, and `id_ed25519.pub`. If you have a key already, you can skip the step to generate a new SSH key and upload your existing key to GitLab (if you complete the step to Generate a new SSH key and the SSH key is the same type as one you already have, it will overwrite your existing key)
@@ -46,7 +47,7 @@ $ git config --global user.email johndoe@example.com
   * At the next prompt, you may choose to type a secure passphrase (or leave empty for no passphrase).
     * If you include a passphrase, make sure it is one that you will easily remember, as you will need to type the passphrase every time you use a git command that interacts with GitLab (e.g. `push`, `pull`, `clone`).
     * If you do not include a passphrase, make sure you keep your computer secure (do not allow other people to use or easily access it).
-6. Add a new SSH key to your GitLab account
+6. Add an SSH key to your GitLab account
   * Copy the SSH public key to your clipboard
     * Windows: `clip < ~/.ssh/id_ed25519.pub`
     * Mac: `pbcopy < ~/.ssh/id_ed25519.pub`
