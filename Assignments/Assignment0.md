@@ -59,6 +59,10 @@ $ git config --global user.email johndoe@example.com
     * Leave the Usage type as "Authentication & Signing"
     * Optionally, set an expiration date -- if you include an expiration date, make sure it is after the end of the semester for this class.
     * Click the `Add key` button to finish adding the SSH key. Now, you should see your key in the list of "Your SSH keys".
+  * Enable Two-Factor Authentication
+    * In order to use the CINS467 course repo, you will need to increase your account's security by enabling two-factor authentication (2FA). Go to your account (gitlab.com/yourusername), click the `Edit profile` button, then select `Account` from the left sidebar. Make sure you enable **Two-factor authentication**.
+      * For two-factor authentication, you can **Register a one-time password authenticator** (such as Duo Mobile, Authy, Google Authenticator, etc) or **Register a WebAuthn device** (a hardware device such as a YubiKey).
+      * You should already have Duo Mobile for campus authentication -- if you set up Duo for GitLab, note that you may not get a notification (like you do when signing in to campus apps). You can look for a 6 digit passcode (hidden by default) in the app (note that the passcode will get refreshed frequently).
 
 ## Generate a CINS467 Course Repo
 
