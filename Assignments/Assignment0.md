@@ -15,7 +15,8 @@ Note: I recommend using native Flutter on Windows or Mac (i.e. do not use WSL2 o
 Before you complete Assignment 0, check that you have completed the following steps (sign up for GitLab, install and set up git, set up your SSH key):
 
 1. [Sign up for GitLab](https://about.gitlab.com/)
-  * GitLab is free for personal projects -- you should not need a credit card to sign up
+  * GitLab is free for personal projects -- you should not need a credit card to sign up (you may get a free trial of GitLab Ultimate; once the free trial ends, your account should go back to the Free tier that works for personal projects)
+  * Note that you must actually sign up for GitLab -- you will not be able to join the CSUC-CINS467 group if you sign in to GitLab with credentials for another site (e.g. GitHub).
 2. Confirm that you have git installed (if installed, `which git` will identify the location of git installed on your machine, while `git version` will display version information)
 ```
 $ which git
