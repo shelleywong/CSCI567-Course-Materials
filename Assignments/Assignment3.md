@@ -72,7 +72,7 @@ For this assignment you should have a directory that looks like the following:
     ......pubspec.yaml
     ......(Rest of firebase App Files)
 ```
-In your web.md file you should have a web URL for your assignment hosted online.
+In your web.md file, you should have a web URL for your assignment hosted online. This will be the same web URL as any previous GitLab Pages submissions. Remember, if you are doing web submissions for Assignments 3-7, you must make sure that each assignment still meets the requirements of the previous assignments. (You will always only have one GitLab Pages website).
 
 ### Submitting to your remote CINS467 git repo
 
