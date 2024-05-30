@@ -8,7 +8,7 @@
 
 ## Preliminary setup
 
-Note: I recommend using native Flutter on Windows or Mac (i.e. do not use WSL2 or a Linux VM). If you are using **Mac**, you should be able to complete everything using the default terminal and the editor of your choice (e.g. VS Code, Android Studio). If you are using **Windows**, plan on completing your Flutter development in PowerShell and/or VS Code. PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell OR install and setup Git Bash to complete the Git commands (including those that interact with GitLab).<br>
+Note: I recommend using native Flutter on Windows, Mac, or Linux (i.e. do not use WSL2 or a Linux VM). If you are using **Mac** or native **Linux**, you should be able to complete everything using the default terminal and the editor of your choice (e.g. VS Code, Android Studio). If you are using **Windows**, plan on completing your Flutter development in PowerShell, the Windows Command Prompt shell, and/or VS Code. PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell OR install and setup Git Bash to complete the Git commands (including those that interact with GitLab).<br>
 
 > My instructions regarding SSH keys are based on the GitHub Docs regarding SSH: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
 
@@ -74,7 +74,8 @@ For this course, you will complete all programming assignments (with the possibl
   * If you are retaking CINS 467, you may receive an error that you have already generated a repo. Email or talk to the instructor about getting your repo updated for the current semester (you will not submit the form again in this case).
   * Make sure you enter everything correctly -- if you enter a valid, existing GitLab username but it is not your GitLab username, a different person will receive the invite.
   * Click the button to Generate a GitLab Repo.
-3. After submitting the form, go to [gitlab.com/CSUChico/CSUC-CINS467](https://gitlab.com/CSUChico/CSUC-CINS467) and see if you have access to the CSUC-CINS467 group. You should see a private repo generated for you. The repo will have a name in this format: `CINS467-S24-FirstName-LastName`.
+  * If you run into any issues with generating a GitLab repo in the CSUChico/CSUC-CINS467 group, talk to the instructor!
+3. After submitting the form, go to [gitlab.com/CSUChico/CSUC-CINS467](https://gitlab.com/CSUChico/CSUC-CINS467) and see if you have access to the CSUC-CINS467 group. You should see a private repo generated for you. The repo will have a name in this format: `CINS467-Semester-FirstName-LastName`.
 4. If you click on the repo, you should see that it is empty. Now you should use the command line instructions to "Create a new repository". The steps described below are given in the empty repo -- the main difference is that you need to add some additional information to the README for Assignment 0.
 
 ## Add a README file on the main branch
@@ -102,8 +103,8 @@ touch README.md
 5. Open README.md with the editor of your choice (e.g. vim, VSCode)
 6. Edit your README.md file to include the following information, using the style specified -- feel free to reference the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information. (Note that spacing matters when writing markdown)
   * Add your First and Last name as an `h2` heading
-  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Spring 2024"
-    * Give emphasis to the current semester (e.g. "Spring 2024") using (**bold** and/or _italics_)
+  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Summer 2024"
+    * Give emphasis to the current semester (e.g. "Summer 2024") using (**bold** and/or _italics_)
   * Add a **horizontal line** below the current semester
   * Below the horizontal line, add an **ordered or unordered list** that contains the following two items: (1) "Chico State Username: " followed by the username you use to login to the Chico State Portal, and (2) "GitLab username: " followed by the username you use to login to GitLab
 7. After you have finished editing the README.md file, save your changes.

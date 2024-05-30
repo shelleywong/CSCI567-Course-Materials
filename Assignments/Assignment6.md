@@ -4,7 +4,7 @@
 
 * **Use a Form**
   * Needs to be some way for the user to provide text input and submit their input.
-  * Need to have at least two separate fields where users can enter input.
+  * Must include at least two separate input fields for users. Make sure that each input field is clearly labeled and configured to indicate the required type of input -- note that your app will need to store at least two different data types (e.g., String, int, bool, double, List).
   * This can be implemented with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field (such as [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)) or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) using the [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html), which wraps TextField in a FormField.
 * **Store a Persistent state on Firebase**
   * You must store at least two different data types (e.g. string, number, boolean, map, array)
@@ -13,7 +13,7 @@
 * **Form updates Firebase**
   * When the form receives user input, it must update data that is stored in the Firestore database.
 * **View updates based on the changed state**
-  * When the data in your Firestore Database changes, the view that the user sees in your app must also update to reflect that change.
+  * When the data in your Firebase Database changes, the corresponding user interface (view that the user sees) must also update to reflect that change. For example, you could update the view by clearing the form and displaying the stored data elsewhere on the page, or by redirecting the user to a different page where the data is displayed.
   * The updates to the state and view should be tested with at least two different types of inputs (you will likely need to use operations to convert the data, e.g. from the form to storage, and/or from storage to what is displayed to the user).
 
 Also make sure that you:
