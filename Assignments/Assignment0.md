@@ -8,7 +8,7 @@
 
 ## Preliminary setup
 
-Note: I recommend using native Flutter on Windows, Mac, or Linux (i.e. do not use WSL2 or a Linux VM). If you are using **Mac** or native **Linux**, you should be able to complete everything using the default terminal and the editor of your choice (e.g. VS Code, Android Studio). If you are using **Windows**, plan on completing your Flutter development in PowerShell, the Windows Command Prompt shell, and/or VS Code. PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell OR install and setup Git Bash to complete the Git commands (including those that interact with GitLab).<br>
+Note: I recommend using native Flutter on Windows, Mac, or Linux (i.e. do not install Flutter on WSL2 or a Linux VM). If you are using **Mac** or native **Linux**, you should be able to complete everything using the default terminal and the editor of your choice (e.g. VS Code, Android Studio). If you are using **Windows**, plan on completing your Flutter development in PowerShell, the Windows Command Prompt shell, and/or VS Code or Android Studio. PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell OR install and setup Git Bash to complete the Git commands (including those that interact with GitLab). Alternatively, you may be able to use WSL2, as long as you put your CINS467 repo in a place that is accessible from a PowerShell or Command Prompt terminal -- in this case, you will complete the Flutter commands in the Command Prompt or PowerShell, and other commands (like the git commands) in WSL2.<br>
 
 > My instructions regarding SSH keys are based on the GitHub Docs regarding SSH: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
 
@@ -34,7 +34,7 @@ $ git config --global user.email johndoe@example.com
 ```
   * You can confirm that your name and email have been set by running the `git config --list` command again.
 4. Check for an existing SSH key
-  * Note: you need to generate an SSH key for your local machine -- if you have previously generated an SSH key in WSL2, a Linux Virtual Machine, or ecc-linux, you will need to generate another one locally.
+  * Note: you need to generate an SSH key for your local machine -- if you have previously generated an SSH key in a Linux Virtual Machine or ecc-linux, you will need to generate another one locally.
   * Note: If you already have an existing SSH key on your local machine, it is safe to reuse your existing SSH key, just make sure that no one is able to steal your private key. If you already have a key, continue to step 6.
   * Open a terminal and enter the following command to see if existing SSH keys are present:
     * `ls -al ~/.ssh`
@@ -44,7 +44,7 @@ $ git config --global user.email johndoe@example.com
   * Use one of the options below, replacing the email used in the example with your GitLab email address:
     * `ssh-keygen -t ed25519 -C "your_email@example.com"`
     * `ssh-keygen -t rsa -b 8192`
-  * This will generate a public/private key pair. When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location.
+  * This will generate a public/private key pair. When you're prompted to "Enter a file in which to save the key", you should press Enter to accept the default file location (the `~/.ssh` folder). Do not give the key a name (the default name works best for our purposes).
   * At the next prompt, you may choose to type a secure passphrase (or leave empty for no passphrase).
     * If you include a passphrase, make sure it is one that you will easily remember, as you will need to type the passphrase every time you use a git command that interacts with GitLab (e.g. `push`, `pull`, `clone`).
     * If you do not include a passphrase, make sure you keep your computer secure (do not allow other people to use or easily access it).
@@ -52,7 +52,7 @@ $ git config --global user.email johndoe@example.com
   * Copy the SSH public key to your clipboard
     * Windows: `clip < ~/.ssh/id_ed25519.pub`
     * Mac: `pbcopy < ~/.ssh/id_ed25519.pub`
-    * If the `clip` or `pbcopy` command is not working, you can locate the hidden .ssh folder, open the file in your favorite text editor, and copy it to your clipboard.
+    * If the `clip` or `pbcopy` command is not working, you can locate the hidden .ssh folder, open the file in your favorite text editor, and copy it to your clipboard, or use the `cat` command (e.g. `cat id_rsa.pub`) to display the key in the terminal and copy the key from there.
   * Go to GitLab, login (if you have not already), and add your SSH key to GitLab:
     * Click on your account (look for your name and username), select the `Edit Profile` option, and select `SSH Keys`. Alternatively, you can use the search bar ("Search or go to..."), enter "ssh keys", and go to Settings > SSH Keys.
     * Click the `Add new key` button, then paste your public key into the `Key` text box (it should begin with something like 'ssh-rsa' or 'ssh-ed25519')
