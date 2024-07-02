@@ -9,6 +9,7 @@ Also make sure that you:
 * Submit the assignment correctly
   * Use a branch called `assignment2`
   * Submit to your CINS467 GitLab repo
+    * Your CINS467 GitLab repo on the `assignment2` branch should contain (at minimum) the code for your app (the project directory), the `.gitlab-ci.yml` file that defines the CI/CD pipeline for your GitLab repo, and a file called `web.md` that contains the URL to your project hosted online through GitLab Pages
 
 As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
 
@@ -47,6 +48,8 @@ When you have your project finished, submit it in the following format:
     ......(Rest of your App Files)
 ```
 
+> Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can list hidden files in long format using `ls -al`
+
 If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch.
 
 ### Submitting to your remote CINS467 git repo
@@ -57,7 +60,8 @@ I recommend that you use git commands in a command line terminal to record chang
 
 ```bash
 git checkout -b assignment2  #create branch and switch to it
-git add -A  #add all
+git status #show the working tree status to confirm what changes have been made
+git add -A  #add all (if you want to add all changes listed when you run 'git status')
 git commit -m "Assignment 2 Submission"  #Commit changes to branch
 git push origin assignment2  #Push code up to assignment2 branch on remote
 ```

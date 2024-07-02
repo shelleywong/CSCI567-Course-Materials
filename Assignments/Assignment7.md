@@ -19,6 +19,9 @@ Also make sure that you:
   * Submit the assignment correctly
     * Use a branch called `assignment7`
     * Submit to your CINS467 GitLab repo
+      * You may submit your app as either an Android app or a web app. Your CINS467 GitLab repo on the `assignment7` branch should contain (at minimum):
+        * Android submission: the code for your app (the project directory) and the APK file that you created for your app
+        * Web submission: the code for your app (the project directory), the `.gitlab-ci.yml` file that defines the CI/CD pipeline for your GitLab repo, and a file called `web.md` that contains the URL to your project hosted online through GitLab Pages
 
 As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
 
@@ -61,6 +64,9 @@ For this assignment you should have a directory that looks like the following:
     ......pubspec.yaml
     ......(Rest of firebase App Files)
 ```
+
+> Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can list hidden files in long format using `ls -al`
+
 In your web.md file, you should have a web URL for your assignment hosted online. This will be the same web URL as any previous GitLab Pages submissions. Remember, if you are doing web submissions for Assignments 3-7, you must make sure that each assignment still meets the requirements of the previous assignments. (You will always only have one GitLab Pages website).
 
 ### Submitting to your remote CINS467 git repo
@@ -71,7 +77,8 @@ I recommend that you use git commands in a command line terminal to record chang
 
 ```bash
 git checkout -b assignment7  #create branch and switch to it
-git add -A  #add all
+git status #show the working tree status to confirm what changes have been made
+git add -A  #add all (if you want to add all changes listed when you run 'git status')
 git commit -m "Assignment 7 Submission"  #Commit changes to branch
 git push origin assignment7  #Push code up to assignment7 branch on remote
 ```

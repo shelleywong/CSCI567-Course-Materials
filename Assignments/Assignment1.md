@@ -112,18 +112,19 @@ Remember, the final submission for Assignment 1 may seem simple, but before you 
 * Submit the assignment correctly
   * Use a branch called `assignment1`
   * Submit to your CINS467 GitLab repo
+    * Your CINS467 GitLab repo on the `assignment1` branch should contain (at minimum) the code for your app (the project directory) and the APK file that you created for your app
 
 ### Walk-through
 
-Start by creating a "New Flutter Project". You can do this via the VScode or Android studio plugins; however, I would do it through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned).
+Start by creating a New Flutter Project. You can do this via the VSCode or Android Studio plugins; however, I recommend doing this through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned). Use the `flutter create <DIRECTORY>` command:
 
 ```bash
 ~/repos/CINS467-repo/$ flutter create AssignmentProject
 ```
 
-You can name your project whatever you wish, and you can use the same project for all of the assignment submissions. I opted to name it *AssignmentProject* for my example.
+In the example above, the project is named *AssignmentProject*, but you can name your project whatever you wish. You can use the same project for all of the assignment submissions, or create new projects for each assignment.
 
-From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following works if you update the Text widget; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
+From here, edit your main.dart to have a Text widget that says "CINS467 Hello World". The following works if you update the Text widget; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text, or start with the initial code that gets created when you run the `flutter create <DIRECTORY>` command to create a new project.
 
 ```Dart
 import 'package:flutter/material.dart';
@@ -152,7 +153,7 @@ class MyApp extends StatelessWidget {
 
 > APK stands for Android Package Kit - it is the file format that Android uses to distribute and install apps.
 
-You will need to run the `flutter build apk` command to create a new APK. The command should overwrite any files that are currently in the `build/` directory; however, if you want to be sure you are creating a fresh APK, you can remove the build folder using either `flutter clean` or `rm` (you should not need to run both commands):
+You will need to run the `flutter build apk` command to create a new APK. The command should overwrite any files that are currently in the `build/` directory; however, if you want to be sure you are creating a fresh APK, you should first remove the build folder using either `flutter clean` or `rm` (you should not need to run both commands):
 
 ```bash
 ~/repos/CINS467-repo/AssignmentProject$ flutter clean
@@ -165,7 +166,19 @@ Then explicitly build a new APK:
 ~/repos/CINS467-repo/AssignmentProject$ flutter build apk
 ```
 
-Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/apk/release/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
+Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/apk/release/` (you can also use the `app-release.apk` file located here: `build/app/outputs/flutter-apk/`). Once you confirm that this .apk file has been created, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class. If you are in the root of your project (the same directory that contains the `pubspec.yaml` file), you can copy the `app-release.apk` file to the root of your GIT repo with the following command (if the parent directory of your project is the root of your GIT repo):
+
+```bash
+~/repos/CINS467-repo/AssignmentProject$ cp build/app/outputs/apk/release/app-release.apk ..
+```
+
+Then move to the root of your GIT repo and confirm that your repo contains the apk file (it should also contain the README.md file and the project directory for your app):
+
+```bash
+~/repos/CINS467-repo/AssignmentProject$ cd ..
+~/repos/CINS467-repo$ ls
+README.md app-release.apk AssignmentProject
+```
 
 If you don't have a CINS467 GitLab repo, go to Canvas to see the instructions for generating a Git Repo for this class.
 
@@ -173,6 +186,7 @@ You will submit all the assignments for this class to separate branches on your 
 
 ```
     /
+    ...README.md
     ...app-release.apk
     ...AssignmentProject/
     ......android/
@@ -188,10 +202,24 @@ You will submit all the assignments for this class to separate branches on your 
 I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you use git commands in a terminal.
 
 ### Now submit your code to the **assignment1** branch:
+> Note: When you create a new Flutter project with the `flutter create` command, the project should contain a `.gitignore` file that ignores all directories and files that we intentionally do not want to track (e.g. files that are regenerated every time the code is run). When you use the `git add -A` command, it will stage all changes to tracked and untracked files and directories, except for those that are specified in the `.gitignore` file. (This is what we want -- any files or directories listed in `.gitignore` will not be added to the staging area or committed to the repository, but all others will be).
+
+Create a new branch and switch to it (this can be completed before you begin writing and updating the code):
 
 ```bash
 git checkout -b assignment1  #create branch and switch to it
-git add -A  #add all
+```
+
+If you are unsure about what files are being ignored and included, you can check the status of your files with `git status` or review the `.gitignore` file to see what patterns are being excluded:
+
+```bash
+git status #show the working tree status to confirm what changes have been made
+```
+
+Stage the changes in your working directory for the next commit, save your changes to your local repository (create a snapshot and add a message describing what you've done), and upload your local changes to your remote repository on GitLab:
+
+```bash
+git add -A  #add all (if you want to add all changes listed when you run 'git status')
 git commit -m "Assignment 1 Submission"  #Commit changes to branch
 git push origin assignment1  #Push code up to assignment1 branch on remote
 ```
