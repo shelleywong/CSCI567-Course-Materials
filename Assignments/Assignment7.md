@@ -41,12 +41,12 @@ For this assignment you should have a directory that looks like the following:
 
 ```
     /
+    ...README.md
     ...app-release.apk
     ...AssignmentProject/
     ......android/
-    ......ios/
-    ......web/
     ......lib/
+    ......web/
     ......pubspec.yaml
     ......(Rest of App Files)
 ```
@@ -55,14 +55,14 @@ For this assignment you should have a directory that looks like the following:
 
 ```
     /
+    ...README.md
     ...web.md
     ...AssignmentProject/
     ......android/
-    ......ios/
     ......lib/
     ......web/
     ......pubspec.yaml
-    ......(Rest of firebase App Files)
+    ......(Rest of App Files)
 ```
 
 > Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can list hidden files in long format using `ls -al`

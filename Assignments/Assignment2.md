@@ -38,10 +38,10 @@ When you have your project finished, submit it in the following format:
 
 ```
     /
+    ...README.md
     ...web.md
     ...AssignmentProject/
     ......android/
-    ......ios/
     ......lib/
     ......web/
     ......pubspec.yaml

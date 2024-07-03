@@ -190,9 +190,8 @@ You will submit all the assignments for this class to separate branches on your 
     ...app-release.apk
     ...AssignmentProject/
     ......android/
-    ......ios/
-    ......web/
     ......lib/
+    ......web/
     ......pubspec.yaml
     ......(Rest of App Files)
 ```
