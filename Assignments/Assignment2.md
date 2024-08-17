@@ -17,10 +17,15 @@ The goal of Assignment 2 is for you to create a simple web application using Flu
 
 ## GitLab Pages
 
-[GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) is a simple way for you to host a website directly from your GitLab repository. GitLab Pages is similar to [GitHub Pages](https://pages.github.com/), with a slightly different setup -- among other things, GitLab Pages use pipelines to publish static websites, so you need a CI/CD pipeline setup in order to create a GitLab Pages website. Look for the lecture materials that provide a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline (deploy stage only).
+[GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) is a simple way for you to host a website directly from your GitLab repository. GitLab Pages is similar to [GitHub Pages](https://pages.github.com/), with a slightly different setup -- among other things, GitLab Pages use pipelines to publish static websites, so you need a CI/CD pipeline setup in order to create a GitLab Pages website.
 
-From your CINS467 GitLab repository, you should be able to see the pipeline running and access your GitLab Pages website:
+Refer to the lecture materials that cover GitLab Pages (find these materials on Canvas), which provide a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline (deploy stage only). I recommend you start with the `.gitlab-ci.yml` example covered in class and make adjustments based on your project.
+
+After you push code to GitLab on a branch that contains a `.gitlab-ci.yml` file, you should be able to go to your CINS467 GitLab repository and see the pipeline running. If the pipeline succeeds, you should then be able to access your GitLab Pages website:
 * To see the pipeline for your project, go to the left sidebar and select `Build` > `Pipelines`
+  * The pipeline can take several minutes to run.
+  * If the status is *Passed*, then your build succeeded.
+  * If the status is *Failed*, you can try to identify the issue (if you hover over or click on certain components on the Pipelines page, you can see more details), or feel free to ask the instructor for help.
 * To see your website, go to the left sidebar and select `Deploy` > `Pages`
   * Then click on the link provided under **Access pages** (it should include your repo name and end with `gitlab.io`)
 
@@ -32,25 +37,26 @@ Note that if you set up the `.gitlab-ci.yml` file correctly, it will run the `fl
 
 ## Getting Graded
 
-Create a file called `web.md`. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments. The `web.md` file should remain the same for all these submissions. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+Create a file called `web.md`. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments (this is very important -- there is only one GitLab Pages deployment per repo). The `web.md` file can remain exactly the same for all web submissions, or you can add a note that indicates which assignments are included in the web deployment. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+
 
 When you have your project finished, submit it in the following format:
 
 ```
     /
-    ...README.md
-    ...web.md
-    ...AssignmentProject/
-    ......android/
-    ......lib/
-    ......web/
-    ......pubspec.yaml
-    ......(Rest of your App Files)
+    ....README.md
+    ....web.md
+    ....AssignmentProject/
+    ........android/
+    ........lib/
+    ........web/
+    ........pubspec.yaml
+    ........(Rest of the AssignmentProject app/project files and folders)
 ```
 
-> Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can list hidden files in long format using `ls -al`
+> Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can see the .gitlab-ci.yml file if you list hidden files in long format using `ls -al`
 
-If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch.
+If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch and included all necessary files on the branch (the app/project directory, the .gitlab-ci.yml file, and the web.md file).
 
 ### Submitting to your remote CINS467 git repo
 

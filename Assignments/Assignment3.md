@@ -52,33 +52,33 @@ For this assignment you should have a directory that looks like the following:
 
 ```
     /
-    ...README.md
-    ...app-release.apk
-    ...AssignmentProject/
-    ......android/
-    ......lib/
-    ......web/
-    ......pubspec.yaml
-    ......(Rest of App Files)
+    ....README.md
+    ....app-release.apk
+    ....AssignmentProject/
+    ........android/
+    ........lib/
+    ........web/
+    ........pubspec.yaml
+    ........(Rest of the AssignmentProject app/project files and folders)
 ```
 
 ### (Alternatively) Option 2 - Web URL
 
 ```
     /
-    ...README.md
-    ...web.md
-    ...AssignmentProject/
-    ......android/
-    ......lib/
-    ......web/
-    ......pubspec.yaml
-    ......(Rest of App Files)
+    ....README.md
+    ....web.md
+    ....AssignmentProject/
+    ........android/
+    ........lib/
+    ........web/
+    ........pubspec.yaml
+    ........(Rest of the AssignmentProject app/project files and folders)
 ```
 
-> Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can list hidden files in long format using `ls -al`
+> Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can see the .gitlab-ci.yml file if you list hidden files in long format using `ls -al`
 
-In your web.md file, you should have a web URL for your assignment hosted online. This will be the same web URL as any previous GitLab Pages submissions. Remember, if you are doing web submissions for Assignments 3-7, you must make sure that each assignment still meets the requirements of the previous assignments. (You will always only have one GitLab Pages website).
+In your web.md file, you should have a web URL for your assignment hosted online. This will be the same web URL as any previous GitLab Pages submissions. Remember, if you are doing web submissions for Assignments 3-7, you must make sure that each assignment still meets the requirements of the previous assignments. You will always only have one GitLab Pages website, so doing this ensures that your deployment will meet the requirements of each assignment (regardless of when the assignment actually gets graded).
 
 ### Submitting to your remote CINS467 git repo
 
