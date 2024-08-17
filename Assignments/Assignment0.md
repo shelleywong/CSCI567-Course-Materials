@@ -15,7 +15,8 @@ Note: I recommend using native Flutter on Windows, Mac, or Linux (i.e. do not in
 Before you complete Assignment 0, check that you have completed the following steps (sign up for GitLab, install and set up git, set up your SSH key):
 
 1. [Sign up for GitLab](https://about.gitlab.com/)
-  * GitLab is free for personal projects -- you should not need a credit card to sign up (you may get a free trial of GitLab Ultimate; once the free trial ends, your account should go back to the Free tier that works for personal projects)
+  * GitLab is free for personal projects. To sign up, you will need to select the option to start a free 30-day trial of GitLab Ultimate. Once the free trial is over, you should choose to go back to the Free tier -- the Free tier is all you need for personal project.
+  * Unfortunately, despite GitLab's website saying "no credit card required" -- you may need to enter a credit card. GitLab started requiring new users to provide a valid credit or debit card in order to discourage and [reduce crypto mining abuse](https://about.gitlab.com/blog/2021/05/17/prevent-crypto-mining-abuse/). When you provide the card, it will not be charged but instead will be verified with a one-dollar authorization transaction. No charge will be made and no money will transfer.
   * Note that you must actually sign up for GitLab -- you will not be able to join the CSUC-CINS467 group if you sign in to GitLab with credentials for another site (e.g. GitHub).
 2. Confirm that you have git installed (if installed, `which git` will identify the location of git installed on your machine, while `git version` will display version information)
 ```
@@ -35,7 +36,7 @@ $ git config --global user.email johndoe@example.com
   * You can confirm that your name and email have been set by running the `git config --list` command again.
 4. Check for an existing SSH key
   * Note: you need to generate an SSH key for your local machine -- if you have previously generated an SSH key in a Linux Virtual Machine or ecc-linux, you will need to generate another one locally.
-  * Note: If you already have an existing SSH key on your local machine, it is safe to reuse your existing SSH key, just make sure that no one is able to steal your private key. If you already have a key, continue to step 6.
+  * Note: If you already have an existing SSH key on your local machine, it is safe to reuse your existing SSH key, just make sure to keep your private key secure. If you already have a key, continue to step 6.
   * Open a terminal and enter the following command to see if existing SSH keys are present:
     * `ls -al ~/.ssh`
   * Examples of public ssh keys include `id_rsa.pub`, `id_ecdsa.pub`, and `id_ed25519.pub`. If you have a key already, you can skip the step to generate a new SSH key and upload your existing key to GitLab (if you complete the step to Generate a new SSH key and the SSH key is the same type as one you already have, it will overwrite your existing key)
@@ -61,7 +62,7 @@ $ git config --global user.email johndoe@example.com
     * Optionally, set an expiration date -- if you include an expiration date, make sure it is after the end of the semester for this class.
     * Click the `Add key` button to finish adding the SSH key. Now, you should see your key in the list of "Your SSH keys".
   * Enable Two-Factor Authentication
-    * In order to use the CINS467 course repo, you will need to increase your account's security by enabling two-factor authentication (2FA). Go to your account (gitlab.com/yourusername), click the `Edit profile` button, then select `Account` from the left sidebar. Make sure you enable **Two-factor authentication**.
+    * In order to use the CINS467 course repo, you will need to increase your account's security by enabling two-factor authentication (2FA). Go to your account (gitlab.com/yourusername), click the `Edit profile` button, then select `Account` from the left sidebar. Make sure you **enable Two-factor authentication**.
       * For two-factor authentication, you can **Register a one-time password authenticator** (such as Duo Mobile, Authy, Google Authenticator, etc) or **Register a WebAuthn device** (a hardware device such as a YubiKey).
       * You should already have Duo Mobile for campus authentication -- if you set up Duo for GitLab, note that you may not get a notification (like you do when signing in to campus apps). You can look for a 6 digit passcode (hidden by default) in the app (note that the passcode will get refreshed frequently).
 
@@ -103,8 +104,8 @@ touch README.md
 5. Open README.md with the editor of your choice (e.g. vim, VSCode)
 6. Edit your README.md file to include the following information, using the style specified -- feel free to reference the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information. (Note that spacing matters when writing markdown)
   * Add your First and Last name as an `h2` heading
-  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Summer 2024"
-    * Give emphasis to the current semester (e.g. "Summer 2024") using (**bold** and/or _italics_)
+  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Fall 2024"
+    * Give emphasis to the current semester (e.g. "Fall 2024") using (**bold** and/or _italics_)
   * Add a **horizontal line** below the current semester
   * Below the horizontal line, add an **ordered or unordered list** that contains the following two items: (1) "Chico State Username: " followed by the username you use to login to the Chico State Portal, and (2) "GitLab username: " followed by the username you use to login to GitLab
 7. After you have finished editing the README.md file, save your changes.
