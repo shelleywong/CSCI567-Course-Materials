@@ -24,9 +24,11 @@ Also make sure that you:
 
 As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
 
-The goal of Assignment 5 is to give you experience working with a [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api). REST is one of the most widely used approaches for building web-based APIs, and it is useful for you to be familiar with how to interact with a REST API from the client side. Sending and/or receiving data from an internet-baseds source (such as a REST API) is one option for meeting the Final Project requirement that your project needs to leverage the fact it is on a device with internet connectivity.
+The goal of Assignment 5 is to give you experience working with a [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api). REST is one of the most widely used approaches for building web-based APIs, and it is useful for you to be familiar with how to interact with a REST API from the client side. Sending and/or receiving data from an internet-based source (such as a REST API) is one option for meeting the Final Project requirement that your project needs to leverage the fact it is on a device with internet connectivity.
 
 > Note: Some APIs will not work on web by default (they require CORS support to be enabled). For this assignment, you may want to submit with an Android APK (which does not run into the CORS support issue) or find an API that works on web without additional configurations necessary.
+
+> Note: If you are deploying to Android and [fetching data from the internet](https://docs.flutter.dev/cookbook/networking/fetch-data), make sure you add the Internet permission to the Android Manifest.
 
 ## Getting Graded
 
