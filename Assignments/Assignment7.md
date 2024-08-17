@@ -27,6 +27,8 @@ As long as your app does the tasks described above and is submitted correctly, y
 
 The goal of Assignment 7 is to give you experience working with the camera or location services on a device. There are special installation and usage instructions for working with these features on a device (such as adding permissions). Your Final Project needs to leverage the fact it is on a device with access to internet, camera, or location services, so this assignment will help you prepare for the Final Project.
 
+> Note: Make sure you have read and addressed any setup or usage instructions to make sure the plugins will work for your deployment target (Android or Web). These instructions are usually provided in the Readme for the package in pub.dev.
+
 ## Getting Graded
 
 > After completing Option 1 or Option 2, remember to submit your code to the `assignment7` branch!
