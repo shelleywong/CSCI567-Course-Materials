@@ -13,7 +13,7 @@ For this first assignment you are getting grade on if you succeed in turning in 
 
 ## Get Your Flutter Build Environment Setup
 
-To get the build environment on your computer you should go to the [Flutter Install](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system. For more detailed instructions and installation hints, look for the Lecture Outline called Flutter Intro and Setup (provided through Canvas).
+To get the build environment on your computer you should go to the [Flutter Install](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system. For more detailed instructions and installation hints, look for the lecture materials that introduce Flutter and go over Flutter setup (provided through Canvas).
 
 Make sure you:
 * Choose **Android** (Windows, Mac, or Linux) for your first type of app
@@ -151,6 +151,9 @@ class MyApp extends StatelessWidget {
 }
 
 ```
+
+For Assignment 1, you will need to submit an APK. Look for the lecture materials covering how to build an APK, or reference the instructions below.
+
 ## Getting Graded
 
 > APK stands for Android Package Kit - it is the file format that Android uses to distribute and install apps.
