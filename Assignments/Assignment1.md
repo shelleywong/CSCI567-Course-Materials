@@ -13,17 +13,19 @@ For this first assignment you are getting grade on if you succeed in turning in 
 
 ## Get Your Flutter Build Environment Setup
 
-To get the build environment on your computer you should go to the [Flutter Install](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system.
+To get the build environment on your computer you should go to the [Flutter Install](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system. For more detailed instructions and installation hints, look for the Lecture Outline called Flutter Intro and Setup (provided through Canvas).
 
 Make sure you:
-* Choose Mobile (Windows) or Android (Mac) for your first type of app
-* Confirm your system requirements meet the minimum requirements
-* Configure a text editor (the Flutter team recommends using Visual Studio Code and the Flutter extension for VS Code)
+* Choose **Android** (Windows, Mac, or Linux) for your first type of app
+* Confirm your system requirements meet the minimum requirements for hardware and software
+* Configure a text editor (I will use Visual Studio Code and the Flutter extension for VS Code during class)
 * Install the Flutter SDK
+  * Flutter now provides instructions to use VS Code to install OR to download a provided installation bundle to get the latest stable release of the Flutter SDK -- I recommend downloading and installing yourself, without VS Code
   * Windows users:
     * Make sure you do NOT install Flutter to a directory or path that contains special characters or spaces, or that requires elevated privileges
-    * Make sure the SDK has been added to PATH
-  * Flutter now provides instructions to use VS Code to install OR to download a provided installation bundle to get the latest stable release of the Flutter SDK
+  * All users:
+    * Make sure the SDK has been added to the PATH environment variable
+  * To enable these changes, make sure you close and reopen or restart any existing command prompts, terminal shells, or PowerShell instances.
 * Run `flutter doctor` to check your environment and display a report
   * I recommend running this command with the -v tag for verbose output
 
@@ -35,7 +37,7 @@ Make sure you:
   * If you want to use the Android emulator: Download and install Android Studio (this is the easiest way I know of to work with the Android Virtual Device (AVD) Manager)
 * Can develop for web (this should be setup by default)
 
-Ideally, you will be able to run `flutter doctor -v` and have the report say, "No issues found!" However, there are some cases where having unresolved issues is fine for this class -- remember that XCode (iOS and macOS) is NOT required in CINS 467.
+You should be able to run `flutter doctor -v` and see a checkmark next to most categories (Flutter, Android Toolchain, Chrome, etc). If the report says, "No issues found!", then you are definitely good. You are also good if you have unresolved issues specifically related to developing desktop apps (Windows, macOS, or Linux) or iOS apps -- you do not need XCode (for iOS and macOS apps), Visual Studio (for Windows apps), or the Linux toolchain (for Linux apps) in CINS 467, so if you see issues in these categories, do not worry about it -- continue with the next steps.
 
 ### Code Editing
 
@@ -124,7 +126,7 @@ Start by creating a New Flutter Project. You can do this via the VSCode or Andro
 
 In the example above, the project is named *AssignmentProject*, but you can name your project whatever you wish. You can use the same project for all of the assignment submissions, or create new projects for each assignment.
 
-From here, edit your main.dart to have a Text widget that says "CINS467 Hello World". The following works if you update the Text widget; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text, or start with the initial code that gets created when you run the `flutter create <DIRECTORY>` command to create a new project.
+From here, edit your main.dart to have a Text widget that says "CINS467 Hello World". You can begin with the starter code (created by default when you use the `flutter create` command), or use something similar to the following (as long as you update the Text widget). If you start with the code below, I would **highly recommend** you update the *home* component of *MaterialApp* by using some [basic layout widgets](https://docs.flutter.dev/ui/widgets/basics) (such as Scaffold and Column) to wrap the Text widget. Layout widgets allow you to align/center the Text widget so it is easier to read and looks nicer.
 
 ```Dart
 import 'package:flutter/material.dart';
@@ -186,19 +188,19 @@ You will submit all the assignments for this class to separate branches on your 
 
 ```
     /
-    ...README.md
-    ...app-release.apk
-    ...AssignmentProject/
-    ......android/
-    ......lib/
-    ......web/
-    ......pubspec.yaml
-    ......(Rest of App Files)
+    ....README.md
+    ....app-release.apk
+    ....AssignmentProject/
+    ........android/
+    ........lib/
+    ........web/
+    ........pubspec.yaml
+    ........(Rest of the AssignmentProject app/project files and folders)
 ```
 
 ### Submitting to your remote CINS467 git repo
 
-I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you use git commands in a terminal.
+I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
 
 ### Now submit your code to the **assignment1** branch:
 > Note: When you create a new Flutter project with the `flutter create` command, the project should contain a `.gitignore` file that ignores all directories and files that we intentionally do not want to track (e.g. files that are regenerated every time the code is run). When you use the `git add -A` command, it will stage all changes to tracked and untracked files and directories, except for those that are specified in the `.gitignore` file. (This is what we want -- any files or directories listed in `.gitignore` will not be added to the staging area or committed to the repository, but all others will be).
