@@ -4,10 +4,11 @@
 
 * **Use a Form**
   * Needs to be some way for the user to provide text input and submit their input.
-  * Must include at least two separate input fields for users. Make sure that each input field is clearly labeled and configured to indicate the required type of input -- note that your app will need to store at least two different data types (e.g., String, int, bool, double, List).
-  * This can be implemented with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field (such as [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)) or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) using the [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html), which wraps TextField in a FormField.
+  * Must include at least two separate input fields for users. Make sure that each input field is clearly labeled and configured to indicate the required type of input. Your form should be able to handle at least two different data types (such as String, int, bool, double).
+  * Implement at least one input field with either an [EditableText](https://api.flutter.dev/flutter/widgets/EditableText-class.html) field (such as [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)) or an actual [Flutter Form](https://api.flutter.dev/flutter/widgets/Form-class.html) using the [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html), which wraps TextField in a FormField.
+  * For additional input fields, you may use another TextField or a different type of form input field, such as a [DropdownButtonFormField](https://api.flutter.dev/flutter/material/DropdownButtonFormField-class.html) or a [RadioListTile](https://api.flutter.dev/flutter/material/RadioListTile-class.html). If you are interested in using a type of input field not mentioned here, first check with the instructor to confirm -- for this assignment, you must use at least two input fields that are **not** standard buttons (like ElevatedButton, TextButton, OutlineButton, IconButton, or FloatingActionButton).
 * **Store a Persistent State in the SQLite DB, local filesystem, or platform-specific persistent storage on the phone or web**
-  * You must store at least two different data types (e.g. String, int, bool, double, List)
+  * You must store at least two different data types (e.g. String, int, bool, double)
   * You must successfully use one of the following plugins:
     * [shared_preferences](https://pub.dev/packages/shared_preferences)
     * [path_provider](https://pub.dev/packages/path_provider)
