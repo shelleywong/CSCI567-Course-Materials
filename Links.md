@@ -31,6 +31,8 @@
 
 * [Learn Git Branching](https://learngitbranching.js.org/) - Excellent web tutorial working through a variety of use cases for git including using branches.
 
+* [freeCodeCamp Git Cheat Sheet](https://www.freecodecamp.org/news/git-cheat-sheet-helpful-git-commands-with-examples/#heading-reverting-changes-in-git) - An extensive guide to Git commands, with explanations and examples.
+
 ## Development Environment
 
 > Note: Flutter can be installed on Windows, macOS, Linux, and Chrome -- use whichever operating system you have available and are most comfortable with.
