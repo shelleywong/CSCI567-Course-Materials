@@ -72,12 +72,12 @@ For this project there are two different options for the type of project you can
 
 * **New Project**
   * With this option, you will create and work on a project you/your partner come up with. If working with a partner, you will want to make sure you both are doing enough for it to be a good project, while at the same time making sure you are not trying to do too much. This is where the project proposal will be extremely important and helpful.
-  * If you choose this option, you should try to get me your project proposal before it is due, so I can work with you to ensure the project has a good scope of work and give you the opportunity to resubmit if needed.
+  * If you choose this option, you should start thinking about your project concept as soon as possible, so we can work to ensure the project has a good scope of work for this course. If you submit your concept and proposal ahead of time, I can give you feedback, and you can have the opportunity to resubmit if needed.
 
 
 * **Open Source Project**
   * This option will require you to find an existing open source project that you/your partner will contribute to. Your project proposal will need to make sure that it indicates what contributions you will be making. For this project, you will also want to clone the open source project into a repo for your group to use for the CINS 467 Final Project. You may push your revisions up to the original open source project after the semester.
-  * If you choose this option, you should figure out how and what you will be contributing to the project early on, so I can make sure your deliverables will actually be a significant contribution to the open source project. You will need to contribute significantly to the open source project to be successful on this kind of project.
+  * If you choose this option, you should figure out how and what you will be contributing to the project early on, so I can make sure your deliverables will actually be a significant contribution to the open source project. You will need to contribute significantly to the open source project to be successful on this kind of project. If you are interested in this option, let me know before the concept is due if possible, so we can determine if this option will work for this course and give you the opportunity to resubmit if needed.
 
 
 Once you've decided on which kind of project you will be doing, you should begin brainstorming what you expect to get done this semester and then move onto putting together the project Concept and Proposal submissions.
@@ -92,6 +92,7 @@ The goal of the **Final Project Concept** submission is for you to provide a des
 * **Project Members**
   * You should make sure that you identify all members of the project team right below the project title.
   * You may work in a pair (group of 2) or as an individual for the project.
+  * All members of a group must be in the same section of CINS 467.
 * **Project Description**
   * This should describe what your project is and what you expect it to accomplish. This description has some similarities to an elevator pitch -- it should explain the concept of your project in a way that any listener could understand it in a short period of time. Explain who your app is for and what it offers.
   * This description should include an overview of what you expect to accomplish, including **how you will address the program requirements**. In particular, make sure to highlight how you expect your app to use (1) internet connectivity (sending/receiving data from an internet-based source such as Cloud Firestore or an API) and (2) either location services or the camera (how your app will interact with the device hardware). Refer to the [Project Requirements](#project-requirements) for more details.
