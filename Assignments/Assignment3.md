@@ -18,7 +18,7 @@
     * style (an instance of the TextStyle class that is used to style the text)
       * by default, all text has some style, but for this assignment, you need to stylize the text in some way other than the default.
       * The text in each Text widget should have its own unique style.
-      * The TextStyle class is used to format and paint text. **Use at least 2 TextStyle properties** to style the Text widget (notice that you can make changes to color, font, decoration, size, spacing, and more)
+      * The TextStyle class is used to format and paint text. **Use at least 2 TextStyle properties** to style each Text widget (notice that you can make changes to color, font, decoration, size, spacing, and more)
 * **Make Updates When Each Button Is Pressed**
   * When each button is tapped, it should make a change that is visible in the app.
   * In at least one case, the contents of a Text widget must be updated when a button is pressed. The other buttons may update a Text widget or another aspect of your web app.
