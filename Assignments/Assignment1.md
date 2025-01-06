@@ -3,8 +3,14 @@
 ## In this assignment you will:
 
 * [Get Your Flutter Build Environment Setup](#get-your-flutter-build-environment-setup)
+  * [Code Editing](#code-editing)
+  * [flutter doctor](#flutter-doctor)
 * [Create your first app](#create-your-first-app)
-* [Create your first APK (Android Install Package)](#getting-graded)
+  * [Requirements](#requirements)
+  * [Steps](#steps)
+* [Create your first APK](#create-your-first-apk)
+  * [Submitting your code](#submitting-your-code)
+  * [Commit your code to the assignment1 branch](#commit-your-code-to-the-assignment1-branch)
 
 > Note: I will only be requiring Android and web results in this class. Flutter supports development for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web, so while we will not focus on developing iPhone apps in this class (since iOS development requires macOS), it should be relatively simple to create an iOS app from your existing Flutter app if you choose to do so in the future.
 
@@ -107,7 +113,7 @@ Remember to use `flutter doctor -v` to make sure your setup is configured correc
 
 Remember, the final submission for Assignment 1 may seem simple, but before you can complete the assignment, you will need to do a lot of setup for Flutter and Android. Give yourself time to get everything set up!
 
-### Requirements:
+### Requirements
 
 * Create an app that displays "CINS467 Hello World" in a Text widget
 * Create an APK for your app
@@ -116,7 +122,7 @@ Remember, the final submission for Assignment 1 may seem simple, but before you 
   * Submit to your CINS467 GitLab repo
     * Your CINS467 GitLab repo on the `assignment1` branch should contain (at minimum) the code for your app (the project directory) and the APK file that you created for your app
 
-### Walk-through
+### Steps
 
 Start by creating a New Flutter Project. You can do this via the VSCode or Android Studio plugins; however, I recommend doing this through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned). Use the `flutter create <DIRECTORY>` command:
 
@@ -154,7 +160,9 @@ class MyApp extends StatelessWidget {
 
 For Assignment 1, you will need to submit an APK. Look for the lecture materials covering how to build an APK, or reference the instructions below.
 
-## Getting Graded
+## Create your first APK
+
+For Assignment 1 grading, you must submit an Android APK (the Android install package), in addition to the files needed for your app to run.
 
 > APK stands for Android Package Kit - it is the file format that Android uses to distribute and install apps.
 
@@ -201,12 +209,17 @@ You will submit all the assignments for this class to separate branches on your 
     ........(Rest of the AssignmentProject app/project files and folders)
 ```
 
-### Submitting to your remote CINS467 git repo
+### Submitting your code
 
-I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
+Your code should be submitted to your CINS467 repo (in the CSUC-CINS467 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
 
-### Now submit your code to the **assignment1** branch:
-> Note: When you create a new Flutter project with the `flutter create` command, the project should contain a `.gitignore` file that ignores all directories and files that we intentionally do not want to track (e.g. files that are regenerated every time the code is run). When you use the `git add -A` command, it will stage all changes to tracked and untracked files and directories, except for those that are specified in the `.gitignore` file. (This is what we want -- any files or directories listed in `.gitignore` will not be added to the staging area or committed to the repository, but all others will be).
+> Note: I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
+
+### Commit your code to the assignment1 branch
+
+It is important to ensure that your GitLab repository includes all the necessary files for your app to run, even if some of these files were generated automatically or were not directly edited by you. This includes configuration files, dependency files (like pubspec.yaml), and other project files required for your app to build and run on another machine. The following instructions use `git add -A` to make sure all changes in your working directory are staged for commit.<br>
+
+There are some files and folders (like temporary build files, logs, or system-specific files) that you should **not** commit to your Git repository, and this is where the the `.gitignore` file (that was generated when you created a new Flutter project with `flutter create`) comes in. The provided `.gitignore` ignores all directories and files that we intentionally do not want to track for our Flutter project. When you use the `git add -A` command, it will stage all changes to tracked and untracked files and directories, **except** for those that are specified in the `.gitignore` file. (This is what we want -- any files or directories listed in `.gitignore` will not be added to the staging area or committed to the repository, but all others will be).<br>
 
 Create a new branch and switch to it (this can be completed before you begin writing and updating the code):
 
@@ -214,7 +227,7 @@ Create a new branch and switch to it (this can be completed before you begin wri
 git checkout -b assignment1  #create branch and switch to it
 ```
 
-If you are unsure about what files are being ignored and included, you can check the status of your files with `git status` or review the `.gitignore` file to see what patterns are being excluded:
+If you are unsure about what files are being ignored and included, you can check the status of your files with `git status` (note that patterns in the `.gitignore` file should be excluded):
 
 ```bash
 git status #show the working tree status to confirm what changes have been made
