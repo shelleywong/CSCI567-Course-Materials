@@ -5,14 +5,23 @@
 * [Complete the preliminary setup](#preliminary-setup)
 * [Generate a CINS467 Course Repo](#generate-a-cins467-course-repo)
 * [Add a README file on the main branch](#add-a-readme-file-on-the-main-branch)
+* [Submitting Assignment 0](#submitting-assignment-0)
 
 ## Preliminary setup
 
-Note: I recommend using native Flutter on Windows, Mac, or Linux (i.e. do not install Flutter on WSL2 or a Linux VM). If you are using **Mac** or native **Linux**, you should be able to complete everything using the default terminal and the editor of your choice (e.g. VS Code, Android Studio). If you are using **Windows**, plan on completing your Flutter development in PowerShell, the Windows Command Prompt shell, and/or VS Code or Android Studio. PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell OR install and setup Git Bash to complete the Git commands (including those that interact with GitLab). Alternatively, you may be able to use WSL2, as long as you put your CINS467 repo in a place that is accessible from a PowerShell or Command Prompt terminal -- in this case, you will complete the Flutter commands in the Command Prompt or PowerShell, and other commands (like the git commands) in WSL2.<br>
+Note: I recommend using native Flutter on Windows, macOS, or Linux, depending on your device. If you plan to develop with an Android virtual device emulator, you will need native Flutter (an emulator will either not work or be very slow inside a virtual machine, such as a VM hosted by VirtualBox, VMWare, or Docker).
+
+* If you are using **macOS** or native **Linux**, you should be able to complete everything using the default terminal and the editor of your choice (I recommend VS Code or Android Studio).
+* If you are using **Windows**, plan on completing your Flutter development in PowerShell, the Windows Command Prompt shell, and/or VS Code or Android Studio. You may need to use multiple terminals, as some commands may not work in all terminals.
+  * PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell to complete the Git commands (including those that interact with GitLab).
+  * Alternatively, you may want to use PowerShell for Flutter commands, and then install and setup Git Bash for Git commands.
+  * Another potential option is to use WSL2 -- this will likely require a little extra setup and not work by default, and I would recommend only using this option if you put your CINS467 repo in a place that is accessible from both a PowerShell/Command Prompt terminal and WSL2 (since some commands may not work in every terminal). If you are interested in this option and not sure where to start, I recommend asking for help on the cd Discord.<br>
 
 > My instructions regarding SSH keys are based on the GitHub Docs regarding SSH: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
 
-Before you complete Assignment 0, check that you have completed the following steps (sign up for GitLab, install and set up git, set up your SSH key):
+> Note: If you already have an SSH key, you may reuse it for GitLab in some cases; however, if you have an SSH key in a VM instance or a WSL2 terminal but plan on using a different shell for Flutter development in this course, you will need to generate a new SSH key in the appropriate terminal. Ask the instructor if you are not sure what to do in your case.
+
+Before you complete Assignment 0, check that you have completed the following steps (sign up for GitLab, install and set up git, set up your SSH key, set up Two-Factor Authentication in GitLab):
 
 1. [Sign up for GitLab](https://about.gitlab.com/)
   * GitLab is free for personal projects. To sign up, you will need to select the option to start a free 30-day trial of GitLab Ultimate. Once the free trial is over, you should choose to go back to the Free tier -- the Free tier is all you need for personal project.
@@ -42,8 +51,8 @@ $ git config --global user.email johndoe@example.com
   * Examples of public ssh keys include `id_rsa.pub`, `id_ecdsa.pub`, and `id_ed25519.pub`. If you have a key already, you can skip the step to generate a new SSH key and upload your existing key to GitLab (if you complete the step to Generate a new SSH key and the SSH key is the same type as one you already have, it will overwrite your existing key)
 5. Generate a new SSH key
   * Note: Ed25519 signatures are elliptical curve signatures, which are fast and very secure; however, some legacy systems do not support the Ed25519 algorithm, so if the ed25519 key is not working for you, create and use an RSA key.
-  * Use one of the options below, replacing the email used in the example with your GitLab email address:
-    * `ssh-keygen -t ed25519 -C "your_email@example.com"`
+  * Use the ssh-keygen command to generate an ssh key (below are options for generating an ed25519 key or an RSA key):
+    * `ssh-keygen -t ed25519`
     * `ssh-keygen -t rsa -b 8192`
   * This will generate a public/private key pair. When you're prompted to "Enter a file in which to save the key", you should press Enter to accept the default file location (the `~/.ssh` folder). Do not give the key a name (the default name works best for our purposes).
   * At the next prompt, you may choose to type a secure passphrase (or leave empty for no passphrase).
@@ -85,11 +94,11 @@ Follow the Command line instructions provided in the empty repo to "Create a new
 
 1. Clone your project (the url you should use is provided in the empty repo, or you can click the blue **Code** button and copy the URL to Clone with SSH):
 ```
-git clone git@gitlab.com:CSUChico/CSUC-CINS467/CINS467-S24-FirstName-LastName.git
+git clone git@gitlab.com:CSUChico/CSUC-CINS467/CINS467-Semester-FirstName-LastName.git
 ```
 2. Move into the repository that you've just cloned:
 ```
-cd CINS467-S24-FirstName-LastName
+cd CINS467-Semester-FirstName-LastName
 ```
 3. Create a new branch called `main` and switch to that branch:
 ```
@@ -104,8 +113,8 @@ touch README.md
 5. Open README.md with the editor of your choice (e.g. vim, VSCode)
 6. Edit your README.md file to include the following information, using the style specified -- feel free to reference the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information. (Note that spacing matters when writing markdown)
   * Add your First and Last name as an `h2` heading
-  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Fall 2024"
-    * Give emphasis to the current semester (e.g. "Fall 2024") using (**bold** and/or _italics_)
+  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Spring 2025"
+    * Give emphasis to the current semester (e.g. "Spring 2025") using (**bold** and/or _italics_)
   * Add a **horizontal line** below the current semester
   * Below the horizontal line, add an **ordered or unordered list** that contains the following two items: (1) "Chico State Username: " followed by the username you use to login to the Chico State Portal, and (2) "GitLab username: " followed by the username you use to login to GitLab
 7. After you have finished editing the README.md file, save your changes.
@@ -131,4 +140,8 @@ git push --set-upstream origin main
 ![README example](/Assignments/Images/README_example.png)
 
   * If your code is one big block of text, look at  the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) instructions more carefully, or ask the instructor about fixing your README.
-  * If the README looks good, then you are done with Assignment 0! (Your submission is the README.md file in your private CINS467 repo, in the CSUC-CINS467 group)
+  * If the README looks good, then you are done with Assignment 0!
+
+## Submitting Assignment 0
+
+If you have completed the steps above, your Assignment 0 submission is complete. I will be looking for a README.md file (with the information specified above, formatted as described) in the `main` branch of your private CINS467 repo, in the CSUC-CINS467 group.
