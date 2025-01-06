@@ -5,7 +5,7 @@
 * [Complete the preliminary setup](#preliminary-setup)
 * [Generate a CINS467 Course Repo](#generate-a-cins467-course-repo)
 * [Add a README file on the main branch](#add-a-readme-file-on-the-main-branch)
-* [Submitting Assignment 0](#submitting-assignment-0)
+* [Submit Assignment 0](#submit-assignment-0)
 
 ## Preliminary setup
 
@@ -142,6 +142,8 @@ git push --set-upstream origin main
   * If your code is one big block of text, look at  the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) instructions more carefully, or ask the instructor about fixing your README.
   * If the README looks good, then you are done with Assignment 0!
 
-## Submitting Assignment 0
+## Submit Assignment 0
 
-If you have completed the steps above, your Assignment 0 submission is complete. I will be looking for a README.md file (with the information specified above, formatted as described) in the `main` branch of your private CINS467 repo, in the CSUC-CINS467 group.
+If you have completed the steps above, your Assignment 0 submission is complete. I will be looking for a README.md file (with the information specified above, formatted as described) in the `main` branch of your private CINS467 repo, in the CSUC-CINS467 group.<br>
+
+Reminder: if you have completed the README.md file and it is in the correct location, this indicates that you have created a GitLab account (with Two Factor Authentication), generated a CINS467 course repo, set up Git, created an SSH key, used Markdown to edit a README.md file, and practiced some basic Git commands.
