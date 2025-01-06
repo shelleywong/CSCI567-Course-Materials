@@ -1,17 +1,23 @@
 # Assignment 2 - Web Hello World
 
-## In this assignment your app needs to:
+The Flutter framework allows you to build natively compiled, multi-platform applications from a single codebase. For Assignment 2, start with the same codebase that you created for Assignment 1. The difference is that this time, you will build the app for web.
 
-* [Be a static web app, hosted using GitLab Pages](#gitlab-pages)
-* [Display "CINS467 Hello World" in a Text widget](#web-app)
+* [Requirements](#requirements)
+* [GitLab Pages](#gitlab-pages)
+* [Getting Graded](#getting-graded)
+  * [Submitting your code](#submitting-your-code)
+  * [Commit your code to the assignment2 branch](#commit-your-code-to-the-assignment2-branch)
 
-Also make sure that you:
+### Requirements
+
+* Create a static web app that displays "CINS467 Hello World" in a Text widget
+* Get your web app deployed and hosted using GitLab Pages
+  * Create a `.gitlab-ci.yml` file with a basic CI/CD pipeline
 * Submit the assignment correctly
   * Use a branch called `assignment2`
   * Submit to your CINS467 GitLab repo
     * Your CINS467 GitLab repo on the `assignment2` branch should contain (at minimum) the code for your app (the project directory), the `.gitlab-ci.yml` file that defines the CI/CD pipeline for your GitLab repo, and a file called `web.md` that contains the URL to your project hosted online through GitLab Pages
 
-As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
 
 The goal of Assignment 2 is for you to create a simple web application using Flutter, and to give you experience developing a multi-platform application from a single codebase. For future assignments, you will have the option to submit using either an Android APK or a web URL.
 
@@ -19,9 +25,18 @@ The goal of Assignment 2 is for you to create a simple web application using Flu
 
 [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) is a simple way for you to host a website directly from your GitLab repository. GitLab Pages is similar to [GitHub Pages](https://pages.github.com/), with a slightly different setup -- among other things, GitLab Pages use pipelines to publish static websites, so you need a CI/CD pipeline setup in order to create a GitLab Pages website.
 
-Refer to the lecture materials that cover GitLab Pages (find these materials on Canvas), which provide a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline (deploy stage only). I recommend you start with the `.gitlab-ci.yml` example covered in class and make adjustments based on your project.
+To use GitLab CI/CD, you will start with a `.gitlab-ci.yml` file at the root of your project. It is a YAML file with its own custom syntax. This file is used to specify the stages, jobs, and scripts to be executed during your CI/CD pipeline, as well as define variables, dependencies between jobs, and specify when and how each job should be executed.
 
-After you push code to GitLab on a branch that contains a `.gitlab-ci.yml` file, you should be able to go to your CINS467 GitLab repository and see the pipeline running. If the pipeline succeeds, you should then be able to access your GitLab Pages website:
+Your `.gitlab-ci.yml` file for Assignment 2 can be very simple (just need to build and deploy; we will review other stages later in class). Refer to the lecture materials that cover GitLab Pages (find these materials on Canvas), which provide a guide for creating a `.gitlab-ci.yml` file and a basic CI/CD pipeline. I recommend you start with the `.gitlab-ci.yml` example covered in class and make adjustments based on your project.<br>
+
+Make sure your pipeline:
+* Includes at least one stage (for building and deploying)
+* Uses an up-to-date Docker image for Flutter (I use the one provided by [cirruslabs](https://github.com/cirruslabs/docker-images-flutter/pkgs/container/flutter))
+* Includes a script with commands to move into the correct project directory, get all dependencies, build for web, and copy the build files to a directory called `public`
+* Specifies the `public` directory for artifacts (GitLab Pages only considers files stored in the `public` directory)
+* Optionally, you may also want to configure the pipeline to only run the job on a specific branch (in this case, you want the pipeline to run on the `assignment2` branch)<br>
+
+After you add, commit, and push code to GitLab on a branch that contains a `.gitlab-ci.yml` file, you should be able to go to your CINS467 GitLab repository and see the pipeline running. If the pipeline succeeds, you should then be able to access your GitLab Pages website:
 * To see the pipeline for your project, go to the left sidebar and select `Build` > `Pipelines`
   * The pipeline can take several minutes to run.
   * If the status is *Passed*, then your build succeeded.
@@ -29,40 +44,42 @@ After you push code to GitLab on a branch that contains a `.gitlab-ci.yml` file,
 * To see your website, go to the left sidebar and select `Deploy` > `Pages`
   * Then click on the link provided under **Access pages** (it should include your repo name and end with `gitlab.io`)
 
-## Web App
-
-It is alright if your code for this assignment looks very similar to your code for Assignment 1. Just make sure that you are able to visit your GitLab Pages web app and your app displays the message, "CINS467 Hello World".
-
-Note that if you set up the `.gitlab-ci.yml` file correctly, it will run the `flutter build web` command to generate a release build and complete the other commands necessary to upload your program to use with GitLab Pages.
 
 ## Getting Graded
 
-Create a file called `web.md`. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages. You can do a web hosted submission for all subsequent assignments as long as they continue to have the functionality of the earlier assignments (this is very important -- there is only one GitLab Pages deployment per repo). The `web.md` file can remain exactly the same for all web submissions, or you can add a note that indicates which assignments are included in the web deployment. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+Create a file called `web.md` in the root of your CINS467 repo. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages.
+
+You can do a web hosted submission for all subsequent assignments **as long as they continue to have the functionality of the earlier assignments** (this is very important -- there is only one GitLab Pages deployment per repo). The `web.md` file can remain exactly the same for all web submissions, or you can add a note that indicates which assignments are included in the web deployment. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
+
+Note that GitLab Pages uses a cache for efficiency -- if you have a successful pipeline but then visit your website and it does not appear to have updated, you may be seeing a cached version of the website. Don't panic! Stay calm and either disable the cache or try visiting your website in a private/incognito browser. To disable the cache, go to the browser Developer Tools, click on the Network tab, and make sure the **Disable cache** box is checked.
 
 
 When you have your project finished, submit it in the following format:
 
 ```
-    /
-    ....README.md
-    ....web.md
-    ....AssignmentProject/
-    ........android/
-    ........lib/
-    ........web/
-    ........pubspec.yaml
-    ........(Rest of the AssignmentProject app/project files and folders)
+/
+    .gitlab-ci.yml
+    README.md
+    web.md
+    AssignmentProject/
+        android/
+        lib/
+        web/
+        pubspec.yaml
+        (Rest of the AssignmentProject app/project files and folders)
 ```
 
 > Note: the `.gitlab-ci.yml` file is a hidden file, so you will not see it if you run the `ls` command without any options. You can see the .gitlab-ci.yml file if you list hidden files in long format using `ls -al`
 
-If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch and included all necessary files on the branch (the app/project directory, the .gitlab-ci.yml file, and the web.md file).
+If you are able to see your project hosted through GitLab Pages, you should be good for this assignment; just make sure you have submitted the code through the correct branch and included all necessary files on the branch (the project directory, the `.gitlab-ci.yml` file, and the `web.md` file).
 
-### Submitting to your remote CINS467 git repo
+### Submitting your code
 
-I recommend that you use git commands in a command line terminal to record changes to your project and push your updates to a remote repo. I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you use git commands in a terminal.
+Your code should be submitted to your CINS467 repo (in the CSUC-CINS467 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
 
-### Now submit your code to the **assignment2** branch:
+> Note: I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
+
+### Commit your code to the assignment2 branch
 
 ```bash
 git checkout -b assignment2  #create branch and switch to it
