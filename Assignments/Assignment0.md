@@ -116,7 +116,7 @@ touch README.md
   * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Spring 2025"
     * Give emphasis to the current semester (e.g. "Spring 2025") using (**bold** and/or _italics_)
   * Add a **horizontal line** below the current semester
-  * Below the horizontal line, add an **ordered or unordered list** that contains the following two items: (1) "Chico State Username: " followed by the username you use to login to the Chico State Portal, and (2) "GitLab username: " followed by the username you use to login to GitLab
+  * Below the horizontal line, add an **ordered or unordered list** that contains the following two items: (1) "Chico State Username: " followed by the username you use to login to the Chico State Portal, and (2) "GitLab Username: " followed by the username you use to login to GitLab
 7. After you have finished editing the README.md file, save your changes.
 8. Check the working tree status (you should see that you are on the main branch and have README.md as an untracked file):
 ```
