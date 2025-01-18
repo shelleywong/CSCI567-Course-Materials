@@ -18,13 +18,17 @@
 
 * [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - Storage service for storing images, audio, video, or other user-generated content
 
+* [Google Cloud Console](https://console.cloud.google.com/) - Access the suite of cloud computing services offered by Google Cloud Platform (GCP)
+
 * [Common Flutter errors](https://docs.flutter.dev/testing/common-errors) - frequently encountered Flutter errors with some suggestions on how to solve the errors
 
 ## Versions and Release Notes
 
-* [Flutter release notes](https://docs.flutter.dev/release/release-notes) - Links to announcements, release notes & change logs, and breaking changes & migrations for releases to the stable channel
+* [Flutter release notes](https://docs.flutter.dev/release/release-notes) - Links to announcements and release notes for releases to the stable channel
 
-* [Compatibility Matrix](https://docs.gradle.org/current/userguide/compatibility.html) - For addressing compatibility issues related to Java and Gradle.
+* [Flutter breaking changes and migration guides](https://docs.flutter.dev/release/breaking-changes) - New versions can create breaking changes, so Flutter will on occasion publish guides for migrating code across a breaking change
+
+* [Compatibility Matrix](https://docs.gradle.org/current/userguide/compatibility.html) - For addressing compatibility issues related to Java and Gradle
 
 * [Kotlin releases](https://kotlinlang.org/docs/releases.html) - Latest Kotlin releases (Kotlin is a programming language used to develop Android apps)
 
