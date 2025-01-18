@@ -32,6 +32,8 @@
 
 * [Kotlin releases](https://kotlinlang.org/docs/releases.html) - Latest Kotlin releases (Kotlin is a programming language used to develop Android apps)
 
+* [Gradle releases](https://gradle.org/releases/) - See the latest Gradle version, along with binaries and reference documentation for current and past versions of Gradle
+
 ## Git
 
 * [Git](https://git-scm.com/) - Free and open source distributed version control system
