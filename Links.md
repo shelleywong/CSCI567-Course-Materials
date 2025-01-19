@@ -34,6 +34,8 @@
 
 * [Gradle releases](https://gradle.org/releases/) - See the latest Gradle version, along with binaries and reference documentation for current and past versions of Gradle
 
+* [Android Gradle plugin release notes](https://developer.android.com/build/releases/gradle-plugin) - See release notes on the latest Android Gradle plugin version
+
 ## Git
 
 * [Git](https://git-scm.com/) - Free and open source distributed version control system
