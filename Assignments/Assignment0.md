@@ -96,6 +96,9 @@ Follow the Command line instructions provided in the empty repo to "Create a new
 ```
 git clone git@gitlab.com:CSUChico/CSUC-CINS467/CINS467-Semester-FirstName-LastName.git
 ```
+  * Note: If this is your first time connecting to GitLab (or another server), you will get a message that looks something like this: "The authenticity of host '...' can't be established." This is normal. You should be asked if you are you sure you want to continue connecting, and you should type in 'yes'. This will add GitLab to your list of known hosts.
+    * For more insight, you may be interested in reading this forum post on [SSH: The authenticity of host <host> can't be established](https://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established)
+
 2. Move into the repository that you've just cloned:
 ```
 cd CINS467-Semester-FirstName-LastName
