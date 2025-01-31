@@ -127,10 +127,10 @@ Remember, the final submission for Assignment 1 may seem simple, but before you 
 Start by creating a New Flutter Project. You can do this via the VSCode or Android Studio plugins; however, I recommend doing this through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned). Use the `flutter create <DIRECTORY>` command:
 
 ```bash
-~/repos/CINS467-repo/$ flutter create AssignmentProject
+~/repos/CINS467-repo/$ flutter create my_assignment
 ```
 
-In the example above, the project is named *AssignmentProject*, but you can name your project whatever you wish. You can use the same project for all of the assignment submissions, or create new projects for each assignment.
+In the example above, the project is named *my_assignment*, but you can name your project whatever you wish, as long as it meets the naming requirements (the name should consist of lowercase words separated by underscores, "like_this". Use only basic Latin letters and Arabic digits: [a-z0-9_], and ensure the name is a valid Dart identifier, i.e. it does not start with a digit and is not a reserved word). You can use the same project for all of the assignment submissions, or create new projects for each assignment.
 
 From here, edit your main.dart to have a Text widget that says "CINS467 Hello World". You can begin with the starter code (created by default when you use the `flutter create` command), or use something similar to the following (as long as you update the Text widget). If you start with the code below, I would **highly recommend** you update the *home* component of *MaterialApp* by using some [basic layout widgets](https://docs.flutter.dev/ui/widgets/basics) (such as Scaffold and Column) to wrap the Text widget. Layout widgets allow you to align/center the Text widget so it is easier to read and looks nicer.
 
