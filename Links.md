@@ -26,6 +26,8 @@
 
 * [Flutter release notes](https://docs.flutter.dev/release/release-notes) - Links to announcements and release notes for releases to the stable channel
 
+* [Flutter SDK archive](https://docs.flutter.dev/release/archive) - List of Flutter SDK versions, architecture, release dates, corresponding Dart versions, and other details.
+
 * [Flutter breaking changes and migration guides](https://docs.flutter.dev/release/breaking-changes) - New versions can create breaking changes, so Flutter will on occasion publish guides for migrating code across a breaking change
 
 * [Compatibility Matrix](https://docs.gradle.org/current/userguide/compatibility.html) - For addressing compatibility issues related to Java and Gradle
@@ -35,6 +37,9 @@
 * [Gradle releases](https://gradle.org/releases/) - See the latest Gradle version, along with binaries and reference documentation for current and past versions of Gradle
 
 * [Android Gradle plugin release notes](https://developer.android.com/build/releases/gradle-plugin) - See release notes on the latest Android Gradle plugin version
+
+* [Supported Deployment Platforms](https://docs.flutter.dev/reference/supported-platforms) - Flutter supports deploying apps to this list of platforms (identifies supported versions).
+
 
 ## Git
 
