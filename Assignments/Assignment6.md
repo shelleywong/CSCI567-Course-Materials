@@ -1,6 +1,6 @@
 # Assignment 6 - Firebase
 
-The goal of Assignment 6 is similar to the goal of Assignment 4, but this assignment is specifically aimed at giving you experience working with Firebase Cloud Storage and internet-based persistent storage, which allows data to be persistent across devices. Cloud Storage is more reliable and more scalable than other persistent storage options, and it expands the capabilities of your app, allowing for features like in-app collaboration, sharing with other users, and syncing across multiple devices.
+The goal of Assignment 6 is similar to the goal of Assignment 4, but this assignment is specifically aimed at giving you experience working with Cloud Firestore (Firebase database) and internet-based persistent storage, which allows data to be persistent across devices. Databases and storage on the cloud are more reliable and more scalable than other persistent storage options, and it expands the capabilities of your app, allowing for features like in-app collaboration, sharing with other users, and syncing across multiple devices.
 
 * [Requirements](#requirements)
 * [Getting Graded](#getting-graded)
