@@ -1,6 +1,6 @@
 # Assignment 7 - Camera or Location
 
-The goal of Assignment 7 is to give you experience working with the camera or location services on a device. There are special installation and usage instructions for working with these features on a device (such as adding permissions). Your Final Project needs to leverage the fact it is on a device with access to internet, camera, or location services, so this assignment will help you prepare for the Final Project and complete the first steps necessary to work with hardware features (you should plan on expanding beyond the requirements of this assignment for the final project).
+The goal of Assignment 7 is to give you experience working with the camera or location services on a device. There are special installation and usage instructions for working with these features on a device (such as adding permissions). One requirement of your Final Project is that it needs to utilize the camera or location services on the device, so this assignment will help you prepare for the Final Project and complete the first steps necessary to work with hardware features (you should plan on expanding beyond the requirements of this assignment for the final project).
 
 * [Requirements](#requirements)
 * [Getting Graded](#getting-graded)
