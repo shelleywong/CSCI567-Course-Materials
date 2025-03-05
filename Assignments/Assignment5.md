@@ -1,6 +1,6 @@
 # Assignment 5 - REST API
 
-The goal of Assignment 5 is to give you experience working with a [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api). REST is one of the most widely used approaches for building web-based APIs, and it is useful for you to be familiar with how to interact with a REST API from the client side. Sending and/or receiving data from a REST API (or other internet-based source) is one option for meeting the Final Project requirement that your project needs to integrate with a backend to utilize and manage data and leverage the fact the app is on a device with internet connectivity.
+The goal of Assignment 5 is to give you experience working with a [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api), specifically an external API that you do not control (you will need to make HTTP requests, handle responses, and follow the rules of the API). REST is one of the most widely used approaches for building web-based APIs, and it is useful for you to be familiar with how to interact with a REST API from the client side. Sending and/or receiving data from a REST API (or other internet-based source) is one option for meeting the Final Project requirement that your project needs to integrate with a backend to utilize and manage data and leverage the fact the app is on a device with internet connectivity.
 
 * [Requirements](#requirements)
 * [Getting Graded](#getting-graded)
@@ -16,7 +16,7 @@ In this assignment your app needs to:
 * **Have a simple UI**
   * Your UI should be user-friendly. Every feature should have a purpose, and it should be clear to users how they can interact with each feature.
 * **Retrieve data from a REST API**
-  * You must successfully make at least one HTTP GET request using the [Dart http package](https://pub.dev/packages/http) to fetch data.
+  * You must successfully make at least one HTTP GET request using the [Dart http package](https://pub.dev/packages/http) to fetch data from an external API (a third-party service that you do not have direct control over).
     * The data returned by your chosen REST API should contain at least one object that is composed of at least three fields that can be effectively displayed or used.
   * To receive full credit for this assignment, use a different REST API from the one demonstrated in class.
     * Feel free to use a free and public API. Some free/public APIs require an API key, but you do not need to use an API Key for this assignment.
