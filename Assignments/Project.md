@@ -41,7 +41,7 @@ I have Google Cloud Education Credits available for every student -- look for th
 
 Common ways that students use Google Cloud Credits include:
 * [Compute Engine](https://cloud.google.com/products/compute?hl=en) - hosting a website or database backend using Google's Cloud services
-* [The API Library](https://console.cloud.google.com/apis/library) - Google has a number of useful APIs available, including ones for maps, machine learning, and more.
+* [The API Library](https://console.cloud.google.com/apis/library) - Google has a number of useful APIs available, including ones for maps, machine learning, and more (note: for the Maps (and Places) API, use the SDK for Android or JavaScript API).
 * [Cloud Storage for Firebase](https://firebase.google.com/docs/storage) - all projects that store images and other files using Cloud Storage for Firebase must now be on the pay-as-you-go (Blaze) pricing plan. No-cost usage from the Spark plan is included in the Blaze plan, so you will likely either use no credits or a very minimal amount; however, your project still needs to be connected to a billing account (use the Billing Account for Education as your billing account!) See the [Firebase pricing plans](https://firebase.google.com/pricing) for more info about pricing.<br>
 
 If you are nearing the credit limit or have reached the limit on your Billing Account for Education, let me know -- I can send message to the Google Cloud Education Programs Team and request additional credits for the specific accounts that are in need of additional funds (up to a point -- you should still aim to make responsible use of your credits).<br>
@@ -70,6 +70,7 @@ Grading for the final project will be based on the following criteria. Your fina
       * There are different ways that you can meet this requirement at a more intermediate/advanced level. Some options include but are not limited to: using the image in a meaningful way after it has been captured (e.g. storing the images and connecting them to specific users/documents, creating digital stories or collages from multiple photos, providing ways to process or edit photos), or using the location in a meaningful way after it has been accessed (e.g. using the GPS coordinates to provide location-based suggestions, connecting users to other nearby users, triggering actions or notifications when entering or leaving specific areas, tracking outdoor activities, planning routes).
 4. Be interesting or useful
     * **Does not have to be a completely original idea, but should be unique in some way** -- should not just be implementing a tutorial or copying an example you have found online or generated with AI.
+    * Consider if your project has any business/marketing potential - does it meet a real customer need or have market appeal in another way (e.g. it's fun, unique, or interesting enough to attract users)?
     * If you use any tutorials (particularly anything that is not an official tutorial connected to the documentation), you must include a reference (at minimum, include a link). You should also go beyond the tutorial and include changes that make sense for your app. Your final project should not match something I can find on the internet. Please refer to the academic honesty policy in the syllabus or ask me if you have questions about this.
     * You are encouraged to use libraries, packages, and plugins to help enhance the functionality of your app; however, make sure these tools are not providing the core functionality of your app. Understanding how to interact with libraries is important, but the core logic of your app should be developed by you (and your group, if working in a team).
 5. **Be usable and accessible** -- aim to create an app that provides a quality experience to all users.
@@ -130,38 +131,48 @@ Submit the **Final Project Concept** to Canvas as a **PDF** document. If you are
 
 Your **Final Project Full Proposal** must contain the Final Project Concept (what your project is, who is working on the project, a general idea of what you will accomplish by the end of the semester), as well as some additional components (described below). The Project Title, Project Members, and Project Description should match or be similar to the *Final Project Concept* that you previously submitted -- if your concept got feedback that required any changes, you can address the feedback in your Final Project Full Proposal submission. As such, your Final Project Full Proposal should have the following sections:
 
-* **Project Title**
+1. **Project Title**
   * Your project proposal should be titled with what you expect to call your app.
-* **Project Members**
+2. **Project Members**
   * You should make sure that you identify all members of the project team right below the project title.
-* **Project Description**
+3. **Project Description**
   * Use what you submitted for Final Project Concept, with any changes as needed or requested.
-* **Project Implementation Details**
-  * Let me know if you are building for Android or Web. You are not required to do both but you are welcome to target more than one platform. If you want to target iOS or desktop, you must also build for either Android or Web. If you are using any packages, remember to check if the package supports your chosen platform.
-  * Describe what types of data you plan on sending and/or receiving from an internet-based source such as the Firebase database (Cloud Firestore) or an API. If you are using a database, what data will your app utilize and store (e.g. user info, user history, favorites, scores/records, events, camera photos, etc)? If you are using an API, what types of data and services will your app retrieve, display, and interact with? If you are using an API, it is also recommended that you store and process select pieces of data from the API (e.g. storing favorites or recently viewed items, so they are easier to access).
-    * You do not need to create a database design diagram; you just need to indicate the collections of data you plan to use and provide a general idea of the fields that will be included in documents from these collections.
+4. **Project Implementation Details**
+  * (Part A) Let me know if you are **building for Android or Web**. You are not required to do both but you are welcome to target more than one platform. It would also be useful to identify which **languages/frameworks** you are using (especially if you are not using Flutter).
+    * If you want to target iOS or desktop, you must also build for either Android or Web.
+    * If you are using any packages/libraries, remember to check if the package supports your chosen platform.
+  * (Part B) **Describe the data** you plan on sending and/or receiving from an internet-based source such as the Firebase database (Cloud Firestore) or an API.
+    * A database design diagram is not required; you just need to indicate the **collections of data** you plan to use and provide a general idea of the **fields** that will be included in documents from these collections.
+      * What data will your app utilize and store in your database (e.g. user info, user history, favorites, scores/records, events, camera photos, etc)?
+    * If you are using an API, what types of data and services will your app retrieve, display, and interact with? If you are using an API, it is also recommended that you store and process select pieces of data from the API (e.g. storing favorites or recently viewed items, so they are easier to access).
     * You may not be sure about all the specifics, and your data may change as you begin building your app -- that's fine. I just want to see that you have an idea of what types of data you are going to store and how that data is going to be used in your app. (Reminder: extensive research and planning at this stage can make your actual development go much more smoothly!)
-* **Project UIs**
-  * In this section, you should briefly describe or show prototype sketches/diagrams of what the expected UI for your app will look like at the end of the semester. This should include all of the Views you plan on creating. This component of the proposal is similar to a website wireframe, a visual guide that represents the skeletal framework of a website.
-  * It is fine if your views (the number of views or what is displayed in the views) is different at the end of the semester. As you develop your project, you may realize that something else will work better. You do not need to resubmit your proposal if the updates do not significantly change the overall idea of your project -- I just want you to have an idea of your general UI layout before you start building.
-  * Your Project UIs may be hand drawn or completed with a wireframing tool of your choice. It is ok if this component does not look professional, but I expect you to have given some thought to how people will interact with your site (page layout, interface elements, navigation).
-* **Diagram Screen Relationships**
-  * Taking the UI design/interaction process a bit farther, this section should show in a transition graph how the different screens relate to each other and transitions from one activity to another. How does everything work together?
-  * Completing this section should help you design the UI in the previous stage. To be effective, each state in the diagram should connect to a specific UI from the previous section.
-* **Project Deliverables**
-  * This is the most important section of the proposal -- this is where you will actually create a list of expected contributions, features, developments, etc that you expect to have working by the end of the semester.
-  * As your proposal will contribute to your project grade, more detail vs less detail here is important.
-  * You should include separate **lists** for **expected deliverables** and **bonus deliverables**. Part of your grade will be based on the amount of progress you have made toward completing your expected deliverables (you may get bonus points for going beyond that).
-  * These deliverables need to be clearly stated and specific enough so that when I read the proposal, it is clear to me what you will be doing on the project and what features your project will provide. If this is not clear, you will need to further explain your project deliverables to me before I will sign off on your project. You will lose points off your proposal significantly if I need to do this.
-  * If I feel your project is not significant enough, I will ask you to complete more of your deliverables or add more to the project. Alternatively, if I feel that your project is taking on too much, I will propose a subset of your deliverables that you should make sure to get working first. The fact that you may need to modify the scope of your project proposal is the reason why I want you to start thinking about and submit your proposal as early as possible. Remember that I will need time to adequately read through and think about your projects.
-* **Project Organization and Timeline**
-  * This section breaks down how you expect to organize and manage the development of the project among your team (or just for yourself). What is the general plan? Are different members going to be assigned different components? Figure out what each individual's job/tasks will be, so everyone knows what they are doing when they start working on the project.
-  * Think through the responsibilities for each group member at this stage. Depending on your project and the number of people working on the project, it would potentially be worthwhile to have someone focus on test completeness/soundness for all the functionality of your app. This would be very useful for tying your project into a CI/CD framework. CI/CD will be discussed in class and is an important component of most real world applications.
-  * **You must create a timeline for each member of the group.**
-    * Everyone's timeline may be a little different, but you might include steps for getting aspects of your project set up, working, developed, etc.
-    * For each individual team member, set milestones that you want to complete by a given time (be realistic about the time you think you will need, but it is ok if you do not follow your timeline exactly)
-    * Make sure to include time to test each component and confirm that everything is working as expected.
-    * You must set at least 6-8 milestones per developer (you can create more milestones, too, if you think it makes sense). This equals out to about 1 milestone per week -- aim to make progress on your final project EVERY week for the last portion of the semester. Remember that you will need to regularly submit project progress updates. Do NOT leave everything until the last week or so!
+5. **User Interface**
+  * (Part A) **Project UIs**
+    * In this section, you should briefly describe or show prototype sketches/diagrams of what the expected UI for your app will look like at the end of the semester. This should include all of the Views you plan on creating. This component of the proposal is similar to a website wireframe, a visual guide that represents the skeletal framework of a website.
+    * It is fine if your views (the number of views or what is displayed in the views) is different at the end of the semester. I realize that changes may be made as you develop your project. You do not need to resubmit your proposal if the updates do not significantly change the overall idea of your project -- I just want you to have an idea of your general UI layout before you start building.
+    * Your Project UIs may be hand drawn or completed with a wireframing tool of your choice. It is ok if this component does not look professional, but I expect you to have given some thought to how people will interact with your site (page layout, interface elements, navigation).
+  * (Part B) **Diagram Screen Relationships**
+    * Taking the UI design/interaction process a bit farther, this section should show in a transition graph how the different screens relate to each other and transitions from one activity to another. How does everything work together?
+    * Completing this section should help you design the UI in the previous stage. To be effective, each state in the diagram should connect to a specific UI from the previous section.
+6. **Project Deliverables and Timeline**
+  * This is the most important section of the proposal -- this is where you will specify your expected contributions/features/milestones that you expect to have working by the end of the semester, and describe your plan for accomplishing each milestone.
+  * Acceptable submission formats for this section include: bulleted list or numbered list, table, Gantt chart, project board, or other visual format that clearly communicates your deliverables and your plan.
+  * (Part A) **List of Deliverables**
+    * Include a list of your expected contributions/features/milestones
+    * As your proposal will contribute to your project grade, more detail vs less detail here is important.
+    * You should **prioritize** your list by indicating which items are **expected deliverables** (needed for a minimum viable product) and which are **stretch goals** (enhancements to the core functionality). Part of your grade will be based on the amount of progress you have made toward completing your expected deliverables and stretch goals.
+    * These deliverables need to be clearly stated and specific enough so that when I read the proposal, it is clear what you will be doing on the project and what level of functionality can be expected from each feature. If this is not clear, you will need to further explain your project deliverables to me before I will sign off on your project. You will lose points off your proposal significantly if I need to do this.
+    * If I feel your project is not significant enough, I will ask you to complete more of your deliverables or add more to the project. Alternatively, if I feel that your project is taking on too much, I will propose a subset of your deliverables that you should make sure to get working first. The fact that you may need to modify the scope of your project proposal is the reason why I want you to start thinking about and submit your proposal as early as possible. Remember that I will need time to adequately read through and think about your projects.
+  * (Part B) **Project Organization and Timeline**
+    * This section breaks down how you expect to organize and manage the development of the project among your team (or just for yourself). What is the general plan? How will you break your project down into doable tasks? Are different members going to be assigned different components? Figure out what each individual's job/tasks will be, so everyone knows what they are doing when they start working on the project.
+    * Think through the responsibilities for each group member at this stage. Depending on your project and the number of people working on the project, it would potentially be worthwhile to have someone focus on test completeness/soundness for all the functionality of your app. This would be very useful for tying your project into a CI/CD framework. CI/CD will be discussed in class and is an important component of most real world applications.
+    * **You must create a timeline for each member of the group.**
+      * You must set **at least 6-8 milestones per developer** (you can create more milestones, too, if you think it makes sense). This equals out to about 1 milestone per week - aim to make progress on your final project EVERY week for the last portion of the semester.
+        * Consistent progress throughout these weeks means you are making regular updates to a git repo and you are submitting regular project progress updates (which may include work that does not require a git commit, such as research or testing). Do NOT leave everything until the last week or so!
+      * Everyone's timeline may be a little different, but you might include steps for getting each feature of your project set up, working, developed, etc.
+      * For each individual team member, set milestones that you want to complete by a given time (be realistic about the time you think you will need, but know that it is ok if you do not follow your timeline exactly)
+      * Make sure to include time to test each component and confirm that everything is working as expected.
+
 
 Submit the **Final Project Full Proposal** to Canvas as a **PDF** document. If you are working as a **group**, only one member of the group needs to submit the PDF document to Canvas (the document should include the first and last name of all group members). It is fine if multiple members submit the PDF, just make sure the submissions match (I will only grade one submission per group). **Make sure your group has communicated how the Final Project Full Proposal will be submitted**.
 
@@ -257,8 +268,19 @@ Your overall grade in the class includes several components related to the Final
     * If you did not contribute your portion of the overall app development, you will lost credit for your project grade. This will come from team evaluations and analysis of your physical code contributions on GitHub and/or GitLab.
 
 **General Grading Scale for Final Projects:**
-* 90% or above: Superior work (exceeds expectations, demonstrates exceptional quality, creativity, and execution)
-* 80% or above: Very good work (better than adequate -- meets all requirements and shows thoughtful implementation and attention to detail)
-* 70% or above: Adequate work (meets the basic requirements but lacks depth, polish, or refinement)
-* 60% or above: Minimally acceptable work (meets some requirements but is incomplete or underdeveloped)
-* Below 60%: Unacceptable work (fails to meet the minimum expectations)
+* **90% or above**: Superior work (exceeds expectations, demonstrates exceptional quality, creativity, and execution)
+  * Goes well beyond minimum requirements
+  * Technically strong, well-tested, well-documented, clear planning and attention to detail
+  * High level of ownership; be able to discuss your work clearly and confidently; shows engagement and improvement
+  * Work stands out in effort, quality, and insight
+* **80% or above**: Very good work (above average, better than adequate)
+  * Meets all requirements and goes beyond in at least some areas
+  * Shows thoughtful implementation, attention to detail, consistent effort and improvement
+  * Reflects both competency and some extra care
+* **70% or above**: Adequate work (meets basic requirements)
+  * Meets minimum technical and functional requirements but may lack depth, polish, or refinement
+  * Shows effort and improvement, even if execution is not perfect
+* **60% or above**: Minimally acceptable work (meets some requirements)
+  * Meets some minimal requirements but is incomplete or underdeveloped in key areas
+* **Below 60%**: Unacceptable work (fails to meet the minimum expectations)
+  * Reminder: Some work is always better than none. If you complete and submit some work (and you have not violated any academic integrity policies), you will receive a grade greater than 0 on the final project and may still be able to pass the class. If you do not submit a final project, you cannot pass this class.
