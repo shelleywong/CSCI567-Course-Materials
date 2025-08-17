@@ -10,13 +10,13 @@ The Flutter framework allows you to build natively compiled, multi-platform appl
 
 ### Requirements
 
-* Create a static web app that displays "CINS467 Hello World" in a Text widget
+* Create a static web app that displays "CSCI567 Hello World" in a Text widget
 * Get your web app deployed and hosted using GitLab Pages
   * Create a `.gitlab-ci.yml` file with a basic CI/CD pipeline
 * Submit the assignment correctly
   * Use a branch called `assignment2`
-  * Submit to your CINS467 GitLab repo
-    * Your CINS467 GitLab repo on the `assignment2` branch should contain (at minimum) the code for your app (the project directory), the `.gitlab-ci.yml` file that defines the CI/CD pipeline for your GitLab repo, and a file called `web.md` that contains the URL to your project hosted online through GitLab Pages
+  * Submit to your CSCI567 GitLab repo
+    * Your CSCI567 GitLab repo on the `assignment2` branch should contain (at minimum) the code for your app (the project directory), the `.gitlab-ci.yml` file that defines the CI/CD pipeline for your GitLab repo, and a file called `web.md` that contains the URL to your project hosted online through GitLab Pages
 
 
 The goal of Assignment 2 is for you to create a simple web application using Flutter, and to give you experience developing a multi-platform application from a single codebase. For future assignments, you will have the option to submit using either an Android APK or a web URL.
@@ -36,7 +36,7 @@ Make sure your pipeline:
 * Specifies the `public` directory for artifacts (GitLab Pages only considers files stored in the `public` directory)
 * Optionally, you may also want to configure the pipeline to only run the job on a specific branch (in this case, you want the pipeline to run on the `assignment2` branch)<br>
 
-After you add, commit, and push code to GitLab on a branch that contains a `.gitlab-ci.yml` file, you should be able to go to your CINS467 GitLab repository and see the pipeline running. If the pipeline succeeds, you should then be able to access your GitLab Pages website:
+After you add, commit, and push code to GitLab on a branch that contains a `.gitlab-ci.yml` file, you should be able to go to your CSCI567 GitLab repository and see the pipeline running. If the pipeline succeeds, you should then be able to access your GitLab Pages website:
 * To see the pipeline for your project, go to the left sidebar and select `Build` > `Pipelines`
   * The pipeline can take several minutes to run.
   * If the status is *Passed*, then your build succeeded.
@@ -47,7 +47,7 @@ After you add, commit, and push code to GitLab on a branch that contains a `.git
 
 ## Getting Graded
 
-Create a file called `web.md` in the root of your CINS467 repo. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages.
+Create a file called `web.md` in the root of your CSCI567 repo. In your `web.md` file, you should add the web URL for your assignment hosted online through GitLab Pages.
 
 You can do a web hosted submission for all subsequent assignments **as long as they continue to have the functionality of the earlier assignments** (this is very important -- there is only one GitLab Pages deployment per repo). The `web.md` file can remain exactly the same for all web submissions, or you can add a note that indicates which assignments are included in the web deployment. You also can continue to use and build on the same project code as long as it is submitted to the correct branch.
 
@@ -75,7 +75,7 @@ If you are able to see your project hosted through GitLab Pages, you should be g
 
 ### Submitting your code
 
-Your code should be submitted to your CINS467 repo (in the CSUC-CINS467 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
+Your code should be submitted to your CSCI567 repo (in the CSUC-CSCI567 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
 
 > Note: I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
 

@@ -38,8 +38,8 @@ Also make sure that you:
 
   * Submit the assignment correctly
     * Use a branch called `assignment4`
-    * Submit to your CINS467 GitLab repo
-      * You may submit your app as either an Android app or a web app. Your CINS467 GitLab repo on the `assignment4` branch should contain (at minimum):
+    * Submit to your CSCI567 GitLab repo
+      * You may submit your app as either an Android app or a web app. Your CSCI567 GitLab repo on the `assignment4` branch should contain (at minimum):
         * Android submission: the code for your app (the project directory) and the APK file that you created for your app
         * Web submission: the code for your app (the project directory), the `.gitlab-ci.yml` file that defines the CI/CD pipeline for your GitLab repo, and a file called `web.md` that contains the URL to your project hosted online through GitLab Pages
 
@@ -52,7 +52,7 @@ You may submit Assignment 4 as either an Android APK (Option 1) OR a GitLab Page
 
 ### Android APK
 
-Create a new APK for this assignment by running the `flutter clean` command, and then running the `flutter build apk` command. For more detailed instructions on creating and locating an APK, refer back to the instructions in [Assignment 1](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Assignments/Assignment1.md#create-your-first-apk).
+Create a new APK for this assignment by running the `flutter clean` command, and then running the `flutter build apk` command. For more detailed instructions on creating and locating an APK, refer back to the instructions in [Assignment 1](https://github.com/shelleywong/CSCI567-Course-Materials/blob/main/Assignments/Assignment1.md#create-your-first-apk).
 
 When you have your APK, move it to the root directory of your GIT repo that you were given to turn in assignments for this class. You must only have **one** APK in your root directory (remember, each assignment should be submitted to a unique branch, so you can overwrite any previous APKs).
 
@@ -91,7 +91,7 @@ To submit via web, make sure you have a `.gitlab-ci.yml` file on the current bra
 
 ### Submitting your code
 
-Your code should be submitted to your CINS467 repo (in the CSUC-CINS467 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
+Your code should be submitted to your CSCI567 repo (in the CSUC-CSCI567 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
 
 > Note: I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
 

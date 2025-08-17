@@ -15,7 +15,7 @@
 > Note: I will only be requiring Android and web results in this class. Flutter supports development for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web, so while we will not focus on developing iPhone apps in this class (since iOS development requires macOS), it should be relatively simple to create an iOS app from your existing Flutter app if you choose to do so in the future.
 
 
-For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CINS467 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
+For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CSCI567 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
 
 ## Get Your Flutter Build Environment Setup
 
@@ -43,7 +43,7 @@ Make sure you:
   * If you want to use the Android emulator: Download and install Android Studio (this is the easiest way I know of to work with the Android Virtual Device (AVD) Manager)
 * Can develop for web (this should be setup by default)
 
-You should be able to run `flutter doctor -v` and see a checkmark next to most categories (Flutter, Android Toolchain, Chrome, etc). If the report says, "No issues found!", then you are definitely good. You are also good if you have unresolved issues specifically related to developing desktop apps (Windows, macOS, or Linux) or iOS apps -- you do not need XCode (for iOS and macOS apps), Visual Studio (for Windows apps), or the Linux toolchain (for Linux apps) in CINS 467, so if you see issues in these categories, do not worry about it -- continue with the next steps.
+You should be able to run `flutter doctor -v` and see a checkmark next to most categories (Flutter, Android Toolchain, Chrome, etc). If the report says, "No issues found!", then you are definitely good. You are also good if you have unresolved issues specifically related to developing desktop apps (Windows, macOS, or Linux) or iOS apps -- you do not need XCode (for iOS and macOS apps), Visual Studio (for Windows apps), or the Linux toolchain (for Linux apps) in CSCI 567, so if you see issues in these categories, do not worry about it -- continue with the next steps.
 
 ### Code Editing
 
@@ -115,24 +115,24 @@ Remember, the final submission for Assignment 1 may seem simple, but before you 
 
 ### Requirements
 
-* Create an app that displays "CINS467 Hello World" in a Text widget
+* Create an app that displays "CSCI567 Hello World" in a Text widget
 * Create an APK for your app
 * Submit the assignment correctly
   * Use a branch called `assignment1`
-  * Submit to your CINS467 GitLab repo
-    * Your CINS467 GitLab repo on the `assignment1` branch should contain (at minimum) the code for your app (the project directory) and the APK file that you created for your app
+  * Submit to your CSCI567 GitLab repo
+    * Your CSCI567 GitLab repo on the `assignment1` branch should contain (at minimum) the code for your app (the project directory) and the APK file that you created for your app
 
 ### Steps
 
 Start by creating a New Flutter Project. You can do this via the VSCode or Android Studio plugins; however, I recommend doing this through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned). Use the `flutter create <DIRECTORY>` command:
 
 ```bash
-~/repos/CINS467-repo/$ flutter create my_assignment
+~/repos/CSCI567-repo/$ flutter create my_assignment
 ```
 
 In the example above, the project is named *my_assignment*, but you can name your project whatever you wish, as long as it meets the naming requirements (the name should consist of lowercase words separated by underscores, "like_this". Use only basic Latin letters and Arabic digits: [a-z0-9_], and ensure the name is a valid Dart identifier, i.e. it does not start with a digit and is not a reserved word). You can use the same project for all of the assignment submissions, or create new projects for each assignment.
 
-From here, edit your main.dart to have a Text widget that says "CINS467 Hello World". You can begin with the starter code (created by default when you use the `flutter create` command), or use something similar to the following (as long as you update the Text widget). If you start with the code below, I would **highly recommend** you update the *home* component of *MaterialApp* by using some [basic layout widgets](https://docs.flutter.dev/ui/widgets/basics) (such as Scaffold and Column) to wrap the Text widget. Layout widgets allow you to align/center the Text widget so it is easier to read and looks nicer.
+From here, edit your main.dart to have a Text widget that says "CSCI567 Hello World". You can begin with the starter code (created by default when you use the `flutter create` command), or use something similar to the following (as long as you update the Text widget). If you start with the code below, I would **highly recommend** you update the *home* component of *MaterialApp* by using some [basic layout widgets](https://docs.flutter.dev/ui/widgets/basics) (such as Scaffold and Column) to wrap the Text widget. Layout widgets allow you to align/center the Text widget so it is easier to read and looks nicer.
 
 ```Dart
 import 'package:flutter/material.dart';
@@ -169,33 +169,33 @@ For Assignment 1 grading, you must submit an Android APK (the Android install pa
 You will need to run the `flutter build apk` command to create a new APK. The command should overwrite any files that are currently in the `build/` directory; however, if you want to be sure you are creating a fresh APK, you should first remove the build folder using either `flutter clean` or `rm` (you should not need to run both commands):
 
 ```bash
-~/repos/CINS467-repo/AssignmentProject$ flutter clean
-~/repos/CINS467-repo/AssignmentProject$ rm -rf build
+~/repos/CSCI567-repo/AssignmentProject$ flutter clean
+~/repos/CSCI567-repo/AssignmentProject$ rm -rf build
 ```
 
 Then explicitly build a new APK:
 
 ```bash
-~/repos/CINS467-repo/AssignmentProject$ flutter build apk
+~/repos/CSCI567-repo/AssignmentProject$ flutter build apk
 ```
 
 Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/apk/release/` (you can also use the `app-release.apk` file located here: `build/app/outputs/flutter-apk/`). Once you confirm that this .apk file has been created, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class. If you are in the root of your project (the same directory that contains the `pubspec.yaml` file), you can copy the `app-release.apk` file to the root of your GIT repo with the following command (if the parent directory of your project is the root of your GIT repo):
 
 ```bash
-~/repos/CINS467-repo/AssignmentProject$ cp build/app/outputs/apk/release/app-release.apk ..
+~/repos/CSCI567-repo/AssignmentProject$ cp build/app/outputs/apk/release/app-release.apk ..
 ```
 
 Then move to the root of your GIT repo and confirm that your repo contains the apk file (it should also contain the README.md file and the project directory for your app):
 
 ```bash
-~/repos/CINS467-repo/AssignmentProject$ cd ..
-~/repos/CINS467-repo$ ls
+~/repos/CSCI567-repo/AssignmentProject$ cd ..
+~/repos/CSCI567-repo$ ls
 README.md app-release.apk AssignmentProject
 ```
 
-If you don't have a CINS467 GitLab repo, go to Canvas to see the instructions for generating a Git Repo for this class.
+If you don't have a CSCI567 GitLab repo, go to Canvas to see the instructions for generating a Git Repo for this class.
 
-You will submit all the assignments for this class to separate branches on your CINS467 repo. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
+You will submit all the assignments for this class to separate branches on your CSCI567 repo. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
 
 ```
     /
@@ -211,7 +211,7 @@ You will submit all the assignments for this class to separate branches on your 
 
 ### Submitting your code
 
-Your code should be submitted to your CINS467 repo (in the CSUC-CINS467 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
+Your code should be submitted to your CSCI567 repo (in the CSUC-CSCI567 GitLab group). You should use git commands in a command line terminal to record changes to your project and push your updates to a remote repo.
 
 > Note: I recommend **not** using VSCode, GitHub Desktop, or Android Studio to manage your version control -- several students who have tried using these in the past have ended up screwing up their repos. Any issues you run into will be much easier to fix if you consistently use git commands in a terminal.
 

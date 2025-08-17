@@ -3,7 +3,7 @@
 ## In this assignment you will:
 
 * [Complete the preliminary setup](#preliminary-setup)
-* [Generate a CINS467 Course Repo](#generate-a-cins467-course-repo)
+* [Generate a CSCI567 Course Repo](#generate-a-csci567-course-repo)
 * [Add a README file on the main branch](#add-a-readme-file-on-the-main-branch)
 * [Submit Assignment 0](#submit-assignment-0)
 
@@ -15,7 +15,7 @@ Note: I recommend using native Flutter on Windows, macOS, or Linux, depending on
 * If you are using **Windows**, plan on completing your Flutter development in PowerShell, the Windows Command Prompt shell, and/or VS Code or Android Studio. You may need to use multiple terminals, as some commands may not work in all terminals.
   * PowerShell does not have git installed by default, so you will need to install and setup Git on PowerShell to complete the Git commands (including those that interact with GitLab).
   * Alternatively, you may want to use PowerShell for Flutter commands, and then install and setup Git Bash for Git commands.
-  * Another potential option is to use WSL2 -- this will likely require a little extra setup and not work by default, and I would recommend only using this option if you put your CINS467 repo in a place that is accessible from both a PowerShell/Command Prompt terminal and WSL2 (since some commands may not work in every terminal). If you are interested in this option and not sure where to start, I recommend asking for help on the cd Discord.<br>
+  * Another potential option is to use WSL2 -- this will likely require a little extra setup and not work by default, and I would recommend only using this option if you put your CSCI567 repo in a place that is accessible from both a PowerShell/Command Prompt terminal and WSL2 (since some commands may not work in every terminal). If you are interested in this option and not sure where to start, I recommend asking for help on the cd Discord.<br>
 
 > My instructions regarding SSH keys are based on the GitHub Docs regarding SSH: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
 
@@ -26,7 +26,7 @@ Before you complete Assignment 0, check that you have completed the following st
 1. [Sign up for GitLab](https://about.gitlab.com/)
   * GitLab is free for personal projects. To sign up, you will need to select the option to start a free 30-day trial of GitLab Ultimate. Once the free trial is over, you should choose to go back to the Free tier -- the Free tier is all you need for personal project.
   * Unfortunately, despite GitLab's website saying "no credit card required" -- you may need to enter a credit card. GitLab started requiring new users to provide a valid credit or debit card in order to discourage and [reduce crypto mining abuse](https://about.gitlab.com/blog/2021/05/17/prevent-crypto-mining-abuse/). When you provide the card, it will not be charged but instead will be verified with a one-dollar authorization transaction. No charge will be made and no money will transfer.
-  * Note that you must actually sign up for GitLab -- you will not be able to join the CSUC-CINS467 group if you sign in to GitLab with credentials for another site (e.g. GitHub).
+  * Note that you must actually sign up for GitLab -- you will not be able to join the CSUC-CSCI567 group if you sign in to GitLab with credentials for another site (e.g. GitHub).
 2. Confirm that you have git installed (if installed, `which git` will identify the location of git installed on your machine, while `git version` will display version information)
 ```
 $ which git
@@ -71,21 +71,21 @@ $ git config --global user.email johndoe@example.com
     * Optionally, set an expiration date -- if you include an expiration date, make sure it is after the end of the semester for this class.
     * Click the `Add key` button to finish adding the SSH key. Now, you should see your key in the list of "Your SSH keys".
   * Enable Two-Factor Authentication
-    * In order to use the CINS467 course repo, you will need to increase your account's security by enabling two-factor authentication (2FA). Go to your account (gitlab.com/yourusername), click the `Edit profile` button, then select `Account` from the left sidebar. Make sure you **enable Two-factor authentication**.
+    * In order to use the CSCI567 course repo, you will need to increase your account's security by enabling two-factor authentication (2FA). Go to your account (gitlab.com/yourusername), click the `Edit profile` button, then select `Account` from the left sidebar. Make sure you **enable Two-factor authentication**.
       * For two-factor authentication, you can **Register a one-time password authenticator** (such as Duo Mobile, Authy, Google Authenticator, etc) or **Register a WebAuthn device** (a hardware device such as a YubiKey).
       * You should already have Duo Mobile for campus authentication -- if you set up Duo for GitLab, note that you may not get a notification (like you do when signing in to campus apps). You can look for a 6 digit passcode (hidden by default) in the app (note that the passcode will get refreshed frequently).
 
-## Generate a CINS467 Course Repo
+## Generate a CSCI567 Course Repo
 
-For this course, you will complete all programming assignments (with the possible exception of your final project) in your private GitLab repo that is part of the CSUChico/CINS467 group. The group is private -- you will only be able to access it after you have generated a CINS467 repo and joined the group.
+For this course, you will complete all programming assignments (with the possible exception of your final project) in your private GitLab repo that is part of the CSUChico/CSCI567 group. The group is private -- you will only be able to access it after you have generated a CSCI567 repo and joined the group.
 
-1. Go to the [Repo Generator](https://repo.bryandixon.phd/) page and select your course (CINS 467)
+1. Go to the [Repo Generator](https://repo.bryandixon.phd/) page and select your course (CSCI 567)
 2. Fill out the form with your First Name, Last Name, GitLab username, and the Course Token (provided during lecture).
-  * If you are retaking CINS 467, you may receive an error that you have already generated a repo. Email or talk to the instructor about getting your repo updated for the current semester (you will not submit the form again in this case).
+  * If you are retaking CSCI 567, you may receive an error that you have already generated a repo. Email or talk to the instructor about getting your repo updated for the current semester (you will not submit the form again in this case).
   * Make sure you enter everything correctly -- if you enter a valid, existing GitLab username but it is not your GitLab username, a different person will receive the invite.
   * Click the button to Generate a GitLab Repo.
-  * If you run into any issues with generating a GitLab repo in the CSUChico/CSUC-CINS467 group, talk to the instructor!
-3. After submitting the form, go to [gitlab.com/CSUChico/CSUC-CINS467](https://gitlab.com/CSUChico/CSUC-CINS467) and see if you have access to the CSUC-CINS467 group. You should see a private repo generated for you. The repo will have a name in this format: `CINS467-Semester-FirstName-LastName`.
+  * If you run into any issues with generating a GitLab repo in the CSUChico/CSUC-CSCI567 group, talk to the instructor!
+3. After submitting the form, go to [gitlab.com/CSUChico/CSUC-CSCI567](https://gitlab.com/CSUChico/CSUC-CSCI567) and see if you have access to the CSUC-CSCI567 group. You should see a private repo generated for you. The repo will have a name in this format: `CSCI567-Semester-FirstName-LastName`.
 4. If you click on the repo, you should see that it is empty. Now you should use the command line instructions to "Create a new repository". The steps described below are given in the empty repo -- the main difference is that you need to add some additional information to the README for Assignment 0.
 
 ## Add a README file on the main branch
@@ -94,14 +94,14 @@ Follow the Command line instructions provided in the empty repo to "Create a new
 
 1. Clone your project (the url you should use is provided in the empty repo, or you can click the blue **Code** button and copy the URL to Clone with SSH):
 ```
-git clone git@gitlab.com:CSUChico/CSUC-CINS467/CINS467-Semester-FirstName-LastName.git
+git clone git@gitlab.com:CSUChico/CSUC-CSCI567/CSCI567-Semester-FirstName-LastName.git
 ```
   * Note: If this is your first time connecting to GitLab (or another server), you will get a message that looks something like this: "The authenticity of host '...' can't be established." This is normal. You should be asked if you are you sure you want to continue connecting, and you should type in 'yes'. This will add GitLab to your list of known hosts.
     * For more insight, you may be interested in reading this forum post on [SSH: The authenticity of host <host> can't be established](https://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established)
 
 2. Move into the repository that you've just cloned:
 ```
-cd CINS467-Semester-FirstName-LastName
+cd CSCI567-Semester-FirstName-LastName
 ```
 3. Create a new branch called `main` and switch to that branch:
 ```
@@ -116,8 +116,8 @@ touch README.md
 5. Open README.md with the editor of your choice (e.g. vim, VSCode)
 6. Edit your README.md file to include the following information, using the style specified -- feel free to reference the [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information. (Note that spacing matters when writing markdown)
   * Add your First and Last name as an `h2` heading
-  * On a separate line, add the following text (use the current semester): "Private repo for CINS 467 assignments: Spring 2025"
-    * Give emphasis to the current semester (e.g. "Spring 2025") using (**bold** and/or _italics_)
+  * On a separate line, add the following text (use the current semester): "Private repo for CSCI 567 assignments: Fall 2025"
+    * Give emphasis to the current semester (e.g. "Fall 2025") using (**bold** and/or _italics_)
   * Add a **horizontal line** below the current semester
   * Below the horizontal line, add an **ordered or unordered list** that contains the following two items: (1) "Chico State Username: " followed by the username you use to login to the Chico State Portal, and (2) "GitLab Username: " followed by the username you use to login to GitLab
 7. After you have finished editing the README.md file, save your changes.
@@ -138,7 +138,7 @@ git commit -m "add README"
 git push --set-upstream origin main
 ```
   * Note: you only need to include `--set-upstream` the first time you push to a branch -- the next time you push to the `main` branch, you can simply use `git push` or `git push origin main`
-12. Now go to your CINS467 repo on GitLab, reload the page, and confirm that you have added a README.md that contains the details specified above. It should look something like this:
+12. Now go to your CSCI567 repo on GitLab, reload the page, and confirm that you have added a README.md that contains the details specified above. It should look something like this:
 
 ![README example](/Assignments/Images/README_example.png)
 
@@ -147,6 +147,6 @@ git push --set-upstream origin main
 
 ## Submit Assignment 0
 
-If you have completed the steps above, your Assignment 0 submission is complete. I will be looking for a README.md file (with the information specified above, formatted as described) in the `main` branch of your private CINS467 repo, in the CSUC-CINS467 group.<br>
+If you have completed the steps above, your Assignment 0 submission is complete. I will be looking for a README.md file (with the information specified above, formatted as described) in the `main` branch of your private CSCI567 repo, in the CSUC-CSCI567 group.<br>
 
-Reminder: if you have completed the README.md file and it is in the correct location, this indicates that you have created a GitLab account (with Two Factor Authentication), generated a CINS467 course repo, set up Git, created an SSH key, used Markdown to edit a README.md file, and practiced some basic Git commands.
+Reminder: if you have completed the README.md file and it is in the correct location, this indicates that you have created a GitLab account (with Two Factor Authentication), generated a CSCI567 course repo, set up Git, created an SSH key, used Markdown to edit a README.md file, and practiced some basic Git commands.
