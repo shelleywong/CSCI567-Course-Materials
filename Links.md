@@ -1,6 +1,6 @@
-# CINS 467 Useful Links
+# CSCI 567 Useful Links
 
-## Developing in CINS 467
+## Developing in CSCI 567
 
 * [Flutter Documentation](https://docs.flutter.dev/) - Official Flutter documentation
 

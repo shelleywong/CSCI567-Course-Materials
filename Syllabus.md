@@ -1,8 +1,10 @@
-# CINS467 Syllabus
+# CSCI567 Syllabus
 
-## Web and Mobile App Development
+## Client Side App Development
 
-A hands-on project course that examines languages, tools, protocols, and techniques for developing robust client-side applications for mobile and web apps. Topics include the model-view-controller, cloud service integration, REST, Progressive Web Apps, app publishing, and application security. The course includes several projects using a cross-platform programming framework.
+A hands-on project course emphasizing client-side full-stack development that examines languages, tools, protocols, and techniques for developing robust client-side applications for mobile and web apps. Topics include the model-view-controller, cloud service integration, REST, Progressive Web Apps, app publishing, and application security. The course includes several projects using a cross-platform programming framework.
+
+The course number recently changed from CINS 467 to CSCI 567 - the course is the same (it’s just a name change), but some content may still use the old course number.
 
 ## Instructor
 
@@ -10,21 +12,24 @@ Shelley Wong
 
 ## Prerequisites
 
-CINS 370 with a grade of C or higher, or CSCI 211 and MINS 335, or MINS 325 and MINS 335. (or approved equivalents, check with your advisor)
+- CINS 370 with a grade of C or higher, or
+- CSCI 211 and MINS 335, or
+- MINS 325 and MINS 335.
+- (or approved equivalents, check with your advisor)
 
 Students who take this class without completing the prerequisite class will be given a failing grade.
 
 ## Course Accounts
 
 * Canvas
-  * [Chico State Canvas](https://canvas.csuchico.edu/) - I am teaching two sections of CINS467 this semester, and I will use the same Canvas Course for both sections. One other section of CINS467 is being taught by a different professor; make sure you are able to access my section of CINS 467.
+  * [Chico State Canvas](https://canvas.csuchico.edu/) - Class content, Assignment due dates, and other important info can be found here. I will occasionally post announcements and send emails through Canvas, so keep an eye out for any messages.
 * PollEverywhere
   * [Login/Create Account](https://www.polleverywhere.com/auth/saml/csuchico) - If you have not already done so, create an account and login to PollEverywhere. PollEverywhere will be used during lectures for feedback and to track participation. There is a campus license for PollEverywhere and for your participation to be registered, your account must be tied to your csuchico email.
   * [pollev.com/techturtle](https://pollev.com/techturtle) - This is the PollEv link that will be used during lectures throughout the semester.
 
 ## Textbook
 
-There is no required textbook for this course. Instead, throughout the semester, we will reference official documentation and other resources that are readily available online. See the [CINS 467 Useful Links](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Links.md) provided in my GitHub repo, and look for links provided during class as we work through each module.
+There is no required textbook for this course. Instead, throughout the semester, we will reference official documentation and other resources that are readily available online. See the [CSCI 567 Useful Links](https://github.com/shelleywong/CSCI567-Course-Materials/blob/main/Links.md) provided in my GitHub repo, and look for links provided during class as we work through each module.
 
 ## Laptop
 
@@ -111,16 +116,30 @@ The bottom line is that you are responsible for learning the material and comple
 
 Even if you are not submitting plagiarized work, it is considered academic misconduct if you facilitate or aid in academic dishonesty, steal instructional materials or tests, try to alter grades, use personal relationships to falsely increase grades, or otherwise attempt to obtain grades through fraudulent means.<br>
 
-**Be careful with ChatGPT and similar forms of Artificial Intelligence (AI)**. There are ways to use these tools responsibly (e.g. seeking general guidance, enhancing your understanding of a subject, or exploring different approaches for solving a problem); HOWEVER, these tools are not a substitute for human expertise, critical thinking, and independent learning. **It is essential to remember that ChatGPT and similar tools do not reliably provide accurate or optimal solutions**. Even built-in tools like GitHub Copilot can get syntax wrong and give you code that looks valid but does not accomplish anything. App development students in the past have used ChatGPT and gone down a rabbit hole, making their code more complicated and still ending up with something that did not work. If you use AI-based tools, you still need to learn how to read, write, analyze, interpret, debug, and test code for yourself. If you want to work as a programmer or software developer in the future, be aware that many companies are not allowing their workers to use these types of tools for various reasons (e.g. intellectual property, national security, code quality standards, regulations). Do not resort to using AI tools so much that you forget how to use debugging tools, read documentation, interpret and understand code written by other people, and develop good search engine prompts – these are all skills that you need to practice and cultivate if you want to be a better developer in the long run.<br>
-
 **If you are taking this course again after an unsuccessful previous attempt**, you are advised to start from scratch on all assignments -- not doing so will cheat yourself and likely make you more prone to failure later in your academic career.<br>
 
-**I reserve the right to catch academic integrity violations after the end of the semester**. Students who cheat and make it to the end of the semester without being caught may still get caught in the future. We keep records of all assignments and use programs that look at all instances of an assignment over the past years, so it is possible for us to catch cheating after the fact (e.g. if a student who takes the class this semester gives their code to a student who will complete the class next semester). It is possible to change grades after the fact, even after you graduate. I would prefer not to do this, so please do not put me in the situation where I need to.
+**I reserve the right to catch academic integrity violations after the end of the semester**. Students who cheat and make it to the end of the semester without being caught may still get caught in the future. We keep records of all assignments and use programs that look at all instances of an assignment over the past years, so it is possible for us to catch cheating after the fact (e.g. if a student who takes the class this semester gives their code to a student who will complete the class next semester). It is possible to change grades after the fact, even after you graduate. I would prefer not to do this, so please do not put me in the situation where I need to.<br>
+
+
+### AI Policy
+
+As most of you are well aware, generative A.I. tools are widely available. There are ways to use these tools responsibly that are allowed in this course:
+- Brainstorming ideas or exploring different ways to approach a problem
+- Clarifying concepts or enhancing your understanding of operating systems
+- Asking questions similar to how you would use a search engine
+
+If you use AI tools to generate code for your CSCI 567 assignments and final project, I expect you to be able to fully understand how the code works. You will not receive credit for something you submit but do not understand. **All submitted code must reflect your own understanding and effort**.
+
+**It is important to remember that AI-based tools like LLMs do not reliably provide accurate or optimal solutions**. Even built-in tools like GitHub Copilot can get syntax wrong and give you code that looks valid but does not accomplish what you want. AI tools can end up ADDING to your workload, by making your code more complicated or by providing “solutions” that do not work. **Do not resort to using AI tools so much that you forget how to use debugging tools, read documentation, interpret and understand code written by other people, and develop good search engine prompts** – these are all skills that you need to practice and cultivate if you want to be a better developer in the long run.
+
+Writing good prompts and interpreting AI output is a real skill — but it should not replace human creativity, critical thinking, or problem-solving. If you do use AI tools at any stage, **you must clearly cite that usage in your submission** (e.g. comments in your code or a README file documenting the specific prompts you used, the specific AI tool you used, and the responses generated by the AI tool). Note that disclosure of AI use is becoming an expected practice in both professional and academic settings. If you generate code and misrepresent it as your own, I will not be able to support a passing grade for you in this class as I cannot reliably assess *your* ability given that you cannot be considered trustworthy.
+
+If you are stuck or need help, remember that there are resources available. If you are unsure whether a particular use of AI is appropriate, ask first. You should also recognize that other instructors may have different policies – you cannot assume that one instructor’s policies apply to all of your other courses.
 
 
 ## Getting Help/Email
 
-The best resource in CINS 467 is generally the official language documentation. The examples and instructions provided in the official language documentation will give you a good starting point for your own programs, as the documentation is much more likely to be up to date and accurate compared to other sources available on the internet.<br>
+The best resource in CSCI 567 is generally the official language documentation. The examples and instructions provided in the official language documentation will give you a good starting point for your own programs, as the documentation is much more likely to be up to date and accurate compared to other sources available on the internet.<br>
 
 Feel free to make use of my office hours or send me a message if you have any questions. The final project for this class provides an excellent opportunity for you to get experience working on a large-ish project (larger than most class projects) that could potentially be put on a resume, but be aware that you may run into problems that no one else has run into before – this is a common challenge in software development, and while it can be frustrating, it is an accurate reflection of what it is like to work on web and mobile app development projects in the real world. A lot of examples and advice found on the Internet can be outdated and/or incorrect – do not be surprised if the first thing you try does not work! Being open to trying a different method or taking a different approach will benefit you in the long run.<br>
 
@@ -136,7 +155,10 @@ I will communicate with the class via email and announcements on Canvas. It is y
 
 I am firmly committed to creating a learning environment that is welcoming and inclusive for all students, including specifically women, Black, Hispanic, Native American, and Indigenous individuals, people with disabilities, members of the LGBTQ+ community, people from lower socioeconomic backgrounds, and individuals who do not fit the “traditional” profile of a computer science student – those who have been historically underrepresented in the computer science field. Diversity of experiences and perspectives enriches the learning process for everyone, and I am committed to providing all students with the opportunity to succeed, regardless of their background.
 
-Creating a respectful, inclusive, and safe learning environment is our shared responsibility, and the success of this policy relies on the support and understanding of all members of this class. I encourage you to treat each other with kindness, refrain from offensive behavior, and stand against any form of harassment or discrimination, so we can collectively build a positive and enriching educational experience for everyone. We welcome all students to this course, and we look forward to learning from each other.
+Creating a respectful, inclusive, and safe learning environment is our shared responsibility, and the success of this policy relies on the support and understanding of all members of this class. I encourage you to treat each other with kindness, refrain from offensive behavior, and stand against any form of harassment or discrimination, so we can collectively build a positive and enriching educational experience for everyone.
+
+👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿 Everyone is welcome here! 🌈
+
 
 ### Accessibility Resource Center
 A student who desires accommodation for a disability must submit appropriate documentation of the disability and request for accommodations to the [Accessibility Resource Center](https://www.csuchico.edu/arc/). ARC accommodations for exams must be requested at least seven days in advance.
